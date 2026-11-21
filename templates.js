@@ -15,7 +15,7 @@ export function normalizeSearch(value) {
 }
 
 function photo(place, className, eager = false) {
-  return `<div class="${className}"><span class="motif" aria-hidden="true">${motifs[place.cat]}</span>${place.img ? `<img src="${escapeHtml(place.img)}" alt="${escapeHtml(place.alt ?? place.name)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}>` : ''}</div>`;
+  return `<div class="${className}"><span class="motif" aria-hidden="true">${motifs[place.cat]}</span>${place.img ? `<img src="${escapeHtml(place.img)}" alt="${escapeHtml(place.alt ?? place.name)}" ${place.imgFallback ? `data-fallback="${escapeHtml(place.imgFallback)}"` : ''} referrerpolicy="no-referrer" ${eager ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}>` : ''}</div>`;
 }
 
 export function card(place) {
