@@ -1,0 +1,14 @@
+{
+  "name": "da-lat-di-dau",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test places.test.mjs",
+    "start": "node preview.mjs"
+  }
+}
