@@ -86,7 +86,11 @@ if (grid) {
   query.closest('label').hidden = false;
   query.addEventListener('input', renderList);
   readFavorites();
-  renderList();
+  if (savedOnly || query.value) renderList();
+  else {
+    setUpPhotos(grid);
+    renderFavorites();
+  }
 } else {
   setUpPhotos(document);
   refresh();

@@ -37,7 +37,7 @@ export function card(place) {
   </article>`;
 }
 
-function shell({ title, description, root, body }) {
+function shell({ title, description, root, body, entryScript = 'app.js' }) {
   return `<!doctype html>
 <html lang="vi">
 <head>
@@ -46,7 +46,7 @@ function shell({ title, description, root, body }) {
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="${root}styles.css">
-  <script type="module" src="${root}app.js"></script>
+  <script type="module" src="${root}${escapeHtml(entryScript)}"></script>
 </head>
 <body>
   <header class="site-header"><nav aria-label="Điều hướng chính">
@@ -59,11 +59,12 @@ function shell({ title, description, root, body }) {
 </html>\n`;
 }
 
-export function homePage(places) {
+export function homePage(places, entryScript) {
   return shell({
     title: 'Đà Lạt Đi Đâu',
     description: 'Cẩm nang du lịch Đà Lạt với 50 địa điểm và hướng dẫn tham quan.',
     root: './',
+    entryScript,
     body: `<section class="hero">
       <div class="hero-copy">
         <div class="label"><span aria-hidden="true">✿</span> Cẩm nang du lịch</div>
@@ -86,12 +87,13 @@ function fact(term, value, note) {
   return `<div><dt>${term}</dt><dd>${escapeHtml(value)}${note ? `<small>${escapeHtml(note)}</small>` : ''}</dd></div>`;
 }
 
-export function detailPage(place, byId) {
+export function detailPage(place, byId, entryScript) {
   const { id, name, cat, alias, intro, address, duration, timing, tickets, ticketNote, verifiedOn, highlights, plan, tip, related, mapQuery } = place;
   return shell({
     title: name + ' | Đà Lạt Đi Đâu',
     description: place.desc,
     root: '../../',
+    entryScript,
     body: `<main class="detail" data-theme="${escapeHtml(cat)}">
       <nav class="breadcrumb" aria-label="Vị trí trong app"><a href="../../#places">Địa điểm</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHtml(name)}</span></nav>
       <section class="detail-hero">
