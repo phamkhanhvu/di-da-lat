@@ -22,7 +22,8 @@ export const places = [
       "datanla"
     ],
     "img": "https://hiddenlandtravel.com/wp-content/uploads/2023/08/Introducing-Tuyen-Lam-Lake-Da-Lat-2-1050x590.jpg",
-    "alt": "Hồ Tuyền Lâm"
+    "alt": "Hồ Tuyền Lâm",
+    "imgFallback": "https://img.360dalat.com/resize/730x-/2020/08/01/1-3be4-1262.jpg"
   },
   {
     "id": "datanla",
@@ -51,7 +52,8 @@ export const places = [
     "timing": "07:30–16:30",
     "tickets": "80.000 ₫ người lớn · 50.000 ₫ trẻ em",
     "ticketNote": "Vé tham quan Thác 1. Các hoạt động có thể tính riêng.",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "imgFallback": "https://mia.vn/media/uploads/blog-du-lich/thac-datanla-1-1771828797.jpg"
   },
   {
     "id": "xuan-huong",
@@ -76,7 +78,8 @@ export const places = [
       "quang-truong-lam-vien"
     ],
     "img": "https://media.mia.vn/uploads/blog-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1634531109.jpg",
-    "alt": "Hồ Xuân Hương"
+    "alt": "Hồ Xuân Hương",
+    "imgFallback": "https://images2.thanhnien.vn/528068263637045248/2023/2/8/thang-canh-ho-xuan-huong-1675844615439403157618.jpg"
   },
   {
     "id": "ga-da-lat",
@@ -101,7 +104,8 @@ export const places = [
       "xuan-huong"
     ],
     "img": "https://statics.vinpearl.com/ga-xe-lua-da-lat-1_1700536280.jpg",
-    "alt": "Ga Đà Lạt"
+    "alt": "Ga Đà Lạt",
+    "imgFallback": "https://cly.1cdn.vn/2026/04/28/z7771764975861_6bf00121532e05f1cb599b36d911a692.jpg"
   },
   {
     "id": "truc-lam",
@@ -130,7 +134,8 @@ export const places = [
     "timing": "07:00–17:00",
     "tickets": "Tham quan thiền viện miễn phí",
     "ticketNote": "Cáp treo là dịch vụ có vé riêng.",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "imgFallback": "https://qtair.vn/sites/default/files/kinh-nghiem-di-thien-vien-truc-lam-sieu-hot-ban-khong-nen-bo-lo-3-1635831045.jpeg"
   },
   {
     "id": "langbiang",
@@ -159,7 +164,8 @@ export const places = [
     "timing": "07:30–17:00",
     "tickets": "50.000 ₫ người lớn · 25.000 ₫ trẻ em",
     "ticketNote": "Vé tham quan. Xe lên Radar tham khảo 120.000 ₫/khách.",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "imgFallback": "https://cdn.getyourguide.com/image/format%3Dauto%2Cfit%3Dcrop%2Cgravity%3Dcenter%2Cquality%3D60%2Cwidth%3D400%2Cheight%3D265%2Cdpr%3D2/tour_img/a992d0c1b4662f2ae8cebc4b9c1b19c1a4c3db0f22004ac47cd9c8d31715d943.jpg"
   },
   {
     "id": "linh-phuoc",
@@ -188,7 +194,8 @@ export const places = [
     "alias": "Chùa Ve Chai",
     "timing": "07:00–17:00",
     "tickets": "Tham quan chùa miễn phí",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "imgFallback": "https://swproperty.vn/wp-content/uploads/2024/10/Linh-phuoc-pagoda-Da-lat-2.jpg"
   },
   {
     "id": "crazy-house",
@@ -218,7 +225,8 @@ export const places = [
     "timing": "08:30–18:00 hằng ngày",
     "tickets": "80.000 ₫ từ 1,4 m · 30.000 ₫ từ 1,2 m đến dưới 1,4 m",
     "ticketNote": "Khách dưới 1,2 m được miễn vé.",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "imgFallback": "https://dulichchat.com/wp-content/uploads/2019/04/biet-thu-hang-nga-dulichchat-2-1024x734.jpg"
   },
   {
     "id": "cho-da-lat",
@@ -245,7 +253,8 @@ export const places = [
     "img": "https://zoomtravel.vn/upload/images/ch%E1%BB%A3%20%C4%91%C3%AAm%20%C4%91%C3%A0%20l%E1%BA%A1t%201.jpg",
     "alt": "Chợ Đà Lạt",
     "alias": "Chợ đêm Đà Lạt · Chợ Âm Phủ",
-    "tickets": "Vào chợ miễn phí"
+    "tickets": "Vào chợ miễn phí",
+    "imgFallback": "https://dalattrongtoi.com/media/upload/images/dl13.jpg"
   },
   {
     "id": "thung-lung-tinh-yeu",
@@ -270,7 +279,8 @@ export const places = [
       "ho-than-tho"
     ],
     "img": "https://statics.vinpearl.com/thung-lung-tinh-yeu-so-6_1689062493.jpg",
-    "alt": "Thung lũng Tình yêu"
+    "alt": "Thung lũng Tình yêu",
+    "imgFallback": "https://caonguyentourist.com/thumbs/1920x1280x2/upload/news/huong-dan-duong-di-thung-lung-tinh-yeu-h1-4975.jpg"
   },
   {
     "id": "vuon-hoa-thanh-pho",
@@ -295,7 +305,8 @@ export const places = [
       "quang-truong-lam-vien"
     ],
     "img": "https://ttchospitality.vn/files/images/BLOG/vuon-hoa-tp-da-lat.jpg",
-    "alt": "Vườn hoa thành phố Đà Lạt"
+    "alt": "Vườn hoa thành phố Đà Lạt",
+    "imgFallback": "https://latour.vn/upload/product/tour-du-lich-noi-thanh-da-lat.jpg"
   },
   {
     "id": "quang-truong-lam-vien",
@@ -320,7 +331,8 @@ export const places = [
       "cho-da-lat"
     ],
     "img": "https://vietair.com.vn/Media/Images/quang-truong-lam-vien%281%29.jpg",
-    "alt": "Quảng trường Lâm Viên"
+    "alt": "Quảng trường Lâm Viên",
+    "imgFallback": "https://mia.vn/media/uploads/blog-du-lich/canh-dep-da-lat-6-1754019061.jpg"
   },
   {
     "id": "dinh-3",
@@ -345,7 +357,8 @@ export const places = [
       "bao-tang-lam-dong"
     ],
     "img": "https://static.vinwonders.com/production/dinh-3-da-lat-1.jpg",
-    "alt": "Dinh III Bảo Đại"
+    "alt": "Dinh III Bảo Đại",
+    "imgFallback": "https://clu.1cdn.vn/2023/07/09/congluan-cdn.congluan.vn-files-news-2023-07-09-_kham-pha-dinh-iii-xa-hoa-long-lay-cua-vua-bao-dai-tai-da-lat-010602.jpg"
   },
   {
     "id": "nha-tho-con-ga",
@@ -370,7 +383,8 @@ export const places = [
       "quang-truong-lam-vien"
     ],
     "img": "https://bazantravel.com/cdn/medias/uploads/15/15690-nha-tho-con-ga-2-600x444.jpg",
-    "alt": "Nhà thờ Con Gà"
+    "alt": "Nhà thờ Con Gà",
+    "imgFallback": "https://media.vietnamarchi.vn/upload/userfiles/images/thu-vien-anh/7/2_-nhatho-con-ga-dalat-ha-huu-net-718x1024.jpg"
   },
   {
     "id": "domaine-de-marie",
@@ -395,7 +409,8 @@ export const places = [
       "linh-quang"
     ],
     "img": "https://dalat-tour.com/images/news/7bb8ba03972f2aea5ad94c07b4413786.jpg",
-    "alt": "Nhà thờ Domaine de Marie"
+    "alt": "Nhà thờ Domaine de Marie",
+    "imgFallback": "https://images2.thanhnien.vn/528068263637045248/2026/3/29/photo-1774798111421-1774798115167906167614.jpeg"
   },
   {
     "id": "bao-tang-lam-dong",
@@ -418,7 +433,10 @@ export const places = [
     "related": [
       "cung-nam-phuong",
       "nha-lao-thieu-nhi"
-    ]
+    ],
+    "img": "https://dulichmedia.dalat.vn/Images/LDG/baotanglamdong/B%E1%BA%A3o%20t%C3%A0ng%20L%C3%A2m%20%C4%90%E1%BB%93ng/cam00199_636780474554213687.jpg",
+    "imgFallback": "https://vietchallenge.com/images/uploads/Lam-Dong-Museum.jpg",
+    "alt": "Mặt tiền màu hồng của Bảo tàng Lâm Đồng"
   },
   {
     "id": "cung-nam-phuong",
@@ -441,7 +459,10 @@ export const places = [
     "related": [
       "bao-tang-lam-dong",
       "ga-da-lat"
-    ]
+    ],
+    "img": "https://lamdong360.net/images/post/2024/10/da_lat/cung_nam_phuong_hoang_hau_da_lat/lich_su_cung_nam_phuong_hoang_ha.webp",
+    "imgFallback": "https://www.vietfuntravel.com.vn/image/data/Da-Lat/Dinh-nguyen-huu-hao/dinh-nguyen-huu-hao-1.jpg",
+    "alt": "Biệt thự của Cung Nam Phương Hoàng hậu"
   },
   {
     "id": "biet-dien-tran-le-xuan",
@@ -464,7 +485,10 @@ export const places = [
     "related": [
       "domaine-de-marie",
       "bao-tang-lam-dong"
-    ]
+    ],
+    "img": "https://mia.vn/media/uploads/blog-du-lich/check-in-biet-dien-tran-le-xuan-de-nhat-troi-nam-tren-doi-lam-son-04-1634543552.jpg",
+    "imgFallback": "https://bazantravel.com/cdn/medias/uploads/15/15703-biet-dien-tran-le-xuan-3-600x399.jpg",
+    "alt": "Biệt điện Trần Lệ Xuân"
   },
   {
     "id": "linh-son",
@@ -487,7 +511,10 @@ export const places = [
     "related": [
       "linh-quang",
       "cho-da-lat"
-    ]
+    ],
+    "img": "https://static.vinwonders.com/production/chua-linh-son-6.jpg",
+    "imgFallback": "https://hoadalattravel.vn/wp-content/uploads/2024/10/chua-linh-son-da-lat-5.jpeg",
+    "alt": "Chùa Linh Sơn"
   },
   {
     "id": "van-hanh",
@@ -510,7 +537,10 @@ export const places = [
     "related": [
       "thung-lung-tinh-yeu",
       "linh-son"
-    ]
+    ],
+    "img": "https://statics.vinpearl.com/thien-vien-van-hanh-4_1689998553.jpg",
+    "imgFallback": "https://image.giacngo.vn/w950/UserImages/2010/03/03/5/PT%20%282%29.JPG.webp",
+    "alt": "Thiền viện Vạn Hạnh"
   },
   {
     "id": "thien-vuong-co-sat",
@@ -533,7 +563,10 @@ export const places = [
     "related": [
       "ga-da-lat",
       "bao-tang-lam-dong"
-    ]
+    ],
+    "img": "https://mia.vn/media/uploads/blog-du-lich/kham-pha-chua-thien-vuong-co-sat-mang-dam-phong-cach-trung-hoa-11-1635095211.jpg",
+    "imgFallback": "https://senpine.com/public/uploads/images/article/large/chua-thien-vuong-co-sat-noi-hoi-tu-tinh-hoa-van-hoa-trung-hoa-o-da-lat.webp",
+    "alt": "Thiên Vương Cổ Sát"
   },
   {
     "id": "linh-quang",
@@ -556,7 +589,10 @@ export const places = [
     "related": [
       "linh-son",
       "domaine-de-marie"
-    ]
+    ],
+    "img": "https://dulichmedia.dalat.vn/Images/LDG/Import/1499824798690-lq1_636591445650372170.jpg",
+    "imgFallback": "https://www.chuaviettoancau.com/userfiles/137_01.jpg",
+    "alt": "Chùa Linh Quang"
   },
   {
     "id": "nha-tho-cam-ly",
@@ -579,7 +615,10 @@ export const places = [
     "related": [
       "domaine-de-marie",
       "biet-dien-tran-le-xuan"
-    ]
+    ],
+    "img": "https://images2.thanhnien.vn/528068263637045248/2026/3/30/1b-hai-ben-cua-chinh-nha-tho-co-hinh-2-con-thu-ma-nguoi-dan-toc-ton-sung-duoc-khac-hoa-nhu-de-tran-giu-ngoi-nha-chunganh-manh-thi-17748824792811887593525.jpg",
+    "imgFallback": "https://photo.znews.vn/w660/Uploaded/tmuitg/2017_04_22/1_1.JPG",
+    "alt": "Mái dốc kiểu nhà rông của Nhà thờ Cam Ly"
   },
   {
     "id": "nha-lao-thieu-nhi",
@@ -602,7 +641,10 @@ export const places = [
     "related": [
       "bao-tang-lam-dong",
       "ho-than-tho"
-    ]
+    ],
+    "img": "https://cdn.tcdulichtphcm.vn/upload/3-2024/images/2024-08-15/1723696213-1.jpg",
+    "imgFallback": "https://daknong.1cdn.vn/2025/03/30/baolamdong.vn-file-e7837c02845ffd04018473e6df282e92-032025-_ky_1-tam_bang_da_di_tich_quoc_gia_nha_lao_thieu_nhi_da_lat_20250329162521.jpg",
+    "alt": "Di tích Nhà lao thiếu nhi Đà Lạt"
   },
   {
     "id": "van-thanh",
@@ -627,7 +669,8 @@ export const places = [
       "lang-co-tich"
     ],
     "img": "https://vietnamtrustcarrentals.com/vnt_upload/news/08_2025/thumbs/870_crop_Van-Thanh-Flower-Village.jpg",
-    "alt": "Làng hoa Vạn Thành"
+    "alt": "Làng hoa Vạn Thành",
+    "imgFallback": "https://bizweb.dktcdn.net/thumb/grande/100/006/093/articles/lang-hoa-van-thanh-4.jpg?v=1732638861377"
   },
   {
     "id": "fresh-garden",
@@ -650,7 +693,10 @@ export const places = [
     "related": [
       "van-thanh",
       "lang-co-tich"
-    ]
+    ],
+    "img": "https://mia.vn/media/uploads/blog-du-lich/khu-vui-choi-da-lat-5-1753326440.jpg",
+    "imgFallback": "https://cdn.tcdulichtphcm.vn/upload/2-2021/images/2021-04-25/1619305638-i2a.jpg",
+    "alt": "Fresh Garden Đà Lạt"
   },
   {
     "id": "cam-tu-cau-trai-mat",
@@ -673,7 +719,10 @@ export const places = [
     "related": [
       "linh-phuoc",
       "chika-farm"
-    ]
+    ],
+    "img": "https://dulichmedia.dalat.vn/Images/LDG/bachvankhoa/CamTucaumoi/1avatar_637102923615495763.jpg",
+    "imgFallback": "https://hoadalattravel.vn/wp-content/uploads/2024/10/vuon-hoa-cam-tu-cau-da-lat-2.jpeg",
+    "alt": "Những luống hoa cẩm tú cầu ở Trại Mát"
   },
   {
     "id": "doi-che-cau-dat",
@@ -698,7 +747,8 @@ export const places = [
       "chika-farm"
     ],
     "img": "https://statics.vinpearl.com/doi-che-cau-dat-01_1688736872.jpg",
-    "alt": "Đồi chè Cầu Đất"
+    "alt": "Đồi chè Cầu Đất",
+    "imgFallback": "https://dalat.lamdong.dcs.vn/Portals/4/media/newsimage/d/o/i/doi-che-cau-dat.jpg"
   },
   {
     "id": "bao-tang-tra-long-dinh",
@@ -721,7 +771,10 @@ export const places = [
     "related": [
       "doi-che-cau-dat",
       "vuon-hong-le-phuc"
-    ]
+    ],
+    "img": "https://res.klook.com/image/upload/activities/wzyqyltlugjxz0dz9opa.jpg",
+    "imgFallback": "https://cdn.petrotimes.vn/stores/news_dataimages/2023/012023/11/10/a320230111102310.jpg?rt=20230111102439",
+    "alt": "Bảo tàng trà Long Đỉnh"
   },
   {
     "id": "linh-an",
@@ -744,7 +797,10 @@ export const places = [
     "related": [
       "mongoland",
       "doi-che-cau-dat"
-    ]
+    ],
+    "img": "https://image.vietgoing.com/editor/image_pnt1637750274.jpg",
+    "imgFallback": "https://hoadalattravel.vn/wp-content/uploads/2024/11/du-lich-nam-ban-3.jpeg",
+    "alt": "Chùa Linh Ẩn"
   },
   {
     "id": "duong-ham-dat-set",
@@ -767,7 +823,10 @@ export const places = [
     "related": [
       "tuyen-lam",
       "wonderland"
-    ]
+    ],
+    "img": "https://bazantravel.com/cdn/medias/uploads/81/81530-canh-dep-da-lat-duong-ham-dat-set-700x525.jpg",
+    "imgFallback": "https://www.vietnamairlines.com/sg/en/useful-information/travel-guide/~/media/SEO-images/2025%20SEO/Traffic%20TV/da-lat-co-gi-choi/duong-ham-dat-set-gay-an-tuong-boi-nhieu-cong-trinh-kien-truc-noi-tieng-duoc-hoan-thien-ti-mi-tu-dat-set.jpg?la=vi-VN",
+    "alt": "Đường hầm Đất Sét"
   },
   {
     "id": "cap-treo-robin",
@@ -794,7 +853,10 @@ export const places = [
     "timing": "07:30–16:45",
     "tickets": "150.000 ₫ người lớn · 120.000 ₫ trẻ em",
     "ticketNote": "Đây là khung giờ nhận khách. Hỏi quầy về loại vé và giờ nghỉ trưa.",
-    "verifiedOn": "22/11/2026"
+    "verifiedOn": "22/11/2026",
+    "img": "https://media.vov.vn/sites/default/files/styles/large/public/2024-08/cap_treo_33333.jpg",
+    "imgFallback": "https://bazantravel.com/cdn/medias/uploads/28/28078-cap-tro-doi-robin.jpg",
+    "alt": "Cabin cáp treo Đồi Robin phía trên rừng thông"
   },
   {
     "id": "ho-than-tho",
@@ -817,7 +879,10 @@ export const places = [
     "related": [
       "ga-da-lat",
       "nha-lao-thieu-nhi"
-    ]
+    ],
+    "img": "https://statics.vntrip.vn/data-v2/data-guide/img_content/1461744340_ho-than-tho-4.jpg",
+    "imgFallback": "https://mia.vn/media/uploads/blog-du-lich/chia-se-kinh-nghiem-kham-pha-ho-than-tho-da-lat-chi-tiet-nhat-05-1635827597.jpg",
+    "alt": "Hồ Than Thở"
   },
   {
     "id": "still-cafe",
@@ -840,7 +905,10 @@ export const places = [
     "related": [
       "ga-da-lat",
       "quang-truong-lam-vien"
-    ]
+    ],
+    "img": "https://1phutsaigon.vn/wp-content/uploads/2023/06/bg2.jpg",
+    "imgFallback": "https://foto.wuestenigel.com/photos/preview/still-cafe-entrance-board-with-other-brands-on-wooden-boards-in-da-lat-vietnam.webp",
+    "alt": "Still Café"
   },
   {
     "id": "thac-prenn",
@@ -863,7 +931,10 @@ export const places = [
     "related": [
       "datanla",
       "cap-treo-robin"
-    ]
+    ],
+    "img": "https://res.klook.com/image/upload/fl_lossy.progressive%2Cq_85/c_fill%2Cw_1000/v1649147766/blog/i9iue0c4nncye2wshr3m.webp",
+    "imgFallback": "https://owa.bestprice.vn/images/tours/uploads/tour-da-lat-3n3d-hcm-tea-resort-thac-prenn-nong-trai-cun-golf-valley-67d9a194ea895.jpg",
+    "alt": "Thác Prenn"
   },
   {
     "id": "thac-pongour",
@@ -888,7 +959,8 @@ export const places = [
       "datanla"
     ],
     "img": "https://www.dulichdalat.city/media/upload/images/thac-pongour/thac-pongour.jpg",
-    "alt": "Thác Pongour"
+    "alt": "Thác Pongour",
+    "imgFallback": "https://images.trvl-media.com/place/553248622626023394/6de787a9-de37-46fc-a1d5-7abf77e05588.jpg"
   },
   {
     "id": "lang-cu-lan",
@@ -913,7 +985,8 @@ export const places = [
       "langbiang"
     ],
     "img": "https://latourdalat.com/upload/user/images/review-lang-cu-lan-2.jpg",
-    "alt": "Làng Cù Lần"
+    "alt": "Làng Cù Lần",
+    "imgFallback": "https://timtour.vn/files/images/Choi-o-dau/lang-cu-lan-avatar.jpg"
   },
   {
     "id": "dan-kia-suoi-vang",
@@ -936,7 +1009,10 @@ export const places = [
     "related": [
       "lang-cu-lan",
       "thung-lung-vang"
-    ]
+    ],
+    "img": "https://english.thesaigontimes.vn/wp-content/uploads/2025/07/Ho-Dankia-1.jpg",
+    "imgFallback": "https://media.baoquangninh.vn/upload/image/202410/medium/2271645_a92d12e116cc949d0b386dc77d65e00a.jpg",
+    "alt": "Đan Kia – Suối Vàng"
   },
   {
     "id": "zoodoo",
@@ -959,7 +1035,10 @@ export const places = [
     "related": [
       "bidoup-nui-ba",
       "chika-farm"
-    ]
+    ],
+    "img": "https://dulichviet.com.vn/images/bandidau/cac-be-tham-quan-so-thu-zoodoo-khi-du-lich-da-lat.jpg",
+    "imgFallback": "https://peacetour.com.vn/Upload/Article/155d788d-46fc-4f91-b24f-21bb8c70e218/zood.jpg",
+    "alt": "ZooDoo Đà Lạt"
   },
   {
     "id": "puppy-farm",
@@ -982,7 +1061,10 @@ export const places = [
     "related": [
       "fresh-garden",
       "mongoland"
-    ]
+    ],
+    "img": "https://www.nongtraicun.com/api/media/file/san-tha-cun-puppy-farm-da-lat-01.webp",
+    "imgFallback": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/03/0c/e8/caption.jpg?h=800&s=1&w=800",
+    "alt": "Một góc tham quan tại Nông trại Cún Puppy Farm"
   },
   {
     "id": "lumiere",
@@ -1005,7 +1087,10 @@ export const places = [
     "related": [
       "thung-lung-tinh-yeu",
       "van-hanh"
-    ]
+    ],
+    "img": "https://www.dulichdalat.city/media/upload/images/da-lat-thien-duong-du-lich/lumiere-da-lat-2025-3.jpg",
+    "imgFallback": "https://zoomtravel.vn/upload/images/vuonanhsang_jpg4.jpg",
+    "alt": "Lumiere Đà Lạt"
   },
   {
     "id": "lang-co-tich",
@@ -1028,7 +1113,10 @@ export const places = [
     "related": [
       "van-thanh",
       "fresh-garden"
-    ]
+    ],
+    "img": "https://datviettour.com.vn/uploads/images/tay-nguyen/da-lat/hinh-danh-thang/fairytale-land.png",
+    "imgFallback": "https://thuthachviet.com/images/uploads/l%C3%A0ng_c%E1%BB%95_t%C3%ADch_gi%E1%BB%AFa_%C4%91%C3%A0_l%E1%BA%A1t.jpg",
+    "alt": "Dalat Fairytale Land"
   },
   {
     "id": "wonderland",
@@ -1051,7 +1139,10 @@ export const places = [
     "related": [
       "tuyen-lam",
       "duong-ham-dat-set"
-    ]
+    ],
+    "img": "https://dalatwonderresort.vn/Uploads/images/Wonderland/cong_vien_khung_long_da_lat.jpg",
+    "imgFallback": "https://xomleo.vn/uploads/blogs/lau_dai_bang_gia_wonderland_da_lat_1775629289087.webp",
+    "alt": "Đà Lạt Wonderland"
   },
   {
     "id": "mongoland",
@@ -1074,7 +1165,10 @@ export const places = [
     "related": [
       "linh-an",
       "puppy-farm"
-    ]
+    ],
+    "img": "https://images2.thanhnien.vn/528068263637045248/2024/11/4/h3-6-17307145734621867369149.jpg",
+    "imgFallback": "https://tgroup.vn/uploads/images/bao-chau/TGROUP-MONGOLAND.jpg",
+    "alt": "Mongoland Đà Lạt"
   },
   {
     "id": "chika-farm",
@@ -1097,7 +1191,10 @@ export const places = [
     "related": [
       "doi-che-cau-dat",
       "linh-phuoc"
-    ]
+    ],
+    "img": "https://ik.imagekit.io/tvlk/blog/2022/01/chika-farm-1-1024x682.jpg?tr=q-70%2Cc-at_max%2Cw-1000%2Ch-600",
+    "imgFallback": "https://dalattrongtoi.com/media/upload/images/ChikaFarm-da-lat-1-1024x683.jpg",
+    "alt": "Chika Farm"
   },
   {
     "id": "bidoup-nui-ba",
@@ -1120,7 +1217,10 @@ export const places = [
     "related": [
       "zoodoo",
       "langbiang"
-    ]
+    ],
+    "img": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/10/24/1761298700501_anh_1-1761296473910.jpeg",
+    "imgFallback": "https://mia.vn/media/uploads/blog-du-lich/bidoup-nui-ba-2-1732328692.jpg",
+    "alt": "Vườn quốc gia Bidoup – Núi Bà"
   },
   {
     "id": "vuon-hong-le-phuc",
@@ -1143,7 +1243,10 @@ export const places = [
     "related": [
       "doi-che-cau-dat",
       "bao-tang-tra-long-dinh"
-    ]
+    ],
+    "img": "https://daknong.1cdn.vn/2025/10/13/a7.jpg",
+    "imgFallback": "https://daknong.1cdn.vn/2026/11/10/490650170_122207092280180620_1297367714319654500_n.jpg",
+    "alt": "Khung cảnh tại Vườn hồng Lê Phúc, Xuân Trường"
   },
   {
     "id": "thung-lung-vang",
@@ -1166,7 +1269,10 @@ export const places = [
     "related": [
       "dan-kia-suoi-vang",
       "lang-cu-lan"
-    ]
+    ],
+    "img": "https://onetour.vn/Media/Images/OneTour/tin-tuc/2018/11/kham-pha-net-dep-cua-thung-lung-vang-tai-da-lat.jpg",
+    "imgFallback": "https://mia.vn/media/uploads/blog-du-lich/Thung-lung-vang-thung-lung-day-tho-mong-tai-cao-nguyen-lam-vien-01-1634482436.jpg",
+    "alt": "Thung lũng Vàng"
   },
   {
     "id": "thuy-ta",
@@ -1189,7 +1295,10 @@ export const places = [
     "related": [
       "xuan-huong",
       "vuon-hoa-thanh-pho"
-    ]
+    ],
+    "img": "https://cdnphoto.dantri.com.vn/9-FCDXuUvFd4qbR6tWfiYxeyZ8U%3D/thumb_w/1020/2023/11/01/da-lat-nha-hang-thuy-ta1021542-1698804299634.jpeg",
+    "imgFallback": "https://nld.mediacdn.vn/291774122806476800/2023/11/24/thuy-ta-8-17008084646901672802835.jpg",
+    "alt": "Tòa nhà trắng Thủy Tạ bên Hồ Xuân Hương"
   },
   {
     "id": "tui-mo-to",
@@ -1212,6 +1321,9 @@ export const places = [
     "related": [
       "linh-phuoc",
       "ga-da-lat"
-    ]
+    ],
+    "img": "https://triphunter.vn/media/W1siZiIsIjIwMjEvMDgvMjcvNHo1Y2JyOGUxY190aWVtX2NhX3BoZV90dWlfbW9fdG9fOF9UcmlwSHVudGVyLmpwZyJdXQ/tiem-ca-phe-tui-mo-to-8-TripHunter.jpg?sha=cead8cb1a2f607be",
+    "imgFallback": "https://hoadalattravel.vn/wp-content/uploads/2024/11/tiem-ca-phe-tui-mo-to-11.jpeg",
+    "alt": "Tiệm cà phê Túi Mơ To"
   }
 ];

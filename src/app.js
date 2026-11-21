@@ -34,8 +34,16 @@ function renderFavorites() {
 
 function setUpPhotos(container) {
   for (const image of container.querySelectorAll('img')) {
-    if (image.complete && !image.naturalWidth) image.hidden = true;
-    else image.addEventListener('error', () => { image.hidden = true; }, { once: true });
+    function recoverPhoto() {
+      const fallback = image.dataset.fallback;
+      if (fallback) {
+        delete image.dataset.fallback;
+        image.addEventListener('error', recoverPhoto, { once: true });
+        image.src = fallback;
+      } else image.hidden = true;
+    }
+    if (image.complete && !image.naturalWidth) recoverPhoto();
+    else image.addEventListener('error', recoverPhoto, { once: true });
   }
 }
 
