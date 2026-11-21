@@ -1,5 +1,5 @@
 import { places } from './places.js';
-import { card, categories, normalizeSearch } from './templates.mjs';
+import { card, categories, normalizeSearch } from './templates.js';
 
 const storageKey = 'dalat-favorites';
 const ids = new Set(places.map(place => place.id));

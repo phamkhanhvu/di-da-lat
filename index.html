@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cẩm nang du lịch Đà Lạt với 50 địa điểm và hướng dẫn tham quan.">
+  <title>Đà Lạt Đi Đâu</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="site-header"><nav aria-label="Điều hướng chính">
+    <a class="brand" href="./"><span aria-hidden="true">✿</span> Đà Lạt Đi Đâu</a>
+    <div class="actions"><a class="nav-link" href="./#places">Khám phá</a>
+    <a class="button" id="saved-link" href="./?da-luu=1#places">♡ Đã lưu</a></div>
+  </nav></header>
+  <section class="hero">
+      <div class="hero-copy">
+        <div class="label"><span aria-hidden="true">✿</span> Cẩm nang du lịch</div>
+        <h1>Đà Lạt <em>đi đâu?</em></h1>
+        <p>Từ vườn hoa và rừng thông đến những ngôi nhà cổ, tìm nơi anh muốn ghé và lưu lại cho chuyến đi.</p>
+        <label class="search" hidden><span aria-hidden="true">⌕</span><input id="query" type="search" aria-label="Tìm địa điểm" placeholder="Tìm vườn hoa, hồ, thác…"></label>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+    <main id="places">
+      <div class="heading"><h2 id="list-title">Khám phá địa điểm</h2><span id="count" role="status">50 địa điểm</span></div>
+      <div id="filters" class="filters" aria-label="Loại địa điểm" hidden></div>
+      <div id="grid" class="grid"><article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://hiddenlandtravel.com/wp-content/uploads/2023/08/Introducing-Tuyen-Lam-Lake-Da-Lat-2-1050x590.jpg" alt="Hồ Tuyền Lâm" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="tuyen-lam" aria-label="Yêu thích Hồ Tuyền Lâm" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Phía tây nam Đà Lạt</p>
+      <h3><a href="./dia-diem/tuyen-lam/">Hồ Tuyền Lâm</a></h3>
+      <p class="description">Mặt hồ uốn giữa các vạt rừng thông, thích hợp để đi dạo hoặc ngắm cảnh.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/tuyen-lam/" aria-label="Xem chi tiết Hồ Tuyền Lâm">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=H%E1%BB%93%20Tuy%E1%BB%81n%20L%C3%A2m%2C%20Ph%C3%ADa%20t%C3%A2y%20nam%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span><img src="https://static.vinwonders.com/production/datanla-waterfalls.jpg" alt="Thác Datanla" loading="lazy" decoding="async"></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="datanla" aria-label="Yêu thích Thác Datanla" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Quốc lộ 20, đèo Prenn</p>
+      <h3><a href="./dia-diem/datanla/">Thác Datanla</a></h3>
+      <p class="description">Datanla nằm dưới tán rừng trên đèo Prenn. Khách có thể đi bộ hoặc đi xe trượt xuống Thác 1.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/datanla/" aria-label="Xem chi tiết Thác Datanla">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Th%C3%A1c%20Datanla%2C%20Qu%E1%BB%91c%20l%E1%BB%99%2020%2C%20%C4%91%C3%A8o%20Prenn%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://media.mia.vn/uploads/blog-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1634531109.jpg" alt="Hồ Xuân Hương" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="xuan-huong" aria-label="Yêu thích Hồ Xuân Hương" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Ven hồ Xuân Hương, trung tâm Đà Lạt</p>
+      <h3><a href="./dia-diem/xuan-huong/">Hồ Xuân Hương</a></h3>
+      <p class="description">Hồ nhân tạo ở trung tâm Đà Lạt có lối ven nước để đi bộ hoặc chạy nhẹ.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/xuan-huong/" aria-label="Xem chi tiết Hồ Xuân Hương">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=H%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20Ven%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20trung%20t%C3%A2m%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://statics.vinpearl.com/ga-xe-lua-da-lat-1_1700536280.jpg" alt="Ga Đà Lạt" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="ga-da-lat" aria-label="Yêu thích Ga Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">1 Quang Trung, Đà Lạt</p>
+      <h3><a href="./dia-diem/ga-da-lat/">Ga Đà Lạt</a></h3>
+      <p class="description">Nhà ga cổ có mặt tiền ba mái nhọn và tuyến tàu du lịch đi Trại Mát.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/ga-da-lat/" aria-label="Xem chi tiết Ga Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ga%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%201%20Quang%20Trung%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://haidangtravel.com/image/blog/Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m.jpg" alt="Thiền viện Trúc Lâm" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="truc-lam" aria-label="Yêu thích Thiền viện Trúc Lâm" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đồi Phượng Hoàng, hồ Tuyền Lâm</p>
+      <h3><a href="./dia-diem/truc-lam/">Thiền viện Trúc Lâm</a></h3>
+      <p class="description">Thiền viện có sân vườn, khu lễ bái và góc nhìn về hồ Tuyền Lâm.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/truc-lam/" aria-label="Xem chi tiết Thiền viện Trúc Lâm">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Thi%E1%BB%81n%20vi%E1%BB%87n%20Tr%C3%BAc%20L%C3%A2m%2C%20%C4%90%E1%BB%93i%20Ph%C6%B0%E1%BB%A3ng%20Ho%C3%A0ng%2C%20h%E1%BB%93%20Tuy%E1%BB%81n%20L%C3%A2m%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span><img src="https://media.thuonghieucongluan.vn/uploads/2026/02/10/trai-nghiem-xe-bang-rung-thong-chinh-phuc-dinh-radar-1770706190.jpg" alt="Langbiang" loading="lazy" decoding="async"></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="langbiang" aria-label="Yêu thích Langbiang" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">305 Langbiang, Đà Lạt</p>
+      <h3><a href="./dia-diem/langbiang/">Langbiang</a></h3>
+      <p class="description">Khu du lịch có khu tham quan dưới chân núi và điểm ngắm cảnh Radar nhìn về Suối Vàng.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/langbiang/" aria-label="Xem chi tiết Langbiang">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Langbiang%2C%20305%20Langbiang%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://cdn.tcdulichtphcm.vn/upload/2-2024/images/2024-06-25/1719294306-2-t--a-linh-th--p.jpg" alt="Chùa Linh Phước" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="linh-phuoc" aria-label="Yêu thích Chùa Linh Phước" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">120 Tự Phước, Trại Mát</p>
+      <h3><a href="./dia-diem/linh-phuoc/">Chùa Linh Phước</a></h3>
+      <p class="description">Chùa Ve Chai nổi bật với các mảng ghép gốm, sứ và thủy tinh trong khuôn viên.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/linh-phuoc/" aria-label="Xem chi tiết Chùa Linh Phước">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ch%C3%B9a%20Linh%20Ph%C6%B0%E1%BB%9Bc%2C%20120%20T%E1%BB%B1%20Ph%C6%B0%E1%BB%9Bc%2C%20Tr%E1%BA%A1i%20M%C3%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://cdn.justfly.vn/1080x1349/media/202403/27/1711536399-justfly-biet-thu-hang-nga-da-lat-35.jpg" alt="Biệt thự Hằng Nga" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="crazy-house" aria-label="Yêu thích Biệt thự Hằng Nga" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">3 Huỳnh Thúc Kháng, Đà Lạt</p>
+      <h3><a href="./dia-diem/crazy-house/">Biệt thự Hằng Nga</a></h3>
+      <p class="description">Crazy House có các khối nhà hình thân cây và những cầu thang uốn lượn.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/crazy-house/" aria-label="Xem chi tiết Biệt thự Hằng Nga">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Bi%E1%BB%87t%20th%E1%BB%B1%20H%E1%BA%B1ng%20Nga%2C%203%20Hu%E1%BB%B3nh%20Th%C3%BAc%20Kh%C3%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Ẩm thực">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❁</span><img src="https://zoomtravel.vn/upload/images/ch%E1%BB%A3%20%C4%91%C3%AAm%20%C4%91%C3%A0%20l%E1%BA%A1t%201.jpg" alt="Chợ Đà Lạt" loading="lazy" decoding="async"></div>
+      <span class="badge">Ẩm thực</span>
+      <button class="save-icon" type="button" data-save="cho-da-lat" aria-label="Yêu thích Chợ Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đường Nguyễn Thị Minh Khai, trung tâm Đà Lạt</p>
+      <h3><a href="./dia-diem/cho-da-lat/">Chợ Đà Lạt</a></h3>
+      <p class="description">Chợ bán rau củ, hoa và đặc sản ban ngày. Khu vực đường vào chợ có nhiều hàng ăn về tối.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/cho-da-lat/" aria-label="Xem chi tiết Chợ Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ch%E1%BB%A3%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20Th%E1%BB%8B%20Minh%20Khai%2C%20trung%20t%C3%A2m%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://statics.vinpearl.com/thung-lung-tinh-yeu-so-6_1689062493.jpg" alt="Thung lũng Tình yêu" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="thung-lung-tinh-yeu" aria-label="Yêu thích Thung lũng Tình yêu" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">3–5–7 Mai Anh Đào</p>
+      <h3><a href="./dia-diem/thung-lung-tinh-yeu/">Thung lũng Tình yêu</a></h3>
+      <p class="description">Vườn hoa và đồi thông bao quanh hồ Đa Thiện.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thung-lung-tinh-yeu/" aria-label="Xem chi tiết Thung lũng Tình yêu">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Thung%20l%C5%A9ng%20T%C3%ACnh%20y%C3%AAu%2C%203%E2%80%935%E2%80%937%20Mai%20Anh%20%C4%90%C3%A0o%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://ttchospitality.vn/files/images/BLOG/vuon-hoa-tp-da-lat.jpg" alt="Vườn hoa thành phố Đà Lạt" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="vuon-hoa-thanh-pho" aria-label="Yêu thích Vườn hoa thành phố Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đường Trần Quốc Toản, bờ bắc hồ Xuân Hương</p>
+      <h3><a href="./dia-diem/vuon-hoa-thanh-pho/">Vườn hoa thành phố Đà Lạt</a></h3>
+      <p class="description">Các luống hoa ngoài trời và khu trưng bày nằm sát bờ bắc hồ Xuân Hương.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/vuon-hoa-thanh-pho/" aria-label="Xem chi tiết Vườn hoa thành phố Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=V%C6%B0%E1%BB%9Dn%20hoa%20th%C3%A0nh%20ph%E1%BB%91%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C6%B0%E1%BB%9Dng%20Tr%E1%BA%A7n%20Qu%E1%BB%91c%20To%E1%BA%A3n%2C%20b%E1%BB%9D%20b%E1%BA%AFc%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://vietair.com.vn/Media/Images/quang-truong-lam-vien%281%29.jpg" alt="Quảng trường Lâm Viên" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="quang-truong-lam-vien" aria-label="Yêu thích Quảng trường Lâm Viên" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đường Trần Quốc Toản, ven hồ Xuân Hương</p>
+      <h3><a href="./dia-diem/quang-truong-lam-vien/">Quảng trường Lâm Viên</a></h3>
+      <p class="description">Hai khối kính hình nụ atisô và hoa dã quỳ là điểm nhận diện của quảng trường.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/quang-truong-lam-vien/" aria-label="Xem chi tiết Quảng trường Lâm Viên">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Qu%E1%BA%A3ng%20tr%C6%B0%E1%BB%9Dng%20L%C3%A2m%20Vi%C3%AAn%2C%20%C4%90%C6%B0%E1%BB%9Dng%20Tr%E1%BA%A7n%20Qu%E1%BB%91c%20To%E1%BA%A3n%2C%20ven%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://static.vinwonders.com/production/dinh-3-da-lat-1.jpg" alt="Dinh III Bảo Đại" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="dinh-3" aria-label="Yêu thích Dinh III Bảo Đại" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">1 Triệu Việt Vương</p>
+      <h3><a href="./dia-diem/dinh-3/">Dinh III Bảo Đại</a></h3>
+      <p class="description">Biệt điện mùa hè của Bảo Đại còn các phòng sinh hoạt và làm việc trong khuôn viên thông.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/dinh-3/" aria-label="Xem chi tiết Dinh III Bảo Đại">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Dinh%20III%20B%E1%BA%A3o%20%C4%90%E1%BA%A1i%2C%201%20Tri%E1%BB%87u%20Vi%E1%BB%87t%20V%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://bazantravel.com/cdn/medias/uploads/15/15690-nha-tho-con-ga-2-600x444.jpg" alt="Nhà thờ Con Gà" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="nha-tho-con-ga" aria-label="Yêu thích Nhà thờ Con Gà" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">15 Trần Phú</p>
+      <h3><a href="./dia-diem/nha-tho-con-ga/">Nhà thờ Con Gà</a></h3>
+      <p class="description">Nhà thờ Chính tòa có tháp chuông cao và hình gà trống trên đỉnh.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/nha-tho-con-ga/" aria-label="Xem chi tiết Nhà thờ Con Gà">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Nh%C3%A0%20th%E1%BB%9D%20Con%20G%C3%A0%2C%2015%20Tr%E1%BA%A7n%20Ph%C3%BA%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span><img src="https://dalat-tour.com/images/news/7bb8ba03972f2aea5ad94c07b4413786.jpg" alt="Nhà thờ Domaine de Marie" loading="lazy" decoding="async"></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="domaine-de-marie" aria-label="Yêu thích Nhà thờ Domaine de Marie" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">1 Ngô Quyền</p>
+      <h3><a href="./dia-diem/domaine-de-marie/">Nhà thờ Domaine de Marie</a></h3>
+      <p class="description">Nhà thờ Mai Anh nổi bật với mặt tiền hồng, mái dốc và các dãy nhà tu viện trên đồi.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/domaine-de-marie/" aria-label="Xem chi tiết Nhà thờ Domaine de Marie">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Nh%C3%A0%20th%E1%BB%9D%20Domaine%20de%20Marie%2C%201%20Ng%C3%B4%20Quy%E1%BB%81n%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="bao-tang-lam-dong" aria-label="Yêu thích Bảo tàng Lâm Đồng" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">4 Hùng Vương</p>
+      <h3><a href="./dia-diem/bao-tang-lam-dong/">Bảo tàng Lâm Đồng</a></h3>
+      <p class="description">Bảo tàng giới thiệu khảo cổ, lịch sử Đà Lạt và đời sống các cộng đồng bản địa.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/bao-tang-lam-dong/" aria-label="Xem chi tiết Bảo tàng Lâm Đồng">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=B%E1%BA%A3o%20t%C3%A0ng%20L%C3%A2m%20%C4%90%E1%BB%93ng%2C%204%20H%C3%B9ng%20V%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="cung-nam-phuong" aria-label="Yêu thích Cung Nam Phương Hoàng hậu" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Trong khuôn viên Bảo tàng Lâm Đồng, 4 Hùng Vương</p>
+      <h3><a href="./dia-diem/cung-nam-phuong/">Cung Nam Phương Hoàng hậu</a></h3>
+      <p class="description">Biệt thự trên đồi gắn với gia đình Nam Phương Hoàng hậu và có không gian trưng bày.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/cung-nam-phuong/" aria-label="Xem chi tiết Cung Nam Phương Hoàng hậu">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Cung%20Nam%20Ph%C6%B0%C6%A1ng%20Ho%C3%A0ng%20h%E1%BA%ADu%2C%20Trong%20khu%C3%B4n%20vi%C3%AAn%20B%E1%BA%A3o%20t%C3%A0ng%20L%C3%A2m%20%C4%90%E1%BB%93ng%2C%204%20H%C3%B9ng%20V%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="biet-dien-tran-le-xuan" aria-label="Yêu thích Biệt điện Trần Lệ Xuân" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">2 Yết Kiêu</p>
+      <h3><a href="./dia-diem/biet-dien-tran-le-xuan/">Biệt điện Trần Lệ Xuân</a></h3>
+      <p class="description">Cụm biệt thự hiện là Trung tâm Lưu trữ quốc gia IV, nơi lưu giữ Mộc bản triều Nguyễn.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/biet-dien-tran-le-xuan/" aria-label="Xem chi tiết Biệt điện Trần Lệ Xuân">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Bi%E1%BB%87t%20%C4%91i%E1%BB%87n%20Tr%E1%BA%A7n%20L%E1%BB%87%20Xu%C3%A2n%2C%202%20Y%E1%BA%BFt%20Ki%C3%AAu%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="linh-son" aria-label="Yêu thích Chùa Linh Sơn" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">120 Nguyễn Văn Trỗi</p>
+      <h3><a href="./dia-diem/linh-son/">Chùa Linh Sơn</a></h3>
+      <p class="description">Ngôi chùa nằm trên sườn đồi gần trung tâm, có sân rộng và mái cong.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/linh-son/" aria-label="Xem chi tiết Chùa Linh Sơn">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ch%C3%B9a%20Linh%20S%C6%A1n%2C%20120%20Nguy%E1%BB%85n%20V%C4%83n%20Tr%E1%BB%97i%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="van-hanh" aria-label="Yêu thích Thiền viện Vạn Hạnh" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">39 Phù Đổng Thiên Vương</p>
+      <h3><a href="./dia-diem/van-hanh/">Thiền viện Vạn Hạnh</a></h3>
+      <p class="description">Tượng Phật ngoài trời trên đồi là điểm dễ nhận ra trong khuôn viên.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/van-hanh/" aria-label="Xem chi tiết Thiền viện Vạn Hạnh">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Thi%E1%BB%81n%20vi%E1%BB%87n%20V%E1%BA%A1n%20H%E1%BA%A1nh%2C%2039%20Ph%C3%B9%20%C4%90%E1%BB%95ng%20Thi%C3%AAn%20V%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="thien-vuong-co-sat" aria-label="Yêu thích Thiên Vương Cổ Sát" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">385 Khe Sanh</p>
+      <h3><a href="./dia-diem/thien-vuong-co-sat/">Thiên Vương Cổ Sát</a></h3>
+      <p class="description">Chùa Tàu có các điện thờ trên đồi và kiến trúc chịu ảnh hưởng Phật giáo Hoa.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thien-vuong-co-sat/" aria-label="Xem chi tiết Thiên Vương Cổ Sát">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Thi%C3%AAn%20V%C6%B0%C6%A1ng%20C%E1%BB%95%20S%C3%A1t%2C%20385%20Khe%20Sanh%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="linh-quang" aria-label="Yêu thích Chùa Linh Quang" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">133 Hai Bà Trưng</p>
+      <h3><a href="./dia-diem/linh-quang/">Chùa Linh Quang</a></h3>
+      <p class="description">Tổ đình Linh Quang là một dấu mốc sớm của Phật giáo Đà Lạt.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/linh-quang/" aria-label="Xem chi tiết Chùa Linh Quang">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ch%C3%B9a%20Linh%20Quang%2C%20133%20Hai%20B%C3%A0%20Tr%C6%B0ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="nha-tho-cam-ly" aria-label="Yêu thích Nhà thờ Cam Ly" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">11 Nguyễn Khuyến</p>
+      <h3><a href="./dia-diem/nha-tho-cam-ly/">Nhà thờ Cam Ly</a></h3>
+      <p class="description">Nhà thờ Sơn Cước có mái dốc lớn gợi hình nhà rông Tây Nguyên.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/nha-tho-cam-ly/" aria-label="Xem chi tiết Nhà thờ Cam Ly">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Nh%C3%A0%20th%E1%BB%9D%20Cam%20Ly%2C%2011%20Nguy%E1%BB%85n%20Khuy%E1%BA%BFn%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="nha-lao-thieu-nhi" aria-label="Yêu thích Di tích Nhà lao thiếu nhi Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực đường Hồ Xuân Hương</p>
+      <h3><a href="./dia-diem/nha-lao-thieu-nhi/">Di tích Nhà lao thiếu nhi Đà Lạt</a></h3>
+      <p class="description">Di tích kể lại lịch sử nơi từng giam giữ thiếu niên qua hiện vật và không gian phục dựng.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/nha-lao-thieu-nhi/" aria-label="Xem chi tiết Di tích Nhà lao thiếu nhi Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Di%20t%C3%ADch%20Nh%C3%A0%20lao%20thi%E1%BA%BFu%20nhi%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20Khu%20v%E1%BB%B1c%20%C4%91%C6%B0%E1%BB%9Dng%20H%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://vietnamtrustcarrentals.com/vnt_upload/news/08_2025/thumbs/870_crop_Van-Thanh-Flower-Village.jpg" alt="Làng hoa Vạn Thành" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="van-thanh" aria-label="Yêu thích Làng hoa Vạn Thành" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Vùng đường Vạn Thành, phía tây Đà Lạt</p>
+      <h3><a href="./dia-diem/van-thanh/">Làng hoa Vạn Thành</a></h3>
+      <p class="description">Vùng trồng hoa có nhà kính và các luống hoa thương phẩm.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/van-thanh/" aria-label="Xem chi tiết Làng hoa Vạn Thành">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%A0ng%20hoa%20V%E1%BA%A1n%20Th%C3%A0nh%2C%20V%C3%B9ng%20%C4%91%C6%B0%E1%BB%9Dng%20V%E1%BA%A1n%20Th%C3%A0nh%2C%20ph%C3%ADa%20t%C3%A2y%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="fresh-garden" aria-label="Yêu thích Fresh Garden Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">90B Vạn Thành</p>
+      <h3><a href="./dia-diem/fresh-garden/">Fresh Garden Đà Lạt</a></h3>
+      <p class="description">Vườn cảnh có luống hoa, lối dạo và các cụm tiểu cảnh.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/fresh-garden/" aria-label="Xem chi tiết Fresh Garden Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Fresh%20Garden%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%2090B%20V%E1%BA%A1n%20Th%C3%A0nh%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="cam-tu-cau-trai-mat" aria-label="Yêu thích Vườn cẩm tú cầu Trại Mát" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực Trại Mát, đông Đà Lạt</p>
+      <h3><a href="./dia-diem/cam-tu-cau-trai-mat/">Vườn cẩm tú cầu Trại Mát</a></h3>
+      <p class="description">Các vườn ở vùng Trại Mát có những dải cẩm tú cầu lớn khi vào đợt nở.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/cam-tu-cau-trai-mat/" aria-label="Xem chi tiết Vườn cẩm tú cầu Trại Mát">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=V%C6%B0%E1%BB%9Dn%20c%E1%BA%A9m%20t%C3%BA%20c%E1%BA%A7u%20Tr%E1%BA%A1i%20M%C3%A1t%2C%20Khu%20v%E1%BB%B1c%20Tr%E1%BA%A1i%20M%C3%A1t%2C%20%C4%91%C3%B4ng%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://statics.vinpearl.com/doi-che-cau-dat-01_1688736872.jpg" alt="Đồi chè Cầu Đất" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="doi-che-cau-dat" aria-label="Yêu thích Đồi chè Cầu Đất" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Vùng Cầu Đất, đông Đà Lạt</p>
+      <h3><a href="./dia-diem/doi-che-cau-dat/">Đồi chè Cầu Đất</a></h3>
+      <p class="description">Những luống chè bám theo triền đồi tạo nên cảnh quan đặc trưng của Cầu Đất.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/doi-che-cau-dat/" aria-label="Xem chi tiết Đồi chè Cầu Đất">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=%C4%90%E1%BB%93i%20ch%C3%A8%20C%E1%BA%A7u%20%C4%90%E1%BA%A5t%2C%20V%C3%B9ng%20C%E1%BA%A7u%20%C4%90%E1%BA%A5t%2C%20%C4%91%C3%B4ng%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="bao-tang-tra-long-dinh" aria-label="Yêu thích Bảo tàng trà Long Đỉnh" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Phát Chi, Trạm Hành, đông Đà Lạt</p>
+      <h3><a href="./dia-diem/bao-tang-tra-long-dinh/">Bảo tàng trà Long Đỉnh</a></h3>
+      <p class="description">Khu trưng bày giới thiệu lịch sử trà, nghề chè và cách thưởng trà.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/bao-tang-tra-long-dinh/" aria-label="Xem chi tiết Bảo tàng trà Long Đỉnh">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=B%E1%BA%A3o%20t%C3%A0ng%20tr%C3%A0%20Long%20%C4%90%E1%BB%89nh%2C%20Ph%C3%A1t%20Chi%2C%20Tr%E1%BA%A1m%20H%C3%A0nh%2C%20%C4%91%C3%B4ng%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Văn hóa">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❀</span></div>
+      <span class="badge">Văn hóa</span>
+      <button class="save-icon" type="button" data-save="linh-an" aria-label="Yêu thích Chùa Linh Ẩn" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Nam Ban, Lâm Đồng · ngoại ô Đà Lạt</p>
+      <h3><a href="./dia-diem/linh-an/">Chùa Linh Ẩn</a></h3>
+      <p class="description">Linh Ẩn Tự có tượng Quan Âm nổi bật và khuôn viên nhiều cây gần thác Voi.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/linh-an/" aria-label="Xem chi tiết Chùa Linh Ẩn">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ch%C3%B9a%20Linh%20%E1%BA%A8n%2C%20Nam%20Ban%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="duong-ham-dat-set" aria-label="Yêu thích Đường hầm Đất Sét" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu du lịch hồ Tuyền Lâm</p>
+      <h3><a href="./dia-diem/duong-ham-dat-set/">Đường hầm Đất Sét</a></h3>
+      <p class="description">Tuyến đi bộ qua các cụm điêu khắc gợi lịch sử và biểu tượng Đà Lạt.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/duong-ham-dat-set/" aria-label="Xem chi tiết Đường hầm Đất Sét">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=%C4%90%C6%B0%E1%BB%9Dng%20h%E1%BA%A7m%20%C4%90%E1%BA%A5t%20S%C3%A9t%2C%20Khu%20du%20l%E1%BB%8Bch%20h%E1%BB%93%20Tuy%E1%BB%81n%20L%C3%A2m%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="cap-treo-robin" aria-label="Yêu thích Cáp treo đồi Robin" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Ga đồi Robin, đường Đống Đa</p>
+      <h3><a href="./dia-diem/cap-treo-robin/">Cáp treo đồi Robin</a></h3>
+      <p class="description">Cabin đi qua rừng thông, nối đồi Robin với khu Thiền viện Trúc Lâm.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/cap-treo-robin/" aria-label="Xem chi tiết Cáp treo đồi Robin">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=C%C3%A1p%20treo%20%C4%91%E1%BB%93i%20Robin%2C%20Ga%20%C4%91%E1%BB%93i%20Robin%2C%20%C4%91%C6%B0%E1%BB%9Dng%20%C4%90%E1%BB%91ng%20%C4%90a%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="ho-than-tho" aria-label="Yêu thích Hồ Than Thở" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đường Hồ Xuân Hương, phía đông Đà Lạt</p>
+      <h3><a href="./dia-diem/ho-than-tho/">Hồ Than Thở</a></h3>
+      <p class="description">Thắng cảnh gồm mặt hồ và rừng thông gần vùng trồng hoa phía đông.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/ho-than-tho/" aria-label="Xem chi tiết Hồ Than Thở">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=H%E1%BB%93%20Than%20Th%E1%BB%9F%2C%20%C4%90%C6%B0%E1%BB%9Dng%20H%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20ph%C3%ADa%20%C4%91%C3%B4ng%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Ẩm thực">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❁</span></div>
+      <span class="badge">Ẩm thực</span>
+      <button class="save-icon" type="button" data-save="still-cafe" aria-label="Yêu thích Still Café" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">59 Nguyễn Trãi</p>
+      <h3><a href="./dia-diem/still-cafe/">Still Café</a></h3>
+      <p class="description">Cụm quán nhỏ có sân vườn gần Ga Đà Lạt.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/still-cafe/" aria-label="Xem chi tiết Still Café">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Still%20Caf%C3%A9%2C%2059%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="thac-prenn" aria-label="Yêu thích Thác Prenn" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Chân đèo Prenn, hướng Hiệp Thạnh · ngoại ô Đà Lạt</p>
+      <h3><a href="./dia-diem/thac-prenn/">Thác Prenn</a></h3>
+      <p class="description">Thác ở phía nam Đà Lạt có lối tham quan trong khu dịch vụ du lịch.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thac-prenn/" aria-label="Xem chi tiết Thác Prenn">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Th%C3%A1c%20Prenn%2C%20Ch%C3%A2n%20%C4%91%C3%A8o%20Prenn%2C%20h%C6%B0%E1%BB%9Bng%20Hi%E1%BB%87p%20Th%E1%BA%A1nh%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span><img src="https://www.dulichdalat.city/media/upload/images/thac-pongour/thac-pongour.jpg" alt="Thác Pongour" loading="lazy" decoding="async"></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="thac-pongour" aria-label="Yêu thích Thác Pongour" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực Đức Trọng, Lâm Đồng · ngoại ô Đà Lạt</p>
+      <h3><a href="./dia-diem/thac-pongour/">Thác Pongour</a></h3>
+      <p class="description">Dòng thác chảy qua nhiều bậc đá rộng, phù hợp với một chuyến đi nửa ngày.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thac-pongour/" aria-label="Xem chi tiết Thác Pongour">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Th%C3%A1c%20Pongour%2C%20Khu%20v%E1%BB%B1c%20%C4%90%E1%BB%A9c%20Tr%E1%BB%8Dng%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span><img src="https://latourdalat.com/upload/user/images/review-lang-cu-lan-2.jpg" alt="Làng Cù Lần" loading="lazy" decoding="async"></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="lang-cu-lan" aria-label="Yêu thích Làng Cù Lần" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">ĐT722, phía tây bắc Đà Lạt</p>
+      <h3><a href="./dia-diem/lang-cu-lan/">Làng Cù Lần</a></h3>
+      <p class="description">Khu du lịch trong thung lũng có rừng thông và các công trình bằng gỗ.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/lang-cu-lan/" aria-label="Xem chi tiết Làng Cù Lần">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%A0ng%20C%C3%B9%20L%E1%BA%A7n%2C%20%C4%90T722%2C%20ph%C3%ADa%20t%C3%A2y%20b%E1%BA%AFc%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="dan-kia-suoi-vang" aria-label="Yêu thích Đan Kia – Suối Vàng" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Phía tây bắc Đà Lạt, hướng Lang Biang</p>
+      <h3><a href="./dia-diem/dan-kia-suoi-vang/">Đan Kia – Suối Vàng</a></h3>
+      <p class="description">Hồ chứa và đồi thông là cảnh quan đặc trưng của vùng Suối Vàng.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/dan-kia-suoi-vang/" aria-label="Xem chi tiết Đan Kia – Suối Vàng">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=%C4%90an%20Kia%20%E2%80%93%20Su%E1%BB%91i%20V%C3%A0ng%2C%20Ph%C3%ADa%20t%C3%A2y%20b%E1%BA%AFc%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20h%C6%B0%E1%BB%9Bng%20Lang%20Biang%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="zoodoo" aria-label="Yêu thích ZooDoo Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Đa Nhim, hướng Quốc lộ 27C · ngoại ô Đà Lạt</p>
+      <h3><a href="./dia-diem/zoodoo/">ZooDoo Đà Lạt</a></h3>
+      <p class="description">Vườn thú giữa rừng thông tổ chức tham quan theo hướng dẫn.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/zoodoo/" aria-label="Xem chi tiết ZooDoo Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=ZooDoo%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90a%20Nhim%2C%20h%C6%B0%E1%BB%9Bng%20Qu%E1%BB%91c%20l%E1%BB%99%2027C%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="puppy-farm" aria-label="Yêu thích Nông trại Cún Puppy Farm" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Cam Ly – Măng Lin, phía tây Đà Lạt</p>
+      <h3><a href="./dia-diem/puppy-farm/">Nông trại Cún Puppy Farm</a></h3>
+      <p class="description">Nông trại có khu tương tác với chó và các khu trồng cây theo mùa.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/puppy-farm/" aria-label="Xem chi tiết Nông trại Cún Puppy Farm">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=N%C3%B4ng%20tr%E1%BA%A1i%20C%C3%BAn%20Puppy%20Farm%2C%20Cam%20Ly%20%E2%80%93%20M%C4%83ng%20Lin%2C%20ph%C3%ADa%20t%C3%A2y%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="lumiere" aria-label="Yêu thích Lumiere Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực đường Mai Anh Đào</p>
+      <h3><a href="./dia-diem/lumiere/">Lumiere Đà Lạt</a></h3>
+      <p class="description">Không gian triển lãm ánh sáng trong nhà có các phòng trình chiếu và sắp đặt.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/lumiere/" aria-label="Xem chi tiết Lumiere Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Lumiere%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20Khu%20v%E1%BB%B1c%20%C4%91%C6%B0%E1%BB%9Dng%20Mai%20Anh%20%C4%90%C3%A0o%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="lang-co-tich" aria-label="Yêu thích Dalat Fairytale Land" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">81D Hoàng Văn Thụ</p>
+      <h3><a href="./dia-diem/lang-co-tich/">Dalat Fairytale Land</a></h3>
+      <p class="description">Những căn nhà nhỏ theo chủ đề cổ tích nằm giữa vườn vùng Vạn Thành.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/lang-co-tich/" aria-label="Xem chi tiết Dalat Fairytale Land">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Dalat%20Fairytale%20Land%2C%2081D%20Ho%C3%A0ng%20V%C4%83n%20Th%E1%BB%A5%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="wonderland" aria-label="Yêu thích Đà Lạt Wonderland" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">19 đường Hoa Hồng, vùng hồ Tuyền Lâm</p>
+      <h3><a href="./dia-diem/wonderland/">Đà Lạt Wonderland</a></h3>
+      <p class="description">Khu vui chơi bên hồ có nhiều hoạt động vận động và lựa chọn cho gia đình.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/wonderland/" aria-label="Xem chi tiết Đà Lạt Wonderland">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=%C4%90%C3%A0%20L%E1%BA%A1t%20Wonderland%2C%2019%20%C4%91%C6%B0%E1%BB%9Dng%20Hoa%20H%E1%BB%93ng%2C%20v%C3%B9ng%20h%E1%BB%93%20Tuy%E1%BB%81n%20L%C3%A2m%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="mongoland" aria-label="Yêu thích Mongoland Đà Lạt" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Tà Nung, phía tây Đà Lạt</p>
+      <h3><a href="./dia-diem/mongoland/">Mongoland Đà Lạt</a></h3>
+      <p class="description">Khu tham quan ngoài trời trong thung lũng Tà Nung có tiểu cảnh và trò chơi.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/mongoland/" aria-label="Xem chi tiết Mongoland Đà Lạt">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Mongoland%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20T%C3%A0%20Nung%2C%20ph%C3%ADa%20t%C3%A2y%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="chika-farm" aria-label="Yêu thích Chika Farm" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Ven Quốc lộ 20, Xuân Thọ</p>
+      <h3><a href="./dia-diem/chika-farm/">Chika Farm</a></h3>
+      <p class="description">Nông trại trên sườn đồi có đồng cỏ, nhà đỏ và khu gặp động vật.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/chika-farm/" aria-label="Xem chi tiết Chika Farm">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Chika%20Farm%2C%20Ven%20Qu%E1%BB%91c%20l%E1%BB%99%2020%2C%20Xu%C3%A2n%20Th%E1%BB%8D%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="bidoup-nui-ba" aria-label="Yêu thích Vườn quốc gia Bidoup – Núi Bà" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực Lạc Dương, Lâm Đồng · ngoại ô Đà Lạt</p>
+      <h3><a href="./dia-diem/bidoup-nui-ba/">Vườn quốc gia Bidoup – Núi Bà</a></h3>
+      <p class="description">Vườn quốc gia bảo tồn rừng núi cao và tổ chức trải nghiệm sinh thái theo tuyến.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/bidoup-nui-ba/" aria-label="Xem chi tiết Vườn quốc gia Bidoup – Núi Bà">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20Bidoup%20%E2%80%93%20N%C3%BAi%20B%C3%A0%2C%20Khu%20v%E1%BB%B1c%20L%E1%BA%A1c%20D%C6%B0%C6%A1ng%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Trải nghiệm">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✦</span></div>
+      <span class="badge">Trải nghiệm</span>
+      <button class="save-icon" type="button" data-save="vuon-hong-le-phuc" aria-label="Yêu thích Vườn hồng Lê Phúc" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">20/1 Trạm Hành 2, phường Xuân Trường – Đà Lạt</p>
+      <h3><a href="./dia-diem/vuon-hong-le-phuc/">Vườn hồng Lê Phúc</a></h3>
+      <p class="description">Điểm du lịch canh nông gắn với vườn hồng vùng Cầu Đất.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/vuon-hong-le-phuc/" aria-label="Xem chi tiết Vườn hồng Lê Phúc">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=V%C6%B0%E1%BB%9Dn%20h%E1%BB%93ng%20L%C3%AA%20Ph%C3%BAc%2C%2020%2F1%20Tr%E1%BA%A1m%20H%C3%A0nh%202%2C%20ph%C6%B0%E1%BB%9Dng%20Xu%C3%A2n%20Tr%C6%B0%E1%BB%9Dng%20%E2%80%93%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Thiên nhiên">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">✿</span></div>
+      <span class="badge">Thiên nhiên</span>
+      <button class="save-icon" type="button" data-save="thung-lung-vang" aria-label="Yêu thích Thung lũng Vàng" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Khu vực Ankroet, hướng Suối Vàng</p>
+      <h3><a href="./dia-diem/thung-lung-vang/">Thung lũng Vàng</a></h3>
+      <p class="description">Khu tham quan có đường dạo, đồi thông và vườn cảnh gần Đan Kia.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thung-lung-vang/" aria-label="Xem chi tiết Thung lũng Vàng">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Thung%20l%C5%A9ng%20V%C3%A0ng%2C%20Khu%20v%E1%BB%B1c%20Ankroet%2C%20h%C6%B0%E1%BB%9Bng%20Su%E1%BB%91i%20V%C3%A0ng%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Ẩm thực">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❁</span></div>
+      <span class="badge">Ẩm thực</span>
+      <button class="save-icon" type="button" data-save="thuy-ta" aria-label="Yêu thích Thủy Tạ hồ Xuân Hương" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Ven hồ Xuân Hương, khu vực đường Yersin</p>
+      <h3><a href="./dia-diem/thuy-ta/">Thủy Tạ hồ Xuân Hương</a></h3>
+      <p class="description">Công trình màu trắng ven hồ là điểm nghỉ chân trên một vòng đi dạo trung tâm.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/thuy-ta/" aria-label="Xem chi tiết Thủy Tạ hồ Xuân Hương">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Th%E1%BB%A7y%20T%E1%BA%A1%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20Ven%20h%E1%BB%93%20Xu%C3%A2n%20H%C6%B0%C6%A1ng%2C%20khu%20v%E1%BB%B1c%20%C4%91%C6%B0%E1%BB%9Dng%20Yersin%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article>
+<article class="card" data-theme="Ẩm thực">
+    <div class="photo-wrap">
+      <div class="card-photo"><span class="motif" aria-hidden="true">❁</span></div>
+      <span class="badge">Ẩm thực</span>
+      <button class="save-icon" type="button" data-save="tui-mo-to" aria-label="Yêu thích Tiệm cà phê Túi Mơ To" aria-pressed="false">♡</button>
+    </div>
+    <div class="card-copy">
+      <p class="where">Hẻm 31 Sào Nam</p>
+      <h3><a href="./dia-diem/tui-mo-to/">Tiệm cà phê Túi Mơ To</a></h3>
+      <p class="description">Quán cà phê sân vườn nhìn ra sườn đồi và có luống hoa thay đổi theo đợt.</p>
+      <div class="actions"><a class="button primary" href="./dia-diem/tui-mo-to/" aria-label="Xem chi tiết Tiệm cà phê Túi Mơ To">Xem chi tiết</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Ti%E1%BB%87m%20c%C3%A0%20ph%C3%AA%20T%C3%BAi%20M%C6%A1%20To%2C%20H%E1%BA%BBm%2031%20S%C3%A0o%20Nam%2C%20%C4%90%C3%A0%20L%E1%BA%A1t%2C%20L%C3%A2m%20%C4%90%E1%BB%93ng" target="_blank" rel="noopener">Bản đồ</a></div>
+    </div>
+  </article></div>
+    </main>
+</body>
+</html>
