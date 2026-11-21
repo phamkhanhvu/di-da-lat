@@ -1,13 +1,13 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { places } from './src/places.mjs';
-import { categories, detailPage, homePage, mapUrl, normalizeSearch } from './src/templates.mjs';
+import { categories, detailPage, homePage, indexPage, mapUrl, normalizeSearch } from './src/templates.mjs';
 
 const byId = new Map(places.map(place => [place.id, place]));
 
-test('có đúng 50 địa điểm duy nhất, đủ nội dung và điểm ghé thêm hợp lệ', () => {
-  assert.equal(places.length, 50);
-  assert.equal(byId.size, 50);
+test('có đủ địa điểm duy nhất, nội dung và điểm ghé thêm hợp lệ', () => {
+  assert([50, 500].includes(places.length));
+  assert.equal(byId.size, places.length);
   for (const place of places) {
     assert.match(place.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
     assert(categories.includes(place.cat));
@@ -17,11 +17,13 @@ test('có đúng 50 địa điểm duy nhất, đủ nội dung và điểm ghé
   }
 });
 
-test('trang chủ mở đủ 50 đường dẫn và trang riêng có chỉ đường, lưu, gợi ý', () => {
+test('danh sách đầy đủ có mọi đường dẫn và trang riêng có chỉ đường, lưu, gợi ý', () => {
   const index = homePage(places);
-  assert.match(index, /50 địa điểm/);
+  assert(index.includes(places.length + ' địa điểm'));
+  assert.equal((index.match(/class="card"/g) ?? []).length, 24);
+  const all = indexPage(places);
   for (const place of places) {
-    assert(index.includes('href="./dia-diem/' + place.id + '/"'));
+    assert(all.includes('href="./' + place.id + '/"'));
     const detail = detailPage(place, byId);
     assert(detail.includes('data-save="' + place.id + '"'));
     assert(detail.includes('https://www.google.com/maps/search/'));
