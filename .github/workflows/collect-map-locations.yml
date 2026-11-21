@@ -1,0 +1,44 @@
+name: Collect Đà Lạt map locations
+on:
+  push:
+    branches: [catalog-osm-import]
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Import public map metadata
+        shell: bash
+        run: |
+          node --input-type=module <<'OSM_IMPORT'
+          const bbox = '11.790,108.210,12.140,108.670';
+          const q = '[out:json][timeout:45];(' +
+            'nwr["name"]["tourism"~"^(attraction|museum|viewpoint|zoo|theme_park|gallery|hotel|motel|guest_house|hostel|chalet|camp_site|resort)$"](' + bbox + ');' +
+            'nwr["name"]["amenity"~"^(cafe|restaurant|fast_food|food_court|ice_cream|marketplace|place_of_worship|theatre|arts_centre|bar|pub)$"](' + bbox + ');' +
+            'nwr["name"]["leisure"~"^(park|garden|water_park|nature_reserve)$"](' + bbox + ');' +
+            'nwr["name"]["historic"~"^(monument|memorial|building|ruins)$"](' + bbox + ');' +
+            'nwr["name"]["natural"~"^(peak|water)$"](' + bbox + ');' +
+            'nwr["name"]["waterway"="waterfall"](' + bbox + ');' +
+            ');out center;';
+          const endpoints = ['https://overpass-api.de/api/interpreter','https://overpass.private.coffee/api/interpreter','https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
+          let catalog;
+          for (const endpoint of endpoints) {
+            try {
+              const r = await fetch(endpoint + '?data=' + encodeURIComponent(q), {signal: AbortSignal.timeout(65000),headers:{'user-agent':'Da-Lat-Di-Dau one-off map import'}});
+              if (!r.ok) throw Error('HTTP ' + r.status);
+              const body = await r.json();
+              if (!Array.isArray(body.elements) || body.elements.length < 450) throw Error('Only ' + body.elements?.length + ' elements');
+              catalog = body.elements;
+              break;
+            } catch (e) { console.log(endpoint + ' ' + e.message); }
+          }
+          if (!catalog) throw Error('OpenStreetMap import returned no usable snapshot.');
+          console.log('OSM_CANDIDATES ' + catalog.length);
+          for (const {type,id,lat,lon,center,tags:t} of catalog) {
+            if (!t?.name || (!center && (!Number.isFinite(lat) || !Number.isFinite(lon)))) continue;
+            const out = [type,id,center?.lat??lat,center?.lon??lon,t['name:vi']??t.name,t.tourism??'',t.amenity??'',t.leisure??'',t.historic??'',t.natural??t.waterway??'',t['addr:housenumber']??'',t['addr:street']??t['addr:place']??'',t['addr:suburb']??t['addr:city']??'',t.image??'',t.wikimedia_commons??'',t.cuisine??'',t['opening_hours']??'',t.disused??'',t.access??''];
+            console.log('OSM_ROW ' + JSON.stringify(out));
+          }
+          OSM_IMPORT
