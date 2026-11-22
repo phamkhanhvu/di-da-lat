@@ -1,5 +1,5 @@
 import { places } from './places.js';
-import { card, categories, normalizeSearch } from './templates.mjs';
+import { card, categories, normalizeSearch, pageSize } from './templates.mjs';
 
 const storageKey = 'dalat-favorites';
 const ids = new Set(places.map(place => place.id));
@@ -7,8 +7,10 @@ const grid = document.getElementById('grid');
 const savedLink = document.getElementById('saved-link');
 const query = document.getElementById('query');
 const filters = document.getElementById('filters');
+const more = document.getElementById('more-places');
 const savedOnly = new URLSearchParams(window.location.search).get('da-luu') === '1';
 let active = '';
+let showCount = pageSize;
 let favorites = new Set();
 
 function readFavorites() {
@@ -53,10 +55,11 @@ function renderList() {
     (!active || place.cat === active) && normalizeSearch(
       [place.name, place.alias ?? '', place.cat, place.where, place.desc].join(' ')
     ).includes(search));
-  grid.innerHTML = visible.map(card).join('') ||
+  grid.innerHTML = visible.slice(0, showCount).map(card).join('') ||
     '<p class="empty">Chưa có địa điểm phù hợp. <a href="./#places">Xem tất cả</a></p>';
   document.getElementById('list-title').textContent = savedOnly ? 'Địa điểm đã lưu' : 'Khám phá địa điểm';
   document.getElementById('count').textContent = visible.length + ' địa điểm';
+  more.hidden = visible.length <= showCount;
   setUpPhotos(grid);
   renderFavorites();
 }
@@ -77,6 +80,7 @@ if (grid) {
     button.setAttribute('aria-pressed', String(name === active));
     button.addEventListener('click', () => {
       active = name;
+      showCount = pageSize;
       for (const tab of filters.children) tab.setAttribute('aria-pressed', String(tab === button));
       renderList();
     });
@@ -84,10 +88,20 @@ if (grid) {
   }
   filters.hidden = false;
   query.closest('label').hidden = false;
-  query.addEventListener('input', renderList);
+  query.addEventListener('input', () => {
+    showCount = pageSize;
+    renderList();
+  });
+  more.addEventListener('click', () => {
+    const firstNew = showCount;
+    showCount += pageSize;
+    renderList();
+    grid.children[firstNew]?.querySelector('h3 a')?.focus();
+  });
   readFavorites();
   if (savedOnly || query.value) renderList();
   else {
+    more.hidden = places.length <= showCount;
     setUpPhotos(grid);
     renderFavorites();
   }

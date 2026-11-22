@@ -1,3 +1,4 @@
+// Các mục có mapRecord: © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright
 export const places = [
   {
     "id": "tuyen-lam",
@@ -1325,5 +1326,10415 @@ export const places = [
     "img": "https://triphunter.vn/media/W1siZiIsIjIwMjEvMDgvMjcvNHo1Y2JyOGUxY190aWVtX2NhX3BoZV90dWlfbW9fdG9fOF9UcmlwSHVudGVyLmpwZyJdXQ/tiem-ca-phe-tui-mo-to-8-TripHunter.jpg?sha=cead8cb1a2f607be",
     "imgFallback": "https://hoadalattravel.vn/wp-content/uploads/2024/11/tiem-ca-phe-tui-mo-to-11.jpeg",
     "alt": "Tiệm cà phê Túi Mơ To"
+  },
+  {
+    "id": "cay-thong-co-don",
+    "name": "Cây Thông Cô Đơn",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "Khu cắm trại sơn thủy, ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "Khu cắm trại sơn thủy, ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Cây Thông Cô Đơn, Khu cắm trại sơn thủy, ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Khu cắm trại sơn thủy, ĐT722, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/cay-thong-co-don-cover-800x600.jpg",
+    "alt": "Cây Thông Cô Đơn"
+  },
+  {
+    "id": "doi-co-chay",
+    "name": "Đồi Cỏ Cháy",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "XCP3+H2R, Ankroet, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "XCP3+H2R, Ankroet, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Đồi Cỏ Cháy, XCP3+H2R, Ankroet, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ XCP3+H2R, Ankroet, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-co-chay-If3W6fo8-cover-800x600.jpg",
+    "alt": "Đồi Cỏ Cháy"
+  },
+  {
+    "id": "doi-co-hong",
+    "name": "Đồi cỏ hồng",
+    "cat": "Thiên nhiên",
+    "area": "Lâm Viên",
+    "where": "Phường Lâm Viên - Đà Lạt",
+    "address": "Phường Lâm Viên - Đà Lạt",
+    "desc": "Điểm tham quan ở khu vực Lâm Viên.",
+    "intro": "Điểm tham quan ở khu vực Lâm Viên.",
+    "mapQuery": "Đồi cỏ hồng, Phường Lâm Viên - Đà Lạt",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phường Lâm Viên - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "doi-co-hong-ho-tuyen-lam",
+    "name": "Đồi Cỏ Hồng hồ Tuyền Lâm",
+    "cat": "Thiên nhiên",
+    "area": "Xuân Hương",
+    "where": "WC28+V79, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "WC28+V79, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Đồi Cỏ Hồng hồ Tuyền Lâm, WC28+V79, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WC28+V79, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-co-hong-ho-tuyen-lam-XHapntfk-cover-800x600.jpg",
+    "alt": "Đồi Cỏ Hồng hồ Tuyền Lâm"
+  },
+  {
+    "id": "doi-co-hong-lac-duong",
+    "name": "ĐỒI CỎ HỒNG LẠC DƯƠNG",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "ĐỒI CỎ HỒNG LẠC DƯƠNG, ĐT722, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ ĐT722, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-co-hong-lac-duong-nLXo2Euk-cover-800x600.jpg",
+    "alt": "ĐỒI CỎ HỒNG LẠC DƯƠNG"
+  },
+  {
+    "id": "doi-co-hong-mang-lin",
+    "name": "Đồi cỏ hồng Măng Lin",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "Đồi Mả Thánh, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "Đồi Mả Thánh, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Đồi cỏ hồng Măng Lin, Đồi Mả Thánh, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đồi Mả Thánh, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-co-hong-mang-lin-cover-800x600.jpg",
+    "alt": "Đồi cỏ hồng Măng Lin"
+  },
+  {
+    "id": "doi-da-phu",
+    "name": "Đồi Đa Phú",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Đồi Đa Phú, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-da-phu-cover-800x600.jpg",
+    "alt": "Đồi Đa Phú"
+  },
+  {
+    "id": "doi-hoa-mai-anh-dao-cau-dat",
+    "name": "Đồi Hoa Mai Anh Đào Cầu Đất",
+    "cat": "Thiên nhiên",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Đồi Hoa Mai Anh Đào Cầu Đất, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-hoa-mai-anh-dao-cau-dat-0MgzDsk-cover-800x600.jpg",
+    "alt": "Đồi Hoa Mai Anh Đào Cầu Đất"
+  },
+  {
+    "id": "doi-ngo-quyen",
+    "name": "Đồi Ngô Quyền",
+    "cat": "Thiên nhiên",
+    "area": "Cam Ly",
+    "where": "XC5F+4JQ, Đồi Ngô Quyền, Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "XC5F+4JQ, Đồi Ngô Quyền, Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Cam Ly.",
+    "intro": "Điểm tham quan ở khu vực Cam Ly.",
+    "mapQuery": "Đồi Ngô Quyền, XC5F+4JQ, Đồi Ngô Quyền, Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ XC5F+4JQ, Đồi Ngô Quyền, Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-ngo-quyen-cover-800x600.jpg",
+    "alt": "Đồi Ngô Quyền"
+  },
+  {
+    "id": "doi-thien-phuc-duc",
+    "name": "Đồi Thiên Phúc Đức",
+    "cat": "Thiên nhiên",
+    "where": "Đà Lạt",
+    "address": "Đà Lạt",
+    "desc": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "intro": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đồi Thiên Phúc Đức, Đà Lạt",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/doi-thien-phuc-duc-cover-800x600.jpg",
+    "alt": "Đồi Thiên Phúc Đức"
+  },
+  {
+    "id": "nui-hon-bo",
+    "name": "Núi Hòn Bồ",
+    "cat": "Thiên nhiên",
+    "area": "Lâm Viên",
+    "where": "30 dốc hòn bồ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "30 dốc hòn bồ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lâm Viên.",
+    "intro": "Điểm tham quan ở khu vực Lâm Viên.",
+    "mapQuery": "Núi Hòn Bồ, 30 dốc hòn bồ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 30 dốc hòn bồ, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/nui-hon-bo-cover-800x600.jpg",
+    "alt": "Núi Hòn Bồ"
+  },
+  {
+    "id": "rung-giao-huong",
+    "name": "Rừng Giao Hưởng",
+    "cat": "Thiên nhiên",
+    "area": "Cam Ly",
+    "where": "1/3 Lâm Sinh, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "1/3 Lâm Sinh, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Cam Ly.",
+    "intro": "Điểm tham quan ở khu vực Cam Ly.",
+    "mapQuery": "Rừng Giao Hưởng, 1/3 Lâm Sinh, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1/3 Lâm Sinh, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/rung-giao-huong-DLhkzww-cover-800x600.jpg",
+    "alt": "Rừng Giao Hưởng"
+  },
+  {
+    "id": "vuon-hong-chan-deo-mimosa",
+    "name": "Vườn Hồng Chân đèo Mimosa",
+    "cat": "Thiên nhiên",
+    "area": "Xuân Hương",
+    "where": "Cầu chân đèo Prenn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Cầu chân đèo Prenn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Vườn Hồng Chân đèo Mimosa, Cầu chân đèo Prenn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cầu chân đèo Prenn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/vuon-hong-chan-deo-mimosa-2jtJY6I0-cover-800x600.jpg",
+    "alt": "Vườn Hồng Chân đèo Mimosa"
+  },
+  {
+    "id": "vuon-mai-anh-dao-co",
+    "name": "Vườn Mai Anh Đào Cổ",
+    "cat": "Thiên nhiên",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "2CQ6+3FX, Unnamed Road, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "2CQ6+3FX, Unnamed Road, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Vườn Mai Anh Đào Cổ, 2CQ6+3FX, Unnamed Road, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quang cảnh và lối đi",
+        "Ưu tiên lối công cộng và quan sát điều kiện đường trước khi ghé."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2CQ6+3FX, Unnamed Road, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xem thời tiết trước khi đi, nhất là với đường đất và các sườn dốc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/vuon-mai-anh-dao-co-cover-800x600.jpg",
+    "alt": "Vườn Mai Anh Đào Cổ"
+  },
+  {
+    "id": "cong-vien-yersin",
+    "name": "Công Viên Yersin",
+    "cat": "Văn hóa",
+    "where": "Công Viên, Yersin, Đà Lạt",
+    "address": "Công Viên, Yersin, Đà Lạt",
+    "desc": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "intro": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "mapQuery": "Công Viên Yersin, Công Viên, Yersin, Đà Lạt",
+    "highlights": [
+      [
+        "Tham quan trong khuôn viên",
+        "Kiểm tra khu vực được phép vào và khung giờ đón khách tại điểm đến."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Công Viên, Yersin, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Nếu là nơi hành lễ, chọn trang phục lịch sự và dành lối cho người đến sinh hoạt.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/cong-vien-yersin-cover-800x600.jpg",
+    "alt": "Công Viên Yersin"
+  },
+  {
+    "id": "dinh-bao-dai",
+    "name": "Dinh Bảo Đại",
+    "cat": "Văn hóa",
+    "area": "Xuân Hương",
+    "where": "Dinh I, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Dinh I, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Dinh Bảo Đại, Dinh I, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Tham quan trong khuôn viên",
+        "Kiểm tra khu vực được phép vào và khung giờ đón khách tại điểm đến."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Dinh I, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Nếu là nơi hành lễ, chọn trang phục lịch sự và dành lối cho người đến sinh hoạt.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/dinh-bao-dai-cover-800x600.png",
+    "alt": "Dinh Bảo Đại"
+  },
+  {
+    "id": "dinh-ii",
+    "name": "Dinh II",
+    "cat": "Văn hóa",
+    "area": "Xuân Hương",
+    "where": "12 Trần Hưng Đạo, Phường Xuân Hương - Đà Lạt",
+    "address": "12 Trần Hưng Đạo, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Dinh II, 12 Trần Hưng Đạo, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Tham quan trong khuôn viên",
+        "Kiểm tra khu vực được phép vào và khung giờ đón khách tại điểm đến."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12 Trần Hưng Đạo, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Nếu là nơi hành lễ, chọn trang phục lịch sự và dành lối cho người đến sinh hoạt.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "dinh-pinhatt-samson-mountain",
+    "name": "Đỉnh Pinhatt (Samson Mountain)",
+    "cat": "Văn hóa",
+    "area": "Xuân Hương",
+    "where": "VCHJ+R2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "VCHJ+R2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Đỉnh Pinhatt (Samson Mountain), VCHJ+R2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Tham quan trong khuôn viên",
+        "Kiểm tra khu vực được phép vào và khung giờ đón khách tại điểm đến."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ VCHJ+R2, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Nếu là nơi hành lễ, chọn trang phục lịch sự và dành lối cho người đến sinh hoạt.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/dinh-pinhatt-samson-mountain-cover-800x600.jpg",
+    "alt": "Đỉnh Pinhatt (Samson Mountain)"
+  },
+  {
+    "id": "bai-cam-trai-ancamp",
+    "name": "Bãi cắm trại Ancamp",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "Long lanh, Lạc Dương, Lâm Đồng",
+    "address": "Long lanh, Lạc Dương, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Bãi cắm trại Ancamp, Long lanh, Lạc Dương, Lâm Đồng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Long lanh, Lạc Dương, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/bai-cam-trai-ancamp-pRjkhpEA-cover-800x600.jpg",
+    "alt": "Bãi cắm trại Ancamp"
+  },
+  {
+    "id": "buc-tuong-han-quoc-tai-da-lat",
+    "name": "Bức tường Hàn Quốc tại Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Lâm Viên",
+    "where": "63 Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "63 Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lâm Viên.",
+    "intro": "Điểm tham quan ở khu vực Lâm Viên.",
+    "mapQuery": "Bức tường Hàn Quốc tại Đà Lạt, 63 Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 63 Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/buc-tuong-han-quoc-tai-da-lat-5lWbiA6U-cover-800x600.jpg",
+    "alt": "Bức tường Hàn Quốc tại Đà Lạt"
+  },
+  {
+    "id": "cau-go-ca-phe-may",
+    "name": "Cầu Gỗ Cà Phê Mây",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Sâu trong, Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Sâu trong, Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cầu Gỗ Cà Phê Mây, Sâu trong, Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Sâu trong, Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/cau-go-ca-phe-may-Mq32RtOk-cover-800x600.jpg",
+    "alt": "Cầu Gỗ Cà Phê Mây"
+  },
+  {
+    "id": "cung-duong-bac-au",
+    "name": "Cung đường Bắc Âu",
+    "cat": "Trải nghiệm",
+    "area": "Lâm Viên",
+    "where": "Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lâm Viên.",
+    "intro": "Điểm tham quan ở khu vực Lâm Viên.",
+    "mapQuery": "Cung đường Bắc Âu, Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Nguyễn Hữu Cảnh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/cung-duong-bac-au-cover-800x600.jpg",
+    "alt": "Cung đường Bắc Âu"
+  },
+  {
+    "id": "dalat-camp",
+    "name": "Dalat Camp",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "284V+F7, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "284V+F7, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Dalat Camp, 284V+F7, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 284V+F7, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/dalat-camp-cover-800x600.jpg",
+    "alt": "Dalat Camp"
+  },
+  {
+    "id": "da-lat-tien-canh-du-lich-sinh-thai-da-lat",
+    "name": "Đà Lạt Tiên Cảnh - Du lịch sinh thái Đà Lạt",
+    "cat": "Trải nghiệm",
+    "where": "4HHV+W97, Đà Lạt",
+    "address": "4HHV+W97, Đà Lạt",
+    "desc": "Điểm cắm trại tại Đà Lạt và vùng ven.",
+    "intro": "Điểm cắm trại tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đà Lạt Tiên Cảnh - Du lịch sinh thái Đà Lạt, 4HHV+W97, Đà Lạt",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 4HHV+W97, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/da-lat-tien-canh-du-lich-sinh-thai-da-lat-cover-800x600.jpg",
+    "alt": "Đà Lạt Tiên Cảnh - Du lịch sinh thái Đà Lạt"
+  },
+  {
+    "id": "euro-garden-cau-dat",
+    "name": "Euro Garden Cầu Đất",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Euro Garden Cầu Đất, Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đồi Chè, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/euro-garden-cau-dat-cover-800x600.jpg",
+    "alt": "Euro Garden Cầu Đất"
+  },
+  {
+    "id": "god-valley",
+    "name": "God Valley",
+    "cat": "Trải nghiệm",
+    "area": "Cam Ly",
+    "where": "Tổ 19 thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Tổ 19 thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Cam Ly.",
+    "intro": "Điểm tham quan ở khu vực Cam Ly.",
+    "mapQuery": "God Valley, Tổ 19 thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ 19 thôn 1, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/god-valley-cover-800x600.jpg",
+    "alt": "God Valley"
+  },
+  {
+    "id": "hanh-trinh-tren-cao",
+    "name": "Hành Trình Trên Cao",
+    "cat": "Trải nghiệm",
+    "where": "Đèo Prenn, Đà Lạt",
+    "address": "Đèo Prenn, Đà Lạt",
+    "desc": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "intro": "Điểm tham quan tại Đà Lạt và vùng ven.",
+    "mapQuery": "Hành Trình Trên Cao, Đèo Prenn, Đà Lạt",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đèo Prenn, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hanna-land",
+    "name": "Hanna Land",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "68B Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "68B Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Hanna Land, 68B Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 68B Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/hanna-land-cover-800x600.jpg",
+    "alt": "Hanna Land"
+  },
+  {
+    "id": "hidden-land-da-lat",
+    "name": "Hidden Land Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm tham quan ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Hidden Land Đà Lạt, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/hidden-land-da-lat-cover-800x600.jpg",
+    "alt": "Hidden Land Đà Lạt"
+  },
+  {
+    "id": "keng-da-lat",
+    "name": "Kẻng Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "WF4C+RR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "WF4C+RR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Xuân Hương.",
+    "intro": "Điểm cắm trại ở khu vực Xuân Hương.",
+    "mapQuery": "Kẻng Đà Lạt, WF4C+RR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WF4C+RR, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/keng-da-lat-cover-800x600.jpg",
+    "alt": "Kẻng Đà Lạt"
+  },
+  {
+    "id": "khu-biet-thu-rang-dong-rang-dong-villas",
+    "name": "Khu Biệt Thự Rạng Đông (Rang Dong Villas)",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "12/6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "12/6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Khu Biệt Thự Rạng Đông (Rang Dong Villas), 12/6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12/6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/khu-biet-thu-rang-dong-rang-dong-villas-cover-800x600.jpg",
+    "alt": "Khu Biệt Thự Rạng Đông (Rang Dong Villas)"
+  },
+  {
+    "id": "khu-da-ngoai-lux-camp-da-lat",
+    "name": "Khu Dã Ngoại - Lux Camp Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Xuân Hương.",
+    "intro": "Điểm cắm trại ở khu vực Xuân Hương.",
+    "mapQuery": "Khu Dã Ngoại - Lux Camp Đà Lạt, Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/khu-da-ngoai-lux-camp-da-lat-cover-800x600.jpg",
+    "alt": "Khu Dã Ngoại - Lux Camp Đà Lạt"
+  },
+  {
+    "id": "khu-du-lich-da-ngoai-suoi-tia",
+    "name": "Khu du lịch dã ngoại Suối Tía",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Khu du lịch dã ngoại Suối Tía, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ],
+    "img": "https://cdn.langthangdalat.com/media/khu-du-lich-da-ngoai-suoi-tia-cover-800x600.jpg",
+    "alt": "Khu du lịch dã ngoại Suối Tía"
+  },
+  {
+    "id": "khu-du-lich-thuy-thuan-da-lat",
+    "name": "Khu Du Lịch Thuý Thuận Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Cam Ly",
+    "where": "Tổ 13 Thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Tổ 13 Thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Cam Ly.",
+    "intro": "Điểm tham quan ở khu vực Cam Ly.",
+    "mapQuery": "Khu Du Lịch Thuý Thuận Đà Lạt, Tổ 13 Thôn 1, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ 13 Thôn 1, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "langbiang-land-khu-du-lich-vui-choi-giai-tri",
+    "name": "LANGBIANG LAND Khu du lịch vui chơi giải trí",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "93A Đường Biđoúp, phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "93A Đường Biđoúp, phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "LANGBIANG LAND Khu du lịch vui chơi giải trí, 93A Đường Biđoúp, phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 93A Đường Biđoúp, phường, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "lon-ton-camp-art",
+    "name": "Lon ton Camp Art",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "số 126b Phước Thành, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "số 126b Phước Thành, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Lon ton Camp Art, số 126b Phước Thành, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ số 126b Phước Thành, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "mong-dao-nguyen",
+    "name": "Mộng Đào Nguyên",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "2CQ5+8P5, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "2CQ5+8P5, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Mộng Đào Nguyên, 2CQ5+8P5, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2CQ5+8P5, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pink-valley-da-lat",
+    "name": "Pink Valley Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Tà Nung – Vạn Thành",
+    "where": "Vạn Thành Suối Hến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Vạn Thành Suối Hến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Tà Nung – Vạn Thành.",
+    "intro": "Điểm tham quan ở khu vực Tà Nung – Vạn Thành.",
+    "mapQuery": "Pink Valley Đà Lạt, Vạn Thành Suối Hến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Vạn Thành Suối Hến, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "van-thanh",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "que-garden",
+    "name": "QUÊ Garden",
+    "cat": "Trải nghiệm",
+    "area": "Tà Nung – Vạn Thành",
+    "where": "Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Tà Nung – Vạn Thành.",
+    "intro": "Điểm tham quan ở khu vực Tà Nung – Vạn Thành.",
+    "mapQuery": "QUÊ Garden, Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "van-thanh",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thap-truyen-hinh-da-lat",
+    "name": "Tháp truyền hình Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "3 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "3 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Tháp truyền hình Đà Lạt, 3 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "thap-vinaphone-da-lat",
+    "name": "Tháp Vinaphone Đà Lạt",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Hương",
+    "where": "1/12 Hồ Tùng Mậu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1/12 Hồ Tùng Mậu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Xuân Hương.",
+    "intro": "Điểm tham quan ở khu vực Xuân Hương.",
+    "mapQuery": "Tháp Vinaphone Đà Lạt, 1/12 Hồ Tùng Mậu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1/12 Hồ Tùng Mậu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "the-florest-hoa-trong-rung",
+    "name": "The Florest Hoa Trong Rừng",
+    "cat": "Trải nghiệm",
+    "area": "Cam Ly",
+    "where": "Thôn 4, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Thôn 4, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Cam Ly.",
+    "intro": "Điểm tham quan ở khu vực Cam Ly.",
+    "mapQuery": "The Florest Hoa Trong Rừng, Thôn 4, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Thôn 4, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "trong-trai-tra-trong-cafe",
+    "name": "Trông Trại Trà - Trông Cafe",
+    "cat": "Trải nghiệm",
+    "area": "Lâm Viên",
+    "where": "12 Trần Thái Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "12 Trần Thái Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lâm Viên.",
+    "intro": "Điểm tham quan ở khu vực Lâm Viên.",
+    "mapQuery": "Trông Trại Trà - Trông Cafe, 12 Trần Thái Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12 Trần Thái Tông, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "trung-party-in-the-forest",
+    "name": "Trũng - Party In The Forest",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "29M3+9P6 Lạc Dương, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "29M3+9P6 Lạc Dương, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm cắm trại ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Trũng - Party In The Forest, 29M3+9P6 Lạc Dương, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 29M3+9P6 Lạc Dương, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vien-nghien-cuu-khoa-hoc-tay-nguyen",
+    "name": "Viện Nghiên cứu Khoa học Tây Nguyên",
+    "cat": "Trải nghiệm",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "116 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "116 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm tham quan ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Viện Nghiên cứu Khoa học Tây Nguyên, 116 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 116 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "yen-glamping",
+    "name": "Yên Glamping",
+    "cat": "Trải nghiệm",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "WH5G+XPG, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "WH5G+XPG, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm cắm trại ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm cắm trại ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Yên Glamping, WH5G+XPG, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Lên lịch ghé",
+        "Kiểm tra dịch vụ nào đang mở và các hoạt động cần đặt trước."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WH5G+XPG, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Với hoạt động ngoài trời, xem thời tiết và hỏi điều kiện tham gia.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "1-2-circle-coffee",
+    "name": "1/2 Circle Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 4 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 4 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "1/2 Circle Coffee, Hẻm 4 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 4 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "1mil-perfume-da-lat-nuoc-hoa-chinh-hang-95-phan-boi-chau",
+    "name": "1Mil Perfume Đà Lạt - Nước hoa chính hãng - 95 Phan Bội Châu",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "95 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "95 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "1Mil Perfume Đà Lạt - Nước hoa chính hãng - 95 Phan Bội Châu, 95 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 95 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "1thev-coffee-da-lat",
+    "name": "1thev Coffee Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+    "address": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "1thev Coffee Đà Lạt, 103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "9611-kafe",
+    "name": "9611 Kafé",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "1 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "1 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "9611 Kafé, 1 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "airdream-forest-station",
+    "name": "Airdream Forest Station",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "07 Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "07 Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Airdream Forest Station, 07 Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 07 Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "an-cafe",
+    "name": "An Cafe",
+    "cat": "Ẩm thực",
+    "where": "63Bis Ba Tháng Hai, Đà Lạt",
+    "address": "63Bis Ba Tháng Hai, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "An Cafe, 63Bis Ba Tháng Hai, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 63Bis Ba Tháng Hai, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ate-signature-tiem-tra-ca-phe",
+    "name": "ATê Signature - Tiệm Trà & Cà Phê",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "3B Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "3B Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "ATê Signature - Tiệm Trà & Cà Phê, 3B Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3B Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "atispho-pho-atiso-da-lat",
+    "name": "Atispho - Phở Atiso Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Khu Quy Hoạch/Lô H19-20 Đ. Phạm Hồng Thái, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Khu Quy Hoạch/Lô H19-20 Đ. Phạm Hồng Thái, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Atispho - Phở Atiso Đà Lạt, Khu Quy Hoạch/Lô H19-20 Đ. Phạm Hồng Thái, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Khu Quy Hoạch/Lô H19-20 Đ. Phạm Hồng Thái, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "am-thuc-hue-chu-ho",
+    "name": "Ẩm thực Huế Chú Hồ",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "60 Đường Lý Tự Trọng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "60 Đường Lý Tự Trọng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Ẩm thực Huế Chú Hồ, 60 Đường Lý Tự Trọng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 60 Đường Lý Tự Trọng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ban-ca-phe-da-lat",
+    "name": "Bản cà phê Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "xuống dốc cạnh villa DT, Hẻm 29 3/4, Đà Lạt, Lâm Đồng",
+    "address": "xuống dốc cạnh villa DT, Hẻm 29 3/4, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bản cà phê Đà Lạt, xuống dốc cạnh villa DT, Hẻm 29 3/4, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ xuống dốc cạnh villa DT, Hẻm 29 3/4, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ban-leo",
+    "name": "Bản Lèo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Bản Lèo, Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-beo-ba-trieu",
+    "name": "Bánh bèo Bà Triệu",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "17 Hẻm 4 Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "17 Hẻm 4 Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh bèo Bà Triệu, 17 Hẻm 4 Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 17 Hẻm 4 Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-beo-so-4",
+    "name": "Bánh bèo số 4",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "402 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "address": "402 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh bèo số 4, 402 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 402 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-canh-ca-loc-co-ha",
+    "name": "Bánh Canh Cá Lóc Cô Hạ 🍜",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "17/30 Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "17/30 Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Canh Cá Lóc Cô Hạ 🍜, 17/30 Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 17/30 Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-canh-xuan-an",
+    "name": "Bánh Canh Xuân An",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1 Nhà Chung, Phường Xuân Hương - Đà Lạt",
+    "address": "1 Nhà Chung, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Canh Xuân An, 1 Nhà Chung, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Nhà Chung, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-can-31-nguyen-trai",
+    "name": "BÁNH CĂN 31 NGUYỄN TRÃI",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "31 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "31 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "BÁNH CĂN 31 NGUYỄN TRÃI, 31 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-can-chi-7",
+    "name": "Bánh Căn Chị 7",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Căn Chị 7, 1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-can-co-lanh-da-lat",
+    "name": "Bánh căn cô Lãnh Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "69 Hoàng Hoa Thám, Đà Lạt",
+    "address": "69 Hoàng Hoa Thám, Đà Lạt",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh căn cô Lãnh Đà Lạt, 69 Hoàng Hoa Thám, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 69 Hoàng Hoa Thám, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-can-da-lat",
+    "name": "Bánh căn Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "7 Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "address": "7 Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh căn Đà Lạt, 7 Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7 Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-can-banh-trang-co-hai",
+    "name": "Bánh Căn, Bánh Tráng Cô Hải",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "32 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "32 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Căn, Bánh Tráng Cô Hải, 32 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 32 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-cuon-hoang-dieu",
+    "name": "Bánh Cuốn HOÀNG DIỆU",
+    "cat": "Ẩm thực",
+    "where": "Hẻm 348/3 Phan Đình Phùng",
+    "address": "Hẻm 348/3 Phan Đình Phùng",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh Cuốn HOÀNG DIỆU, Hẻm 348/3 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 348/3 Phan Đình Phùng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-cuon-lang-son-co-diep",
+    "name": "Bánh cuốn lạng sơn cô Điệp",
+    "cat": "Ẩm thực",
+    "where": "Trong hẻm 29, Đ. Lữ Gia, Đà Lạt, Lâm Đồng",
+    "address": "Trong hẻm 29, Đ. Lữ Gia, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh cuốn lạng sơn cô Điệp, Trong hẻm 29, Đ. Lữ Gia, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Trong hẻm 29, Đ. Lữ Gia, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-cuon-tom-thit-chi-em",
+    "name": "Bánh cuốn Tôm Thịt CHỊ EM",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "sau lưng trường, 1/8 Thông Thiên Học Phường 2 (Phía đường, Cư Xá Bưu Điện Nguyễn Du, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "sau lưng trường, 1/8 Thông Thiên Học Phường 2 (Phía đường, Cư Xá Bưu Điện Nguyễn Du, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh cuốn Tôm Thịt CHỊ EM, sau lưng trường, 1/8 Thông Thiên Học Phường 2 (Phía đường, Cư Xá Bưu Điện Nguyễn Du, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ sau lưng trường, 1/8 Thông Thiên Học Phường 2 (Phía đường, Cư Xá Bưu Điện Nguyễn Du, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-mi-ga-quy",
+    "name": "Bánh mì gà Quý",
+    "cat": "Ẩm thực",
+    "where": "33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+    "address": "33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Bánh mì gà Quý, 33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "33 Bis Pasteur, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "banh-mi-heo-quay",
+    "name": "Bánh Mì Heo Quay",
+    "cat": "Ẩm thực",
+    "where": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+    "address": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Bánh Mì Heo Quay, 191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "banh-mi-xiu-mai-47",
+    "name": "BÁNH MÌ XÍU MẠI 47",
+    "cat": "Ẩm thực",
+    "where": "47 Đ. Hoàng Diệu, Đà Lạt",
+    "address": "47 Đ. Hoàng Diệu, Đà Lạt",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "BÁNH MÌ XÍU MẠI 47, 47 Đ. Hoàng Diệu, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 47 Đ. Hoàng Diệu, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-mi-xiu-mai-phuc-han-hoang-dieu",
+    "name": "Bánh Mì Xíu Mại Phúc Hân - Hoàng Diệu",
+    "cat": "Ẩm thực",
+    "where": "34 Đ. Hoàng Diệu, Đà Lạt",
+    "address": "34 Đ. Hoàng Diệu, Đà Lạt",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh Mì Xíu Mại Phúc Hân - Hoàng Diệu, 34 Đ. Hoàng Diệu, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 34 Đ. Hoàng Diệu, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-mi-xiu-mai-ri-79-doi-dien-cay-xang-tinh-doi",
+    "name": "Bánh Mì Xíu Mại Ri 79 (Đối diện cây xăng Tỉnh Đội)",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2 Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2 Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Mì Xíu Mại Ri 79 (Đối diện cây xăng Tỉnh Đội), 2 Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đường Thông Thiên Học, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-mi-xiu-mai-banh-can-dinh-3-da-lat",
+    "name": "Bánh mì xíu mại, Bánh căn Dinh 3 Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "9 Đường Triệu Việt Vương, Đà Lạt, Lâm Đồng",
+    "address": "9 Đường Triệu Việt Vương, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh mì xíu mại, Bánh căn Dinh 3 Đà Lạt, 9 Đường Triệu Việt Vương, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9 Đường Triệu Việt Vương, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-trang-hoang-tu-chinh-goc-da-lat",
+    "name": "Bánh Tráng Hoàng Tử ( Chính gốc Đà Lạt )",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Tráng Hoàng Tử ( Chính gốc Đà Lạt ), 79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-trang-nuong-112",
+    "name": "Bánh Tráng Nướng 112",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "112 Nguyễn Văn Trỗi, Phường Xuân Hương - Đà Lạt",
+    "address": "112 Nguyễn Văn Trỗi, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh Tráng Nướng 112, 112 Nguyễn Văn Trỗi, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 112 Nguyễn Văn Trỗi, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-trang-nuong-di-dinh",
+    "name": "Bánh Tráng nướng Dì Đinh",
+    "cat": "Ẩm thực",
+    "where": "26 Đ. Hoàng Diệu",
+    "address": "26 Đ. Hoàng Diệu",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bánh Tráng nướng Dì Đinh, 26 Đ. Hoàng Diệu, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 26 Đ. Hoàng Diệu với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-uot-long-ga-thao",
+    "name": "BÁNH ƯỚT LÒNG GÀ THẢO",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "B6-12A Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "B6-12A Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "BÁNH ƯỚT LÒNG GÀ THẢO, B6-12A Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ B6-12A Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "banh-uot-long-ga-trang",
+    "name": "Bánh ướt lòng gà Trang",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "15F Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "address": "15F Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Bánh ướt lòng gà Trang, 15F Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 15F Tăng Bạt Hổ, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bao-tien-mot-mo-binh-yen",
+    "name": "Bao tiền một mớ bình yên",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Bao tiền một mớ bình yên, Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "barn-house-bbq-and-beer",
+    "name": "Barn House BBQ And Beer",
+    "cat": "Ẩm thực",
+    "where": "198 Nguyễn Công Trứ, Đà Lạt",
+    "address": "198 Nguyễn Công Trứ, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Barn House BBQ And Beer, 198 Nguyễn Công Trứ, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 198 Nguyễn Công Trứ, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bbq-garden-da-lat-buffet-nuong-lau-da-lat",
+    "name": "BBQ Garden Đà Lạt - BUFFET nướng lẩu Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "21 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "21 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "BBQ Garden Đà Lạt - BUFFET nướng lẩu Đà Lạt, 21 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 21 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "beeppub",
+    "name": "Beeppub",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "11A Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "11A Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Beeppub, 11A Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 11A Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bep-khoi-suon-cay-khong-lo-da-lat",
+    "name": "Bếp Khói - Sườn Cay Khổng Lồ Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "42 Phan Chu Trinh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "42 Phan Chu Trinh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Bếp Khói - Sườn Cay Khổng Lồ Đà Lạt, 42 Phan Chu Trinh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 42 Phan Chu Trinh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "blue-dream-bread",
+    "name": "Blue Dream Bread",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "14 Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "14 Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Blue Dream Bread, 14 Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14 Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bo-nhung-dua-da-lat",
+    "name": "Bò Nhúng Dứa Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "28 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "28 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Bò Nhúng Dứa Đà Lạt, 28 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 28 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bong-lan-trung-nuong-kimi",
+    "name": "Bông lan trứng nướng Kimi",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "21 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "21 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Bông lan trứng nướng Kimi, 21 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 21 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "brew-and-breakfast",
+    "name": "Brew and Breakfast",
+    "cat": "Ẩm thực",
+    "where": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "address": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Brew and Breakfast, 2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "bun-bo-chu-hung",
+    "name": "Bún bò Chú Hùng",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "31 Lê Thánh Tôn p5, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "31 Lê Thánh Tôn p5, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Bún bò Chú Hùng, 31 Lê Thánh Tôn p5, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31 Lê Thánh Tôn p5, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bun-bo-co-thuy",
+    "name": "Bún Bò Cô Thúy",
+    "cat": "Ẩm thực",
+    "where": "dốc sát thời trang YoDy, 54/4 Phan Đình Phùng, Đà Lạt",
+    "address": "dốc sát thời trang YoDy, 54/4 Phan Đình Phùng, Đà Lạt",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Bún Bò Cô Thúy, dốc sát thời trang YoDy, 54/4 Phan Đình Phùng, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ dốc sát thời trang YoDy, 54/4 Phan Đình Phùng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bun-bo-tho-da-da-lat-cat-moc-tran",
+    "name": "Bún Bò Thố Đá Đà Lạt - Cát Mộc Trân",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "41 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "41 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Bún Bò Thố Đá Đà Lạt - Cát Mộc Trân, 41 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 41 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bun-bo-tho-da-da-lat-song-huong",
+    "name": "Bún bò thố đá Đà lạt Sông Hương",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Cầu Mạc Đĩnh Chi, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Cầu Mạc Đĩnh Chi, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Bún bò thố đá Đà lạt Sông Hương, Cầu Mạc Đĩnh Chi, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cầu Mạc Đĩnh Chi, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "bun-thit-nuong-ba-tam",
+    "name": "Bún thịt nướng bà Tám",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "38A Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "38A Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Bún thịt nướng bà Tám, 38A Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 38A Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-binh-bong-bup",
+    "name": "Cà Phê Bình Bông Bụp",
+    "cat": "Ẩm thực",
+    "where": "Hẻm 10 Xô Viết Nghệ Tĩnh, Đà Lạt",
+    "address": "Hẻm 10 Xô Viết Nghệ Tĩnh, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cà Phê Bình Bông Bụp, Hẻm 10 Xô Viết Nghệ Tĩnh, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 10 Xô Viết Nghệ Tĩnh, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-bui-da-lat",
+    "name": "Cà phê Bụi Đà lạt",
+    "cat": "Ẩm thực",
+    "where": "WCVP+39C, Khu Hoà Bình, Đà Lạt",
+    "address": "WCVP+39C, Khu Hoà Bình, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cà phê Bụi Đà lạt, WCVP+39C, Khu Hoà Bình, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WCVP+39C, Khu Hoà Bình, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-doc-ga",
+    "name": "Cà phê Dọc Ga",
+    "cat": "Ẩm thực",
+    "where": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+    "address": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Cà phê Dọc Ga, 17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "ca-phe-linh-lam",
+    "name": "Cà phê Linh Lam",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "14/1 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "14/1 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cà phê Linh Lam, 14/1 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14/1 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-nguyen-chat-trang",
+    "name": "Cà phê nguyên chất Trang",
+    "cat": "Ẩm thực",
+    "where": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "address": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Cà phê nguyên chất Trang, 34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "ca-phe-nho-hoai-boi-canh-chinh-goc-phim-em-va-trinh",
+    "name": "Cà phê Nhớ Hoài (Bối cảnh chính gốc phim Em và Trịnh)",
+    "cat": "Ẩm thực",
+    "where": "9 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "address": "9 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cà phê Nhớ Hoài (Bối cảnh chính gốc phim Em và Trịnh), 9 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9 Trần Hưng Đạo, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-san-cat-sunny-day",
+    "name": "Cà phê Sân Cát Sunny Day",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "trường tiểu học Nam Hồ, 25 Đ. Nam Hồ, đối diện, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "trường tiểu học Nam Hồ, 25 Đ. Nam Hồ, đối diện, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cà phê Sân Cát Sunny Day, trường tiểu học Nam Hồ, 25 Đ. Nam Hồ, đối diện, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ trường tiểu học Nam Hồ, 25 Đ. Nam Hồ, đối diện, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-phe-vuon-rung-vietnam-specialty-coffee",
+    "name": "Cà Phê Vườn Rừng - Vietnam Specialty Coffee",
+    "cat": "Ẩm thực",
+    "where": "6 Nguyễn Văn Trỗi, Đà Lạt",
+    "address": "6 Nguyễn Văn Trỗi, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cà Phê Vườn Rừng - Vietnam Specialty Coffee, 6 Nguyễn Văn Trỗi, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 6 Nguyễn Văn Trỗi, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ca-rem-bong-bong-kem-thu-cong-cua-nguoi-da-lat",
+    "name": "Cà Rem Bông Bông - Kem thủ công của người Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 202 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 202 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Cà Rem Bông Bông - Kem thủ công của người Đà Lạt, Hẻm 202 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 202 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cafe-24h-gaugarden",
+    "name": "Cafe 24h GâuGarden",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2/2 2, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2/2 2, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cafe 24h GâuGarden, 2/2 2, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2/2 2, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cafe-84-da-lat",
+    "name": "Cafe 84 Da Lat",
+    "cat": "Ẩm thực",
+    "where": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+    "address": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Cafe 84 Da Lat, 84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "cafe-doi-mot-nguoi-yersin",
+    "name": "Cafe Đợi Một Người - Yersin",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "24 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "24 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cafe Đợi Một Người - Yersin, 24 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 24 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cafe-lang-art",
+    "name": "Cafe Lặng Art",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "19 Đường Nguyễn Khuyến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "19 Đường Nguyễn Khuyến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Cafe Lặng Art, 19 Đường Nguyễn Khuyến, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Đường Nguyễn Khuyến, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cafe-nga-yaourt",
+    "name": "Cafe Nga (Yaourt)",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cafe Nga (Yaourt), 2a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cafe-panorama-da-lat",
+    "name": "Cafe Panorama Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Vòng Xoay 723, Trại Mát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Vòng Xoay 723, Trại Mát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cafe Panorama Đà Lạt, Vòng Xoay 723, Trại Mát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Vòng Xoay 723, Trại Mát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cai-coc-me",
+    "name": "Cái cốc Mẻ",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "15 Đường Ngô Huy Diễn, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "15 Đường Ngô Huy Diễn, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Cái cốc Mẻ, 15 Đường Ngô Huy Diễn, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 15 Đường Ngô Huy Diễn, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cai-lo-sua-since-2025",
+    "name": "Cái Lò Sữa - Since 2025",
+    "cat": "Ẩm thực",
+    "where": "193C Phan Đình Phùng, Đà Lạt",
+    "address": "193C Phan Đình Phùng, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cái Lò Sữa - Since 2025, 193C Phan Đình Phùng, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 193C Phan Đình Phùng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "calla-lily-bar-acoustic-da-lat",
+    "name": "Calla Lily Bar Acoustic Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "57 Đường Hà Huy Tập, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "57 Đường Hà Huy Tập, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Calla Lily Bar Acoustic Đà Lạt, 57 Đường Hà Huy Tập, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 57 Đường Hà Huy Tập, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "caneles-dalat-since-2020",
+    "name": "Canelés Dalat - since 2020",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đi thẳng lên dốc nhìn BÊN TRÁI ạ, 79 Phan Bội Châu, DỐC CẠNH, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đi thẳng lên dốc nhìn BÊN TRÁI ạ, 79 Phan Bội Châu, DỐC CẠNH, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Canelés Dalat - since 2020, Đi thẳng lên dốc nhìn BÊN TRÁI ạ, 79 Phan Bội Châu, DỐC CẠNH, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đi thẳng lên dốc nhìn BÊN TRÁI ạ, 79 Phan Bội Châu, DỐC CẠNH, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "carrot-restaurant",
+    "name": "Carrot Restaurant",
+    "cat": "Ẩm thực",
+    "where": "36 Bà Triệu, Đà Lạt, Lâm Đồng",
+    "address": "36 Bà Triệu, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Carrot Restaurant, 36 Bà Triệu, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "36 Bà Triệu, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "cau-phung-quan-bo-nuong-va-lau-bo",
+    "name": "Cậu Phùng Quán - Bò nướng và Lẩu bò",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "2F8 Đ. Trần Nhân Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "2F8 Đ. Trần Nhân Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Cậu Phùng Quán - Bò nướng và Lẩu bò, 2F8 Đ. Trần Nhân Tông, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2F8 Đ. Trần Nhân Tông, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cay-cam-ngot",
+    "name": "Cây Cam Ngọt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 57 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 57 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cây Cam Ngọt, Hẻm 57 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 57 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cay-mai-anh-dao-da-lat",
+    "name": "Cây Mai Anh Đào Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "WGV8+695, Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "WGV8+695, Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cây Mai Anh Đào Đà Lạt, WGV8+695, Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WGV8+695, Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cham-ca-phe-kem-bo-da-lat",
+    "name": "Chạm cà phê & kem bơ Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "27 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "27 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "intro": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "mapQuery": "Chạm cà phê & kem bơ Đà Lạt, 27 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 27 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chao-hau-da-lat-chao-trai-quan",
+    "name": "Cháo Hàu Đà Lạt | Cháo Trai Quán",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "73/1 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "73/1 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cháo Hàu Đà Lạt | Cháo Trai Quán, 73/1 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 73/1 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chao-long-di-linh-chinh-hieu-ba-men",
+    "name": "Cháo lòng Di Linh (chính hiệu Bà Mén)",
+    "cat": "Ẩm thực",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "Đan Kia/30 Tùng Lâm, Đà Lạt, Lâm Đồng",
+    "address": "Đan Kia/30 Tùng Lâm, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Điểm ăn uống ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Cháo lòng Di Linh (chính hiệu Bà Mén), Đan Kia/30 Tùng Lâm, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đan Kia/30 Tùng Lâm, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chef-s-dalat",
+    "name": "Chef's Dalat",
+    "cat": "Ẩm thực",
+    "where": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+    "address": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Chef's Dalat, 156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "cheng-an-dimsum",
+    "name": "CHENG AN Dimsum",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "104 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "address": "104 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "CHENG AN Dimsum, 104 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 104 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cheo",
+    "name": "Chéo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "40 Phan Như Thạch, Phường Xuân Hương - Đà Lạt",
+    "address": "40 Phan Như Thạch, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Chéo, 40 Phan Như Thạch, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 40 Phan Như Thạch, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chenh-venh-coffee-chill",
+    "name": "Chênh Vênh Coffee Chill",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "550 TBĐ 48C, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "550 TBĐ 48C, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Chênh Vênh Coffee Chill, 550 TBĐ 48C, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 550 TBĐ 48C, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chip-s-corner",
+    "name": "Chip’s Corner",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "16/3 Hẻm 1 - Đ. Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "16/3 Hẻm 1 - Đ. Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Chip’s Corner, 16/3 Hẻm 1 - Đ. Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 16/3 Hẻm 1 - Đ. Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chuyen-cua-mo-coffee",
+    "name": "Chuyện của Mơ Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Chuyện của Mơ Coffee, 6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 6 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "chuyen-cua-nang",
+    "name": "Chuyện Của Nắng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Chuyện Của Nắng, Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường Lộc Quý, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cloud9-glamping-cafe",
+    "name": "Cloud9 Glamping & Cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Tổ 1 Thôn, Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Tổ 1 Thôn, Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cloud9 Glamping & Cafe, Tổ 1 Thôn, Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ 1 Thôn, Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cochin-garden",
+    "name": "Cochin Garden",
+    "cat": "Ẩm thực",
+    "where": "Cao Bá Quát, Đà Lạt, Lâm Đồng",
+    "address": "Cao Bá Quát, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Cochin Garden, Cao Bá Quát, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "Cao Bá Quát, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "co-lang-mo-tiem-ca-phe-co-tich",
+    "name": "Cổ Làng Mơ - tiệm cà phê cổ tích",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "WF53+8CR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "WF53+8CR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Cổ Làng Mơ - tiệm cà phê cổ tích, WF53+8CR, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WF53+8CR, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cong-ca-phe",
+    "name": "Cộng Cà Phê",
+    "cat": "Ẩm thực",
+    "where": "94 Phan Đình Phùng, Đà Lạt",
+    "address": "94 Phan Đình Phùng, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Cộng Cà Phê, 94 Phan Đình Phùng, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 94 Phan Đình Phùng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cong-chieng-tay-nguyen-da-lat",
+    "name": "Cồng Chiêng Tây Nguyên - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "WFQV+38V, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "WFQV+38V, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cồng Chiêng Tây Nguyên - Đà Lạt, WFQV+38V, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WFQV+38V, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-chay-thanh-dam",
+    "name": "Cơm Chay Thanh Đạm",
+    "cat": "Ẩm thực",
+    "where": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+    "address": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Cơm Chay Thanh Đạm, 97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "com-ga-xot-da-nhan-cach-lau-ga-la-e-tao-ngo-dalat-chi-nhanh-goc",
+    "name": "CƠM GÀ XỐT ĐA NHÂN CACH - LẨU GÀ LÁ É TAO NGỘ DALAT (Chi nhánh gốc )",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "94 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "94 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "CƠM GÀ XỐT ĐA NHÂN CACH - LẨU GÀ LÁ É TAO NGỘ DALAT (Chi nhánh gốc ), 94 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 94 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-lam-ga-nuong-la-tieu-rung-178-hung-vuong",
+    "name": "Cơm Lam Gà Nướng Lá Tiêu Rừng 178 Hùng Vương",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "178 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "178 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Cơm Lam Gà Nướng Lá Tiêu Rừng 178 Hùng Vương, 178 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 178 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-nieu-ba-me-con",
+    "name": "Cơm Niêu Ba Mẹ Con",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cơm Niêu Ba Mẹ Con, 1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1C Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-nieu-nhu-ngoc",
+    "name": "Cơm niêu Như Ngọc",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "19 Hồ Tùng Mậu, Phường Xuân Hương - Đà Lạt",
+    "address": "19 Hồ Tùng Mậu, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cơm niêu Như Ngọc, 19 Hồ Tùng Mậu, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Hồ Tùng Mậu, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-nieu-vi-que",
+    "name": "Cơm Niêu Vị Quê",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "35-37 Đinh Tiên Hoàng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "35-37 Đinh Tiên Hoàng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cơm Niêu Vị Quê, 35-37 Đinh Tiên Hoàng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 35-37 Đinh Tiên Hoàng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-tam-262",
+    "name": "Cơm tấm 262",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "262 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "262 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Cơm tấm 262, 262 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 262 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "com-tam-lao-tru",
+    "name": "Cơm Tấm Lão Trư",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "WCPM+H75, Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "WCPM+H75, Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cơm Tấm Lão Trư, WCPM+H75, Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WCPM+H75, Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cuk-thailand-food-tour-in-da-lat",
+    "name": "Cuk จุก - Thailand Food Tour In Da Lat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "7B Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "7B Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cuk จุก - Thailand Food Tour In Da Lat, 7B Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7B Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cut-kit-da-lat-buffet-bbq",
+    "name": "Cút Kít - Đà Lạt Buffet BBQ",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "222 Đường Mai Anh Đào, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "222 Đường Mai Anh Đào, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Cút Kít - Đà Lạt Buffet BBQ, 222 Đường Mai Anh Đào, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 222 Đường Mai Anh Đào, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "cua-hang-nuong-mau-dich",
+    "name": "Cửa hàng nướng Mậu Dịch",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "28b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "28b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Cửa hàng nướng Mậu Dịch, 28b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 28b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "d-lart-garden-drinking-dining",
+    "name": "D'Lart Garden Drinking & Dining",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "41 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "41 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "D'Lart Garden Drinking & Dining, 41 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 41 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dalat-coffee-pot",
+    "name": "Dalat Coffee Pot",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "chợ mới Đà Lạt, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "chợ mới Đà Lạt, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Dalat Coffee Pot, chợ mới Đà Lạt, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ chợ mới Đà Lạt, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dalat-note-hostel",
+    "name": "Dalat Note Hostel",
+    "cat": "Ẩm thực",
+    "where": "33 Đường Bà Triệu, Đà Lạt",
+    "address": "33 Đường Bà Triệu, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Dalat Note Hostel, 33 Đường Bà Triệu, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 33 Đường Bà Triệu, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "datana",
+    "name": "Datana",
+    "cat": "Ẩm thực",
+    "where": "5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+    "address": "5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Datana, 5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "5 Bạch Đằng, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "doc-mo-cafe",
+    "name": "Dốc Mơ café",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "14 Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "14 Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Dốc Mơ café, 14 Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14 Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "duoi-tan-anh-dao-cafe-viet-fusion-restaurant",
+    "name": "Dưới Tán Anh Đào - Cafe & Viet Fusion Restaurant",
+    "cat": "Ẩm thực",
+    "where": "29B Đ. Hùng Vương, Đà Lạt",
+    "address": "29B Đ. Hùng Vương, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Dưới Tán Anh Đào - Cafe & Viet Fusion Restaurant, 29B Đ. Hùng Vương, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 29B Đ. Hùng Vương, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "duoi-tan-thong",
+    "name": "Dưới Tán Thông",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1B, 26 Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1B, 26 Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Dưới Tán Thông, 1B, 26 Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1B, 26 Hẻm Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "duoi-tan-thong-gia-coffee-house",
+    "name": "Dưới Tán Thông Già Coffee House",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "12A/17 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "12A/17 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Dưới Tán Thông Già Coffee House, 12A/17 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12A/17 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dac-san-ngon-la-da-lat-khu-hoa-binh-qua-tang-da-lat",
+    "name": "Đặc sản Ngon Lạ Đà Lạt Khu Hoà Bình - Qùa tặng Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "44 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "44 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Đặc sản Ngon Lạ Đà Lạt Khu Hoà Bình - Qùa tặng Đà Lạt, 44 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 44 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dac-san-va-dau-tay-goi",
+    "name": "Đặc Sản và Dâu Tây GÓI",
+    "cat": "Ẩm thực",
+    "where": "193 Nguyễn Công Trứ, Đà Lạt",
+    "address": "193 Nguyễn Công Trứ, Đà Lạt",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đặc Sản và Dâu Tây GÓI, 193 Nguyễn Công Trứ, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 193 Nguyễn Công Trứ, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dam-da-lat-coffee-roasters",
+    "name": "Đậm Đà Lạt Coffee Roasters",
+    "cat": "Ẩm thực",
+    "where": "138 Yersin, Đà Lạt",
+    "address": "138 Yersin, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đậm Đà Lạt Coffee Roasters, 138 Yersin, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 138 Yersin, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "di-cung-mua",
+    "name": "Đi Cùng Mưa",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đối diện KDL Cáp Treo, 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đối diện KDL Cáp Treo, 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Đi Cùng Mưa, Đối diện KDL Cáp Treo, 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đối diện KDL Cáp Treo, 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "do-do-quan-nuoc-trong-rung",
+    "name": "đo đo - quán nước trong rừng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "31/8 C, 3 Tháng 4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "31/8 C, 3 Tháng 4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "đo đo - quán nước trong rừng, 31/8 C, 3 Tháng 4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31/8 C, 3 Tháng 4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "doi-1600-su-cafe-dran",
+    "name": "Đồi 1600 - Sử Cafe Dran",
+    "cat": "Ẩm thực",
+    "where": "RJF7+C5, Đà Lạt",
+    "address": "RJF7+C5, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đồi 1600 - Sử Cafe Dran, RJF7+C5, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ RJF7+C5, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "doi-dua",
+    "name": "Đôi Đũa",
+    "cat": "Ẩm thực",
+    "where": "96 Đường Phù Đổng Thiên Vương",
+    "address": "96 Đường Phù Đổng Thiên Vương",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đôi Đũa, 96 Đường Phù Đổng Thiên Vương, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 96 Đường Phù Đổng Thiên Vương với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "doi-mot-nguoi-cafe-homestay-restaurant",
+    "name": "Đợi Một Người Cafe - Homestay - Restaurant",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Tổ dân phố 65, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Tổ dân phố 65, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Đợi Một Người Cafe - Homestay - Restaurant, Tổ dân phố 65, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ dân phố 65, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "emai-italian-restaurant",
+    "name": "Émai Italian Restaurant",
+    "cat": "Ẩm thực",
+    "where": "1 Thi Sách, Đà Lạt, Lâm Đồng",
+    "address": "1 Thi Sách, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Émai Italian Restaurant, 1 Thi Sách, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "1 Thi Sách, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "emai-italian-restaurant-gardens",
+    "name": "Émai Italian Restaurant & Gardens",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "88 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "88 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Émai Italian Restaurant & Gardens, 88 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 88 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "em-ca-phe",
+    "name": "Êm cà phê",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "14 D. Nguyễn Viết Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "14 D. Nguyễn Viết Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Êm cà phê, 14 D. Nguyễn Viết Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14 D. Nguyễn Viết Xuân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "floating-town",
+    "name": "Floating Town",
+    "cat": "Ẩm thực",
+    "area": "Tà Nung – Vạn Thành",
+    "where": "Tổ 4 Thôn 2, Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Tổ 4 Thôn 2, Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Tà Nung – Vạn Thành.",
+    "intro": "Quán cà phê ở khu vực Tà Nung – Vạn Thành.",
+    "mapQuery": "Floating Town, Tổ 4 Thôn 2, Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ 4 Thôn 2, Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "van-thanh",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "fong",
+    "name": "FONG",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "20D/1 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "20D/1 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "FONG, 20D/1 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 20D/1 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "friends-da-lat-cafe",
+    "name": "Friends Đà Lạt Cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Friends Đà Lạt Cafe, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "fungi-chingu",
+    "name": "Fungi Chingu",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "address": "1 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Fungi Chingu, 1 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "fungi-chingu-cho-dem",
+    "name": "Fungi Chingu Chợ Đêm",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1 Đường Nguyễn Thị Minh Khai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1 Đường Nguyễn Thị Minh Khai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Fungi Chingu Chợ Đêm, 1 Đường Nguyễn Thị Minh Khai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Đường Nguyễn Thị Minh Khai, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "furin",
+    "name": "Furin",
+    "cat": "Ẩm thực",
+    "where": "25 Thi Sách, Đà Lạt, Lâm Đồng",
+    "address": "25 Thi Sách, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Furin, 25 Thi Sách, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "25 Thi Sách, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "ga-ham-tho-da",
+    "name": "Gà Hầm Thố Đá",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "22 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "22 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Gà Hầm Thố Đá, 22 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 22 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "gach",
+    "name": "Gạch",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "41 D. Sương Nguyệt Anh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "41 D. Sương Nguyệt Anh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Gạch, 41 D. Sương Nguyệt Anh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 41 D. Sương Nguyệt Anh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "gat-tan-doi",
+    "name": "Gạt tàn đời",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "19 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "19 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Gạt tàn đời, 19 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "giac-mo-giua-rung-dream-garden-coffee-ta-nung",
+    "name": "Giấc mơ giữa rừng - Dream Garden Coffee Tà Nung",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Giấc mơ giữa rừng - Dream Garden Coffee Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "gio-cham-hien",
+    "name": "gió chạm hiên",
+    "cat": "Ẩm thực",
+    "where": "24/1 Đường Khởi Nghĩa Bắc Sơn, Đà Lạt, Lâm Đồng",
+    "address": "24/1 Đường Khởi Nghĩa Bắc Sơn, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "gió chạm hiên, 24/1 Đường Khởi Nghĩa Bắc Sơn, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 24/1 Đường Khởi Nghĩa Bắc Sơn, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "haiyih-coffee-cau-dat",
+    "name": "HaiYih Coffee Cầu Đất",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "HaiYih Coffee Cầu Đất, Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Trường Thọ, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hem-chill-bbq-quan-nuong-hem-chill-da-lat",
+    "name": "Hẻm Chill BBQ ^^ ( Quán nướng Hẻm Chill Đà Lạt )",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "49/1 Đ. Nguyễn Đình Chiểu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "49/1 Đ. Nguyễn Đình Chiểu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Hẻm Chill BBQ ^^ ( Quán nướng Hẻm Chill Đà Lạt ), 49/1 Đ. Nguyễn Đình Chiểu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 49/1 Đ. Nguyễn Đình Chiểu, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "highlands-coffee",
+    "name": "Highlands Coffee",
+    "cat": "Ẩm thực",
+    "where": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "address": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Highlands Coffee, 01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "hilly-garden-da-lat-bbq-private-dinner",
+    "name": "Hilly Garden Đà Lạt - BBQ & Private Dinner",
+    "cat": "Ẩm thực",
+    "where": "hẻm 22 Khe Sanh, Thành phố Đà Lạt, Lâm Đồng",
+    "address": "hẻm 22 Khe Sanh, Thành phố Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Hilly Garden Đà Lạt - BBQ & Private Dinner, hẻm 22 Khe Sanh, Thành phố Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ hẻm 22 Khe Sanh, Thành phố Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "him-cafe",
+    "name": "Him Cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2/2, 2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2/2, 2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Him Cafe, 2/2, 2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2/2, 2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hoa-tra-lam-vien",
+    "name": "Hoa Trà Lâm Viên",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "38 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "38 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Hoa Trà Lâm Viên, 38 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 38 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hoa-xuong-rong-quan-ca-phe-trung-tam-tp-da-lat",
+    "name": "Hoa Xương Rồng - Quán Cà Phê Trung Tâm TP Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Hoa Xương Rồng - Quán Cà Phê Trung Tâm TP Đà Lạt, 89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hoang-hon-3000",
+    "name": "Hoàng hôn 3000",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "37 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "37 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Hoàng hôn 3000, 37 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 37 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hoang-long-ohayo",
+    "name": "Hoàng Long Ohayo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "TBĐ E118II/97 Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "TBĐ E118II/97 Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Hoàng Long Ohayo, TBĐ E118II/97 Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ TBĐ E118II/97 Đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "horizon-coffee-da-lat",
+    "name": "Horizon Coffee Da Lat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "31/6 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "31/6 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Horizon Coffee Da Lat, 31/6 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31/6 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hoi-uc-coffee-da-lat",
+    "name": "Hồi ức coffee đà lạt",
+    "cat": "Ẩm thực",
+    "where": "Hồi ức coffee, 72 Đ. Hoàng Diệu, Đà Lạt",
+    "address": "Hồi ức coffee, 72 Đ. Hoàng Diệu, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Hồi ức coffee đà lạt, Hồi ức coffee, 72 Đ. Hoàng Diệu, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hồi ức coffee, 72 Đ. Hoàng Diệu, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hong-tra-hoa-anh-dao-cn-da-lat",
+    "name": "Hồng trà Hoa Anh Đào -CN Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "20 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "20 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Hồng trà Hoa Anh Đào -CN Đà Lạt, 20 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 20 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hu-tieu-muc-mi-com-quan-ong-diem-tp-da-lat",
+    "name": "Hủ tiếu mực-mì-cơm Quán Ông Diệm - TP Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "14B Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "14B Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Hủ tiếu mực-mì-cơm Quán Ông Diệm - TP Đà Lạt, 14B Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14B Đường Bà Triệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "hung-da-lat-phin-cafe-food-things",
+    "name": "HỨNG ĐÀ LẠT- Phin Cafe/ Food & Things",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "67 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "67 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "HỨNG ĐÀ LẠT- Phin Cafe/ Food & Things, 67 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 67 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "huong-xua-com-ga-dac-biet-bun-cha-quat-banh-cuon-ha-noi-gia-truyen",
+    "name": "Hương Xưa - cơm gà đặc biệt- Bún chả quạt, bánh cuốn Hà Nội gia truyền",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "35 Đ. Mạc Đĩnh Chi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "35 Đ. Mạc Đĩnh Chi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Hương Xưa - cơm gà đặc biệt- Bún chả quạt, bánh cuốn Hà Nội gia truyền, 35 Đ. Mạc Đĩnh Chi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 35 Đ. Mạc Đĩnh Chi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "in-the-forest-da-lat",
+    "name": "In The Forest Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "31d Khe Sanh, Đà Lạt",
+    "address": "31d Khe Sanh, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "In The Forest Đà Lạt, 31d Khe Sanh, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31d Khe Sanh, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "jju-coffee-da-lat",
+    "name": "JJu Coffee Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "WFPR+C4P, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "WFPR+C4P, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "JJu Coffee Đà Lạt, WFPR+C4P, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WFPR+C4P, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "kdl-sinh-thai-cao-nguyen-hoa-da-lat",
+    "name": "KDL Sinh Thái Cao Nguyên Hoa Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Đèo, Tiểu khu 158, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Đèo, Tiểu khu 158, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "KDL Sinh Thái Cao Nguyên Hoa Đà Lạt, Đèo, Tiểu khu 158, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đèo, Tiểu khu 158, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "kg-art-workshop-ve-tranh-da-lat",
+    "name": "KG.art - Workshop vẽ tranh Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "4a1 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "4a1 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "KG.art - Workshop vẽ tranh Đà Lạt, 4a1 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 4a1 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "khanh-lau-lau-cn-lau-pho-dac-san-lau-da-lat",
+    "name": "Khanh Lẩu Lẩu - CN LẨU PHỐ - Đặc Sản Lẩu Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "WCWP+M28, 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "WCWP+M28, 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Khanh Lẩu Lẩu - CN LẨU PHỐ - Đặc Sản Lẩu Đà Lạt, WCWP+M28, 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WCWP+M28, 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "khoai-lang-nuong-pho-mai-ta-nung-da-lat",
+    "name": "Khoai Lang Nướng Phô Mai ( Tà Nung Đà Lạt )",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "107 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "107 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Khoai Lang Nướng Phô Mai ( Tà Nung Đà Lạt ), 107 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 107 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "khoang-troi-tuoi-dep",
+    "name": "Khoảng trời tươi đẹp",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "24 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "24 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Khoảng trời tươi đẹp, 24 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 24 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "khu-vuon-mua-he",
+    "name": "Khu Vườn Mùa Hè",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "27 Hẻm, 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "27 Hẻm, 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Khu Vườn Mùa Hè, 27 Hẻm, 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 27 Hẻm, 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "kieu-quan-banh-cuon-bun-cha-ha-noi",
+    "name": "Kiều Quán - Bánh Cuốn Bún Chả Hà Nội",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "242A Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "242A Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Kiều Quán - Bánh Cuốn Bún Chả Hà Nội, 242A Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 242A Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "kyoudai-coffee",
+    "name": "Kyoudai Coffee",
+    "cat": "Ẩm thực",
+    "where": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+    "address": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Kyoudai Coffee, 427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "l-angfarm-buffet-mini-cho-dem",
+    "name": "L’angfarm Buffet Mini Chợ Đêm",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "6 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "address": "6 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "L’angfarm Buffet Mini Chợ Đêm, 6 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 6 Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "la-fin-cafe",
+    "name": "La Fin cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "41A Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "41A Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "La Fin cafe, 41A Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 41A Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "la-lapine-bakery-coffee-tang-bat-ho-da-lat",
+    "name": "La Lapine – Bakery & Coffee (Tăng Bạt Hổ, Đà Lạt)",
+    "cat": "Ẩm thực",
+    "where": "16 Đường Tăng Bạt Hổ, Đà Lạt",
+    "address": "16 Đường Tăng Bạt Hổ, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "La Lapine – Bakery & Coffee (Tăng Bạt Hổ, Đà Lạt), 16 Đường Tăng Bạt Hổ, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 16 Đường Tăng Bạt Hổ, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "la-viet-coffee",
+    "name": "Là Việt Coffee",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "200 Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "200 Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Là Việt Coffee, 200 Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 200 Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "la-viet-coffee-da-lat-04-tran-quy-cap",
+    "name": "Là Việt Coffee Đà Lạt (04 Trần Quý Cáp)",
+    "cat": "Ẩm thực",
+    "where": "4D Đ. Trần Quý Cáp, Đà Lạt",
+    "address": "4D Đ. Trần Quý Cáp, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Là Việt Coffee Đà Lạt (04 Trần Quý Cáp), 4D Đ. Trần Quý Cáp, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 4D Đ. Trần Quý Cáp, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lai-ca-phe-dia-phuong",
+    "name": "Lài- cà phê địa phương",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "sau lưng quán nhậu Sáu Hít, Hẻm 12 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "sau lưng quán nhậu Sáu Hít, Hẻm 12 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Lài- cà phê địa phương, sau lưng quán nhậu Sáu Hít, Hẻm 12 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ sau lưng quán nhậu Sáu Hít, Hẻm 12 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lam-an-quang-vi",
+    "name": "Lam An Quảng Vị",
+    "cat": "Ẩm thực",
+    "where": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+    "address": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Lam An Quảng Vị, 44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "lang-thang-cafe-beer",
+    "name": "Lang Thang Cafe & Beer",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Lang Thang Cafe & Beer, 76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lang-vu-thi",
+    "name": "Làng Vũ Thị",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Dốc số 7, Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Dốc số 7, Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Làng Vũ Thị, Dốc số 7, Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Dốc số 7, Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lata-s-dac-san-da-lat-cn-cho-dem-da-lat",
+    "name": "LATA'S Đặc Sản Đà Lạt - CN Chợ Đêm Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "5 Đường Nguyễn Thị Minh Khai, Đà Lạt",
+    "address": "5 Đường Nguyễn Thị Minh Khai, Đà Lạt",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "LATA'S Đặc Sản Đà Lạt - CN Chợ Đêm Đà Lạt, 5 Đường Nguyễn Thị Minh Khai, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 5 Đường Nguyễn Thị Minh Khai, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lang-coffee",
+    "name": "Lặng Coffee",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "157E Đường Thánh Mẫu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "157E Đường Thánh Mẫu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Lặng Coffee, 157E Đường Thánh Mẫu, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 157E Đường Thánh Mẫu, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-bo-ba-toa",
+    "name": "Lẩu bò Ba Toa",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Nguyễn Thị Định, Phường Cam Ly - Đà Lạt",
+    "address": "Nguyễn Thị Định, Phường Cam Ly - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Lẩu bò Ba Toa, Nguyễn Thị Định, Phường Cam Ly - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Nguyễn Thị Định, Phường Cam Ly - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-ca-tam-tuyen-2-da-lat",
+    "name": "Lẩu Cá Tầm Tuyên 2 Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "Khu quy hoạch/Lô 75 Nguyễn Công Trứ",
+    "address": "Khu quy hoạch/Lô 75 Nguyễn Công Trứ",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Lẩu Cá Tầm Tuyên 2 Đà Lạt, Khu quy hoạch/Lô 75 Nguyễn Công Trứ, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Khu quy hoạch/Lô 75 Nguyễn Công Trứ với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-ca-tam-tuyen-4-da-lat",
+    "name": "Lẩu cá Tầm Tuyên 4 Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "116 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "116 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Lẩu cá Tầm Tuyên 4 Đà Lạt, 116 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 116 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-de-ngan",
+    "name": "Lẩu dê Ngân",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "21/19 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "21/19 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Lẩu dê Ngân, 21/19 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 21/19 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-ga-la-e-cao-phung",
+    "name": "Lẩu gà lá é Cao Phụng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1O/2KQH, Đường Hoàng Văn Thụ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1O/2KQH, Đường Hoàng Văn Thụ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Lẩu gà lá é Cao Phụng, 1O/2KQH, Đường Hoàng Văn Thụ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1O/2KQH, Đường Hoàng Văn Thụ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lau-ma-la-nha-hang-lau-ngon-da-lat",
+    "name": "Lẩu Mà La - Nhà hàng lẩu ngon Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "22 Đ. Nguyễn Văn Cừ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "22 Đ. Nguyễn Văn Cừ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Lẩu Mà La - Nhà hàng lẩu ngon Đà Lạt, 22 Đ. Nguyễn Văn Cừ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 22 Đ. Nguyễn Văn Cừ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "le-chalet-dalat",
+    "name": "Le Chalet Dalat",
+    "cat": "Ẩm thực",
+    "where": "6 Đ. Huỳnh Thúc Kháng, Đà Lạt",
+    "address": "6 Đ. Huỳnh Thúc Kháng, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Le Chalet Dalat, 6 Đ. Huỳnh Thúc Kháng, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 6 Đ. Huỳnh Thúc Kháng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "le-j-cafe",
+    "name": "Le J' cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 51 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 51 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Le J' cafe, Hẻm 51 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 51 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "little-december",
+    "name": "Little December",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "111/5a Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "111/5a Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Little December, 111/5a Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 111/5a Vạn Hạnh, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lo-da-lat",
+    "name": "Lỡ Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Hồ Tuyền Lâm",
+    "where": "18 Trúc Lâm Yên Tử, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "18 Trúc Lâm Yên Tử, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Quán cà phê ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "Lỡ Đà Lạt, 18 Trúc Lâm Yên Tử, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 18 Trúc Lâm Yên Tử, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "loi-cua-gio",
+    "name": "Lời Của Gió",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Lời Của Gió, Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lululola",
+    "name": "Lululola",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Lululola, Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "lung-chung",
+    "name": "Lưng Chừng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "31/8 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "31/8 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Lưng Chừng, 31/8 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31/8 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "mama-thai",
+    "name": "Mama Thái",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "186 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "186 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Mama Thái, 186 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 186 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "mat-mat-cho-da-lat",
+    "name": "Mát Mát - Chợ Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "chợ mới Đà Lạt center ( khách sạn Colline, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "chợ mới Đà Lạt center ( khách sạn Colline, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Mát Mát - Chợ Đà Lạt, chợ mới Đà Lạt center ( khách sạn Colline, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ chợ mới Đà Lạt center ( khách sạn Colline, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "may-ca-rem-kem",
+    "name": "May Cà Rem Kem",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "25/1 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "25/1 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "May Cà Rem Kem, 25/1 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 25/1 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "maze-bar",
+    "name": "Maze Bar",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "57 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "57 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Maze Bar, 57 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 57 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "man",
+    "name": "Mận",
+    "cat": "Ẩm thực",
+    "where": "19 Lê Văn Tám, Đà Lạt",
+    "address": "19 Lê Văn Tám, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Mận, 19 Lê Văn Tám, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Lê Văn Tám, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "may-coffee",
+    "name": "Mây Coffee",
+    "cat": "Ẩm thực",
+    "where": "C12 Đường Đặng Thái Thân, Đà Lạt",
+    "address": "C12 Đường Đặng Thái Thân, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Mây Coffee, C12 Đường Đặng Thái Thân, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ C12 Đường Đặng Thái Thân, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "may-lang-thang",
+    "name": "Mây Lang Thang",
+    "cat": "Ẩm thực",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "X9JW+46R, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "X9JW+46R, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Quán cà phê ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Mây Lang Thang, X9JW+46R, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ X9JW+46R, Măng Lin, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "me-la",
+    "name": "Mê Lá",
+    "cat": "Ẩm thực",
+    "where": "27A Đường Thi Sách, Đà Lạt",
+    "address": "27A Đường Thi Sách, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Mê Lá, 27A Đường Thi Sách, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 27A Đường Thi Sách, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "men-coffee",
+    "name": "Mến Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "27 Yersin, Phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "27 Yersin, Phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Mến Coffee, 27 Yersin, Phường, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 27 Yersin, Phường, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "mi-quang-nha-shin-da-lat",
+    "name": "Mì Quảng Nhà Shin- Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "209 Đường Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "209 Đường Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Mì Quảng Nhà Shin- Đà Lạt, 209 Đường Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 209 Đường Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "miet-miet",
+    "name": "Miết Miết",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "31 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "31 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Miết Miết, 31 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 31 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "mot-tra-sua-dam-vi",
+    "name": "MỌT - Trà Sữa Đậm Vị",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "53 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "53 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "MỌT - Trà Sữa Đậm Vị, 53 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 53 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "moto-laurie",
+    "name": "Moto Laurie",
+    "cat": "Ẩm thực",
+    "where": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+    "address": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Moto Laurie, 8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "mountain-chill-tiem-ca-phe-da-lat",
+    "name": "Mountain Chill Tiệm Cà Phê - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Mountain Chill Tiệm Cà Phê - Đà Lạt, 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nang-dalat",
+    "name": "Nàng Dalat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "18/2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "18/2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Nàng Dalat, 18/2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 18/2 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nam-nuong-da-lat",
+    "name": "Nậm Nướng Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "07 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "07 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Nậm Nướng Đà Lạt, 07 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 07 Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nem-nuong-thuy-an",
+    "name": "Nem Nướng Thủy An",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "15 Thông Thiên Học, Phường Xuân Hương - Đà Lạt",
+    "address": "15 Thông Thiên Học, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Nem Nướng Thủy An, 15 Thông Thiên Học, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 15 Thông Thiên Học, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "new-light-coffee-da-lat",
+    "name": "New Light Coffee Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "3 bis Hoàng Hoa Thám",
+    "address": "3 bis Hoàng Hoa Thám",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "New Light Coffee Đà Lạt, 3 bis Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3 bis Hoàng Hoa Thám với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "ngo-hoi-hep-coffee-tea",
+    "name": "Ngõ hơi hẹp – Coffee & Tea",
+    "cat": "Ẩm thực",
+    "where": "Khe Sanh, Đà Lạt, Lâm Đồng",
+    "address": "Khe Sanh, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Ngõ hơi hẹp – Coffee & Tea, Khe Sanh, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Quán cà phê",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "Khe Sanh, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "ngoi-do-coffee-da-lat",
+    "name": "Ngói Đỏ Coffee - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "51/1 Đ. Yết Kiêu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "51/1 Đ. Yết Kiêu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Ngói Đỏ Coffee - Đà Lạt, 51/1 Đ. Yết Kiêu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 51/1 Đ. Yết Kiêu, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nha-ban-lau",
+    "name": "NHÀ BÁN LẨU",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "279 9/2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "279 9/2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "NHÀ BÁN LẨU, 279 9/2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 279 9/2, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nha-ben-rung",
+    "name": "Nhà Bên Rừng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Tổ Tây Hồ 2, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Tổ Tây Hồ 2, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Nhà Bên Rừng, Tổ Tây Hồ 2, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ Tây Hồ 2, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nha-hang-bich-cau-3-da-lat",
+    "name": "Nhà hàng Bích Câu 3 - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "9 Đ. Huỳnh Thúc Kháng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "9 Đ. Huỳnh Thúc Kháng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Nhà hàng Bích Câu 3 - Đà Lạt, 9 Đ. Huỳnh Thúc Kháng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9 Đ. Huỳnh Thúc Kháng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nha-hang-hoan-kiet",
+    "name": "Nhà hàng Hoàn Kiệt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "8 Pasteur, Phường Xuân Hương - Đà Lạt",
+    "address": "8 Pasteur, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Nhà hàng Hoàn Kiệt, 8 Pasteur, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 8 Pasteur, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nha-hang-tiec-cuoi-sammy",
+    "name": "Nhà Hàng Tiệc Cưới Sammy",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "1 Lê Hồng Phong, Phường Xuân Hương - Đà Lạt",
+    "address": "1 Lê Hồng Phong, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Nhà Hàng Tiệc Cưới Sammy, 1 Lê Hồng Phong, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Lê Hồng Phong, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nhien-farm",
+    "name": "Nhiên Farm",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "77 Trường An, Trường Xuân, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "77 Trường An, Trường Xuân, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Nhiên Farm, 77 Trường An, Trường Xuân, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 77 Trường An, Trường Xuân, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "noir-cafe",
+    "name": "NOIR CAFÉ",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "57 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "57 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "NOIR CAFÉ, 57 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 57 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nook-cafe-da-lat",
+    "name": "nook cafe đà lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đồi Dã Chiến, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đồi Dã Chiến, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "nook cafe đà lạt, Đồi Dã Chiến, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đồi Dã Chiến, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "nuong-duong-tau-da-lat",
+    "name": "Nướng Đường Tàu Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "80a Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "80a Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Nướng Đường Tàu Đà Lạt, 80a Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 80a Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "oh-qua-diy-da-lat",
+    "name": "Oh Quà - DIY Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "10 Phan Bội Châu, Đà Lạt, Lâm Đồng",
+    "address": "10 Phan Bội Châu, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "Oh Quà - DIY Đà Lạt, 10 Phan Bội Châu, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 10 Phan Bội Châu, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "onion-coffee-and-pastry-da-lat",
+    "name": "Onion Coffee and Pastry Da Lat",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "278/2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "278/2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Onion Coffee and Pastry Da Lat, 278/2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 278/2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "om-sua-tra-sua-da-lat",
+    "name": "Ốm Sữa - Trà sữa Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "Hẻm 31Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 31Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Ốm Sữa - Trà sữa Đà Lạt, Hẻm 31Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 31Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "papacino",
+    "name": "PAPACINO",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 6B Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 6B Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "PAPACINO, Hẻm 6B Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 6B Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pha-in-dalat",
+    "name": "Pha in Dalat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2c Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2c Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Pha in Dalat, 2c Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2c Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "phe-la",
+    "name": "Phê La",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "7 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "7 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Phê La, 7 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "phe-moi",
+    "name": "Phê Mồi",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "15 Hoàng Diệu, Phường Cam Ly - Đà Lạt",
+    "address": "15 Hoàng Diệu, Phường Cam Ly - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Phê Mồi, 15 Hoàng Diệu, Phường Cam Ly - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 15 Hoàng Diệu, Phường Cam Ly - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pho-lau-bo-gia-lam-da-lat",
+    "name": "Phở - Lẩu Bò Gia Lâm Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "30 đường Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "30 đường Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Phở - Lẩu Bò Gia Lâm Đà Lạt, 30 đường Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 30 đường Ngô Quyền, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pho-126-beef-pho",
+    "name": "Phở 126 beef pho",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "23/18 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "23/18 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Phở 126 beef pho, 23/18 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 23/18 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pho-thanh-xuan",
+    "name": "Phở Thanh Xuân",
+    "cat": "Ẩm thực",
+    "where": "Đà Lạt",
+    "address": "Đà Lạt",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Phở Thanh Xuân, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pho-thi",
+    "name": "Phở Thi",
+    "cat": "Ẩm thực",
+    "where": "34 Đ. Trần Nhật Duật, Thành Phố Đà Lạt, Lâm Đồng",
+    "address": "34 Đ. Trần Nhật Duật, Thành Phố Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Phở Thi, 34 Đ. Trần Nhật Duật, Thành Phố Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 34 Đ. Trần Nhật Duật, Thành Phố Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pizza-bingo-da-lat",
+    "name": "PIZZA BINGO ĐÀ LẠT",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2/43 Phạm Ngũ Lão (đường bờ suối phía sau cây xăng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2/43 Phạm Ngũ Lão (đường bờ suối phía sau cây xăng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "PIZZA BINGO ĐÀ LẠT, 2/43 Phạm Ngũ Lão (đường bờ suối phía sau cây xăng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2/43 Phạm Ngũ Lão (đường bờ suối phía sau cây xăng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pizza-cui",
+    "name": "Pizza Củi",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "27 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "27 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Pizza Củi, 27 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 27 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "pizza-stop",
+    "name": "Pizza STOP",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Pizza STOP, 76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 76 Đường Hoàng Văn Thụ, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "plume-da-lat",
+    "name": "Plume Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "hẻm Karaoke Taliss, 43/1 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "hẻm Karaoke Taliss, 43/1 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Plume Đà Lạt, hẻm Karaoke Taliss, 43/1 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ hẻm Karaoke Taliss, 43/1 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "polibooth-da-lat",
+    "name": "POLIBOOTH - ĐÀ LẠT",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Kiosk 73 & 74 Đà Lạt Center, Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Kiosk 73 & 74 Đà Lạt Center, Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "POLIBOOTH - ĐÀ LẠT, Kiosk 73 & 74 Đà Lạt Center, Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Kiosk 73 & 74 Đà Lạt Center, Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "q-coffee-roastery-dalat",
+    "name": "Q Coffee Roastery Dalat",
+    "cat": "Ẩm thực",
+    "where": "305 Đ. Tô Ngọc Vân, Đà Lạt",
+    "address": "305 Đ. Tô Ngọc Vân, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Q Coffee Roastery Dalat, 305 Đ. Tô Ngọc Vân, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 305 Đ. Tô Ngọc Vân, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-an-ngon-da-lat",
+    "name": "Quán Ăn Ngon Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+    "address": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Quán Ăn Ngon Đà Lạt, Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "quan-ca-phe-du-ca-nhac-trinh",
+    "name": "Quán cà phê Du Ca nhạc trịnh",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "51/3 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "51/3 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Quán cà phê Du Ca nhạc trịnh, 51/3 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 51/3 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-cafe-gu-da-lat",
+    "name": "Quán Cafe Gu Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "2 Đường Trương Công Định, Đà Lạt",
+    "address": "2 Đường Trương Công Định, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Quán Cafe Gu Đà Lạt, 2 Đường Trương Công Định, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đường Trương Công Định, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-com-linh-da-lat",
+    "name": "Quán cơm Linh Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "11/1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "11/1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Quán cơm Linh Đà Lạt, 11/1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 11/1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-com-linh-da-lat-tran-hung-dao",
+    "name": "Quán cơm Linh Đà Lạt - Trần Hưng Đạo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "17b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "17b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Quán cơm Linh Đà Lạt - Trần Hưng Đạo, 17b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 17b Trần Hưng Đạo, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-cua-thoi-thanh-xuan",
+    "name": "Quán Của Thời Thanh Xuân",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "9 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "9 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Quán Của Thời Thanh Xuân, 9 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-duong",
+    "name": "Quán Đương",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "152 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "152 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Quán Đương, 152 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 152 Đường Phạm Ngọc Thạch, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-lau-bo-din",
+    "name": "Quán lẩu bò Dìn",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Hẻm 8/1 Hẻm Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 8/1 Hẻm Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Quán lẩu bò Dìn, Hẻm 8/1 Hẻm Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 8/1 Hẻm Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-nuong-chill-in-dalat",
+    "name": "Quán Nướng Chill in Dalat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Quán Nướng Chill in Dalat, Hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-nuong-lo-ghim-grill-chill-da-lat",
+    "name": "Quán nướng Lơ-ghim Grill & Chill Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "38 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "38 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Quán nướng Lơ-ghim Grill & Chill Đà Lạt, 38 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 38 Đường Võ Trường Toản, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quan-nuong-so-1-da-lat",
+    "name": "Quán nướng số 1 – Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+    "mapQuery": "Quán nướng số 1 – Đà Lạt, Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Điểm ăn uống",
+        "Xem thực đơn và mức giá tại quán trước khi gọi món."
+      ]
+    ],
+    "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+    "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+    "related": [
+      "cho-da-lat",
+      "xuan-huong"
+    ],
+    "mapRecord": {
+      "source": "OpenStreetMap qua EatZap",
+      "address": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng"
+    }
+  },
+  {
+    "id": "quan-quyt",
+    "name": "Quấn Quýt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "172/3 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "172/3 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Quấn Quýt, 172/3 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 172/3 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quoa-dac-san-da-lat",
+    "name": "Quoà - Đặc Sản Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "205 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "205 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Quoà - Đặc Sản Đà Lạt, 205 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 205 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "quyen",
+    "name": "quyen.",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "7 Cô Giang, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "7 Cô Giang, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "quyen., 7 Cô Giang, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7 Cô Giang, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "rainy-cafe-da-lat",
+    "name": "Rainy Cafe Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "Đi thẳng xuống hết con dốc, Hẻm 24B Hùng Vương, Đà Lạt",
+    "address": "Đi thẳng xuống hết con dốc, Hẻm 24B Hùng Vương, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Rainy Cafe Đà Lạt, Đi thẳng xuống hết con dốc, Hẻm 24B Hùng Vương, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đi thẳng xuống hết con dốc, Hẻm 24B Hùng Vương, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "reo-campsite-bbq",
+    "name": "Reo Campsite - BBQ",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Reo Campsite - BBQ, Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "reply1994-dalat",
+    "name": "Reply1994 Dalat",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Reply1994 Dalat, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "riu-rit-ca-phe-ben-suoi",
+    "name": "Ríu Rít cà phê bên suối",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Sở Lăng, đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Sở Lăng, đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Ríu Rít cà phê bên suối, Sở Lăng, đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Sở Lăng, đèo Mimosa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "rung-na-uy-cafe",
+    "name": "RỪNG NA UY cafe",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Unnamed, Road, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Unnamed, Road, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "RỪNG NA UY cafe, Unnamed, Road, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Unnamed, Road, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "rung-thong-mo-farm-bistro",
+    "name": "Rừng Thông Mơ Farm & Bistro",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Rừng Thông Mơ Farm & Bistro, Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đ. Hoa Hồng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "salt-air-coffee",
+    "name": "Salt Air Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "35/6 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "35/6 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Salt Air Coffee, 35/6 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 35/6 Yersin, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "shancha",
+    "name": "Shancha",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "54/1 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "54/1 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Shancha, 54/1 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 54/1 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sitooterie-coffee-stories",
+    "name": "Sitooterie - Coffee & Stories",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2/35, Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2/35, Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Sitooterie - Coffee & Stories, 2/35, Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2/35, Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "soho-coffee-da-lat",
+    "name": "SOHO COFFEE DA LAT",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "21 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "21 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "SOHO COFFEE DA LAT, 21 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 21 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "soju-va-ruou-vang-da-lat-cac-loai",
+    "name": "Soju và Rượu vang Đà Lạt các loại",
+    "cat": "Ẩm thực",
+    "where": "14/3/1 Đường 3/4, Thành phố Đà Lạt, Lâm Đồng",
+    "address": "14/3/1 Đường 3/4, Thành phố Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Soju và Rượu vang Đà Lạt các loại, 14/3/1 Đường 3/4, Thành phố Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14/3/1 Đường 3/4, Thành phố Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "suoi-binh-yen",
+    "name": "Suối Bình Yên",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Suối Bình Yên, Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sushi-mimi",
+    "name": "Sushi Mimi",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "103 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "address": "103 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Sushi Mimi, 103 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 103 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-boc-khoi",
+    "name": "SỮA BỐC KHÓI",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "216A Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "216A Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "SỮA BỐC KHÓI, 216A Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 216A Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-co-lan-chinh-goc-185-phan-dinh-phung-sua-dau-nanh",
+    "name": "Sữa Cô Lan - Chính Gốc 185 Phan Đình Phùng - Sữa Đậu Nành",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Sữa Cô Lan - Chính Gốc 185 Phan Đình Phùng - Sữa Đậu Nành, 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 183 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-co-lan-khong-chi-nhan",
+    "name": "Sữa Cô Lan ( không chi nhán)",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "82a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "82a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Sữa Cô Lan ( không chi nhán), 82a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 82a Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-dau-nanh-co-phuong",
+    "name": "Sữa đậu nành Cô Phương",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "211 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "211 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Sữa đậu nành Cô Phương, 211 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 211 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-gao-da-lat",
+    "name": "Sữa Gạo Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "17 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "17 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Sữa Gạo Đà Lạt, 17 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 17 Khu Hoà Bình, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sua-nhe",
+    "name": "Sữa Nhé !",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "164 Ba Tháng Hai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "164 Ba Tháng Hai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Sữa Nhé !, 164 Ba Tháng Hai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 164 Ba Tháng Hai, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tantanmen-ramen-and-more",
+    "name": "TANTANMEN - Ramen and more",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "TANTANMEN - Ramen and more, Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thac-may-chill",
+    "name": "Thác mây & chill",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Dốc số 9, Trại Mát, Đà Lạt, Lâm Đồng",
+    "address": "Dốc số 9, Trại Mát, Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Thác mây & chill, Dốc số 9, Trại Mát, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Dốc số 9, Trại Mát, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thai-fien-by-15-22-cafe-da-lat",
+    "name": "Thái Fiên by 15.22 Café - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Thái Fiên by 15.22 Café - Đà Lạt, 79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 79 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "than-hong-quan-nuong-ngon-lau-chat",
+    "name": "Than Hồng Quán - Nướng ngon, Lẩu chất",
+    "cat": "Ẩm thực",
+    "where": "2F7 Đ. Trần Nhân Tông, Đà Lạt",
+    "address": "2F7 Đ. Trần Nhân Tông, Đà Lạt",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Than Hồng Quán - Nướng ngon, Lẩu chất, 2F7 Đ. Trần Nhân Tông, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2F7 Đ. Trần Nhân Tông, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-coffee-farm-cau-dat",
+    "name": "The Coffee Farm Cầu Đất",
+    "cat": "Ẩm thực",
+    "where": "VHH7+VWM, Thôn, Đà Lạt",
+    "address": "VHH7+VWM, Thôn, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "The Coffee Farm Cầu Đất, VHH7+VWM, Thôn, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ VHH7+VWM, Thôn, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-coffee-house-nguyen-chi-thanh",
+    "name": "The Coffee House - Nguyễn Chí Thanh",
+    "cat": "Ẩm thực",
+    "where": "03 Đ. Nguyễn Chí Thanh, Đà Lạt",
+    "address": "03 Đ. Nguyễn Chí Thanh, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "The Coffee House - Nguyễn Chí Thanh, 03 Đ. Nguyễn Chí Thanh, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 03 Đ. Nguyễn Chí Thanh, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-green-house-da-lat",
+    "name": "The Green House Da Lat",
+    "cat": "Ẩm thực",
+    "where": "Hẻm 33 Đường Bà Triệu, Đà Lạt",
+    "address": "Hẻm 33 Đường Bà Triệu, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "The Green House Da Lat, Hẻm 33 Đường Bà Triệu, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 33 Đường Bà Triệu, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-lab-da-lat",
+    "name": "The Lab Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "91 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "91 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "The Lab Đà Lạt, 91 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 91 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-lake-house-dalat-vietnam",
+    "name": "The Lake House Dalat Vietnam",
+    "cat": "Ẩm thực",
+    "area": "Hồ Tuyền Lâm",
+    "where": "Vườn Thương, hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Vườn Thương, hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Điểm ăn uống ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "The Lake House Dalat Vietnam, Vườn Thương, hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Vườn Thương, hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-nest-dalat",
+    "name": "The Nest Dalat",
+    "cat": "Ẩm thực",
+    "where": "X9HV+G3W, Đà Lạt",
+    "address": "X9HV+G3W, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "The Nest Dalat, X9HV+G3W, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ X9HV+G3W, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-town",
+    "name": "The Town",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "The Town, 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3 Bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "the-wilder-nest-ta-nung",
+    "name": "The Wilder-nest Ta Nung",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "The Wilder-nest Ta Nung, Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "them-nha-co-hoa",
+    "name": "Thềm Nhà Có Hoa",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "48 Đường Thiện Ý, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "48 Đường Thiện Ý, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Thềm Nhà Có Hoa, 48 Đường Thiện Ý, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 48 Đường Thiện Ý, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thi-tran-iyashi",
+    "name": "Thị trấn iyashi",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "868 Cam Ly, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "868 Cam Ly, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Thị trấn iyashi, 868 Cam Ly, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 868 Cam Ly, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thon-13-in-ta-nung",
+    "name": "Thôn 13 in Tà Nung",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Thôn 13 in Tà Nung, Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Thôn 3, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thom",
+    "name": "Thơm",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "3bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "3bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Thơm, 3bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thung-lung-den-coffee-bbq",
+    "name": "Thung Lũng Đèn Coffee - BBQ",
+    "cat": "Ẩm thực",
+    "where": "dốc số 7, Đà Lạt",
+    "address": "dốc số 7, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Thung Lũng Đèn Coffee - BBQ, dốc số 7, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ dốc số 7, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-an-gia-dinh-hoa-ven-rung",
+    "name": "Tiệm ăn gia đình Hoa Ven Rừng",
+    "cat": "Ẩm thực",
+    "area": "Tà Nung – Vạn Thành",
+    "where": "Cam Ly/868 Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Cam Ly/868 Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Tà Nung – Vạn Thành.",
+    "intro": "Điểm ăn uống ở khu vực Tà Nung – Vạn Thành.",
+    "mapQuery": "Tiệm ăn gia đình Hoa Ven Rừng, Cam Ly/868 Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cam Ly/868 Vạn Thành, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "van-thanh",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-banh-an-yen-ly-thuong-kiet-da-lat",
+    "name": "Tiệm bánh An Yên (Lý Thường Kiệt - Đà Lạt)",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "85 Đường Lý Thường Kiệt, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "85 Đường Lý Thường Kiệt, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "intro": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm bánh An Yên (Lý Thường Kiệt - Đà Lạt), 85 Đường Lý Thường Kiệt, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 85 Đường Lý Thường Kiệt, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-banh-canh-2-chang",
+    "name": "Tiệm Bánh Canh 2 Chàng",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "227 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "227 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Tiệm Bánh Canh 2 Chàng, 227 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 227 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-banh-kem-sinh-nhat-da-lat-bakery",
+    "name": "Tiệm Bánh Kem Sinh Nhật Đà Lạt- Bakery",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "265 Đ. Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "265 Đ. Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "intro": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm Bánh Kem Sinh Nhật Đà Lạt- Bakery, 265 Đ. Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 265 Đ. Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-banh-nha-meo",
+    "name": "Tiệm Bánh Nhà Mèo",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "222/3 Đ. Tô Ngọc Vân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "222/3 Đ. Tô Ngọc Vân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Cam Ly.",
+    "intro": "Điểm mua đặc sản ở khu vực Cam Ly.",
+    "mapQuery": "Tiệm Bánh Nhà Mèo, 222/3 Đ. Tô Ngọc Vân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 222/3 Đ. Tô Ngọc Vân, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-banh-trong-hem-da-lat-cn2",
+    "name": "Tiệm Bánh Trong Hẻm Đà Lạt CN2",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "142C Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "142C Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Bánh Trong Hẻm Đà Lạt CN2, 142C Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 142C Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-binh-minh-oi",
+    "name": "Tiệm cà phê Bình Minh Ơi",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm cà phê Bình Minh Ơi, 89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 89 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-cheo-veooo",
+    "name": "Tiệm cà phê Cheo veooo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "116 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "116 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê Cheo veooo, 116 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 116 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-doc-thi",
+    "name": "Tiệm cà phê Dốc Thị",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "108 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "108 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê Dốc Thị, 108 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 108 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-hoa-hong",
+    "name": "Tiệm cà phê Hoa hồng",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "123 Yersin, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "123 Yersin, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm cà phê Hoa hồng, 123 Yersin, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 123 Yersin, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-linh",
+    "name": "Tiệm cà phê Linh",
+    "cat": "Ẩm thực",
+    "where": "Hẻm 116 Đ. Hùng Vương",
+    "address": "Hẻm 116 Đ. Hùng Vương",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Tiệm cà phê Linh, Hẻm 116 Đ. Hùng Vương, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 116 Đ. Hùng Vương với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-nang-thuy-tinh",
+    "name": "Tiệm cà phê Nắng Thuỷ Tinh",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Cầu Suối Dục, QL20, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Cầu Suối Dục, QL20, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê Nắng Thuỷ Tinh, Cầu Suối Dục, QL20, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cầu Suối Dục, QL20, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-ngu-ngay",
+    "name": "Tiệm Cà Phê Ngủ Ngày",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "82 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "82 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Cà Phê Ngủ Ngày, 82 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 82 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-nguoi-thuong-oi",
+    "name": "Tiệm cà phê Người Thương Ơi",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm cà phê Người Thương Ơi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-nha-cua-thong",
+    "name": "Tiệm cà phê Nhà Của Thông",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Tổ 45 Khu Phố 4, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Tổ 45 Khu Phố 4, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê Nhà Của Thông, Tổ 45 Khu Phố 4, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tổ 45 Khu Phố 4, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-o-cua-mua-dong",
+    "name": "Tiệm Cà Phê Ô Cửa Mùa Đông",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "88 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "88 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Cà Phê Ô Cửa Mùa Đông, 88 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 88 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-phia-tay-mat-troi-specialty-coffee-roastery",
+    "name": "Tiệm cà phê phía tây mặt trời - Specialty Coffee Roastery",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "12/6 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "12/6 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm cà phê phía tây mặt trời - Specialty Coffee Roastery, 12/6 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12/6 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-tach-da-lat",
+    "name": "Tiệm cà phê TÁCH ĐÀ LẠT",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "WFQR+MP7, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "WFQR+MP7, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê TÁCH ĐÀ LẠT, WFQR+MP7, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WFQR+MP7, Đường Lâm Văn Thạnh, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-trung-co-ba-da-lat",
+    "name": "Tiệm Cà Phê Trứng Cô Ba - Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "105 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "105 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Tiệm Cà Phê Trứng Cô Ba - Đà Lạt, 105 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 105 Đường Hai Bà Trưng, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ca-phe-vung-ngoai-o",
+    "name": "Tiệm cà phê Vùng Ngoại Ô",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Đường Đình Đa Quý, Đá Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Đường Đình Đa Quý, Đá Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm cà phê Vùng Ngoại Ô, Đường Đình Đa Quý, Đá Quý, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Đường Đình Đa Quý, Đá Quý, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-chao-huynh-van-cn1",
+    "name": "Tiệm Cháo Huỳnh Văn - CN1",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "49 Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "49 Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Cháo Huỳnh Văn - CN1, 49 Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 49 Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-chao-huynh-van-cn2",
+    "name": "Tiệm Cháo Huỳnh Văn - CN2",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "92 KQH, Nguyễn Công Trứ/KQH Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "92 KQH, Nguyễn Công Trứ/KQH Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Cháo Huỳnh Văn - CN2, 92 KQH, Nguyễn Công Trứ/KQH Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 92 KQH, Nguyễn Công Trứ/KQH Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-com-1-9-hoi-do",
+    "name": "Tiệm cơm 1 9 HỒI ĐÓ",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "06 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "06 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm cơm 1 9 HỒI ĐÓ, 06 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 06 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-ga-lung-chung-doi",
+    "name": "Tiệm Gà Lưng Chừng Đồi",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Gà Lưng Chừng Đồi, hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ hẻm 1 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-goi-an-yen",
+    "name": "Tiệm Gội An Yên",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "16 Đường Nguyễn Thượng Hiền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "16 Đường Nguyễn Thượng Hiền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Cam Ly.",
+    "intro": "Điểm mua đặc sản ở khu vực Cam Ly.",
+    "mapQuery": "Tiệm Gội An Yên, 16 Đường Nguyễn Thượng Hiền, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 16 Đường Nguyễn Thượng Hiền, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-lau-nuong-may-may",
+    "name": "Tiệm lẩu nướng Mây Mây",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 31/5 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 31/5 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm lẩu nướng Mây Mây, Hẻm 31/5 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 31/5 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-a-shan-mi-nguoi-hoa-da-lat",
+    "name": "Tiệm Mì A Shan 阿善麵館 - Mì người Hoa Đà Lạt",
+    "cat": "Ẩm thực",
+    "where": "73/1 Đ. Hoàng Diệu, Đà Lạt, Lâm Đồng",
+    "address": "73/1 Đ. Hoàng Diệu, Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Tiệm Mì A Shan 阿善麵館 - Mì người Hoa Đà Lạt, 73/1 Đ. Hoàng Diệu, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 73/1 Đ. Hoàng Diệu, Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-an-gia",
+    "name": "Tiệm mì An Gia",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "46A Đ. Trần Nhật Duật, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "46A Đ. Trần Nhật Duật, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Tiệm mì An Gia, 46A Đ. Trần Nhật Duật, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 46A Đ. Trần Nhật Duật, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-ramen-chisai",
+    "name": "Tiệm mì Ramen Chisai",
+    "cat": "Ẩm thực",
+    "where": "33/72 Nguyễn Công Trứ",
+    "address": "33/72 Nguyễn Công Trứ",
+    "desc": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "intro": "Điểm ăn uống tại Đà Lạt và vùng ven.",
+    "mapQuery": "Tiệm mì Ramen Chisai, 33/72 Nguyễn Công Trứ, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 33/72 Nguyễn Công Trứ với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-tau-cao",
+    "name": "Tiệm Mì Tàu Cao",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "217 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "217 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Mì Tàu Cao, 217 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 217 Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-yen-da-lat",
+    "name": "Tiệm mì Yên Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "25 Đường Ngô Thì Nhậm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "25 Đường Ngô Thì Nhậm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm mì Yên Đà Lạt, 25 Đường Ngô Thì Nhậm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 25 Đường Ngô Thì Nhậm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-yen-da-lat-2",
+    "name": "Tiệm mì Yên Đà Lạt 2",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "95 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "95 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm mì Yên Đà Lạt 2, 95 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 95 Nguyễn Thị Nghĩa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-mi-yen-da-lat-3",
+    "name": "Tiệm mì Yên Đà Lạt 3",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "111 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "111 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm mì Yên Đà Lạt 3, 111 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 111 Đồng Tâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-ben-nha-ga",
+    "name": "Tiệm Nướng Bến Nhà Ga",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "01 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "01 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm Nướng Bến Nhà Ga, 01 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 01 Quang Trung, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-chiec-ruong",
+    "name": "Tiệm nướng Chiếc Rương",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "56 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "56 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm nướng Chiếc Rương, 56 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 56 Lê Văn Tám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-hoang-hon",
+    "name": "Tiệm nướng Hoàng Hôn",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Cổng trại giam Dã Chiến, 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Cổng trại giam Dã Chiến, 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm nướng Hoàng Hôn, Cổng trại giam Dã Chiến, 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cổng trại giam Dã Chiến, 118 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-khoi-thong",
+    "name": "Tiệm nướng Khói Thông",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "19 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "19 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm nướng Khói Thông, 19 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-mau-vang",
+    "name": "TIỆM NƯỚNG MÀU VÀNG",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "05 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "05 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "TIỆM NƯỚNG MÀU VÀNG, 05 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 05 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-mua-thu",
+    "name": "Tiệm nướng Mùa Thu",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "59 Hẻm Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "59 Hẻm Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm nướng Mùa Thu, 59 Hẻm Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 59 Hẻm Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-our-memory",
+    "name": "Tiệm nướng Our Memory",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "12 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "12 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm nướng Our Memory, 12 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-thuong-thuong",
+    "name": "Tiệm nướng Thương Thương",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "30 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "30 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm nướng Thương Thương, 30 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 30 Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-tram-dung-chill",
+    "name": "Tiệm Nướng Trạm Dừng Chill",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "111 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "111 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm Nướng Trạm Dừng Chill, 111 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 111 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-tren-may",
+    "name": "Tiệm Nướng Trên Mây",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "19A Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "19A Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Nướng Trên Mây, 19A Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19A Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-trong-rung",
+    "name": "tiệm nướng trong rừng",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "3 bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "3 bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "tiệm nướng trong rừng, 3 bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 3 bis Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-u-nu",
+    "name": "Tiệm Nướng Ú Nu",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "39 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "39 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Tiệm Nướng Ú Nu, 39 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 39 Đường Trần Đại Nghĩa, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-nuong-xom-leo",
+    "name": "Tiệm Nướng Xóm Lèo",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "1 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "1 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Tiệm Nướng Xóm Lèo, 1 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tiem-tra-phung-da-lat",
+    "name": "Tiệm Trà Phụng Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 59 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 59 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Tiệm Trà Phụng Đà Lạt, Hẻm 59 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 59 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tram-ky-uc",
+    "name": "Trạm Ký Ức",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "87 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "87 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Trạm Ký Ức, 87 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 87 Huỳnh Tấn Phát, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tren-doi-co-may",
+    "name": "Trên Đồi Có Mây",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Cua Cây Mai, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Cua Cây Mai, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Trên Đồi Có Mây, Cua Cây Mai, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Cua Cây Mai, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "trinh-cafe",
+    "name": "TRINH cafe",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "hẻm 2 Đ. Mai Hắc Đế, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "hẻm 2 Đ. Mai Hắc Đế, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "TRINH cafe, hẻm 2 Đ. Mai Hắc Đế, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ hẻm 2 Đ. Mai Hắc Đế, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tui-nuong-lavender",
+    "name": "Túi Nướng Lavender",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "17/6 Hẻm 17 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "17/6 Hẻm 17 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "intro": "Điểm ăn uống ở khu vực Lâm Viên.",
+    "mapQuery": "Túi Nướng Lavender, 17/6 Hẻm 17 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 17/6 Hẻm 17 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tung-coffee",
+    "name": "Tùng Coffee",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "02 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "02 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Cam Ly.",
+    "intro": "Quán cà phê ở khu vực Cam Ly.",
+    "mapQuery": "Tùng Coffee, 02 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 02 Đường Hàn Thuyên, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tuong-coffee-vegetarian",
+    "name": "Tương coffee & vegetarian",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Hẻm 32 Đ. 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 32 Đ. 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Tương coffee & vegetarian, Hẻm 32 Đ. 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 32 Đ. 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "tuu-lau-quan",
+    "name": "Tửu Lầu quán",
+    "cat": "Ẩm thực",
+    "area": "Cam Ly",
+    "where": "92 Nguyễn Đình Quân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "92 Nguyễn Đình Quân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Cam Ly.",
+    "intro": "Điểm ăn uống ở khu vực Cam Ly.",
+    "mapQuery": "Tửu Lầu quán, 92 Nguyễn Đình Quân, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 92 Nguyễn Đình Quân, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vi-yeu-ma-den-coffee",
+    "name": "Vì Yêu Mà Đến Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "678 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "678 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Quán cà phê ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Vì Yêu Mà Đến Coffee, 678 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 678 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "villa-d-hiver",
+    "name": "Villa d’Hiver",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "2 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Villa d’Hiver, 2 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vua-dau-phuc-trinh",
+    "name": "Vựa dâu Phúc Trinh",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "169 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "169 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Vựa dâu Phúc Trinh, 169 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 169 Nguyễn Công Trứ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vua-dau-tay-tu-huong",
+    "name": "Vựa Dâu Tây Tú Hương",
+    "cat": "Ẩm thực",
+    "where": "165 Nguyễn Công Trứ, Đà Lạt",
+    "address": "165 Nguyễn Công Trứ, Đà Lạt",
+    "desc": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "intro": "Điểm mua đặc sản tại Đà Lạt và vùng ven.",
+    "mapQuery": "Vựa Dâu Tây Tú Hương, 165 Nguyễn Công Trứ, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 165 Nguyễn Công Trứ, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vua-nong-san-tren-may-vua-dau-tren-may-da-lat",
+    "name": "Vựa Nông Sản Trên Mây - Vựa dâu Trên Mây Đà Lạt",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "intro": "Điểm mua đặc sản ở khu vực Lâm Viên.",
+    "mapQuery": "Vựa Nông Sản Trên Mây - Vựa dâu Trên Mây Đà Lạt, Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Nguyễn Công Trứ, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "vuon-sen-coffee",
+    "name": "Vườn Sen Coffee",
+    "cat": "Ẩm thực",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "92 Đường Cao Bá Quát, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "92 Đường Cao Bá Quát, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Quán cà phê ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Vườn Sen Coffee, 92 Đường Cao Bá Quát, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 92 Đường Cao Bá Quát, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "w-a-i-coffee",
+    "name": "W.A.I ? Coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "70 Trần Thái Tông, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "70 Trần Thái Tông, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "W.A.I ? Coffee, 70 Trần Thái Tông, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 70 Trần Thái Tông, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "waken-beans-coffee-roastery",
+    "name": "Waken Beans coffee & roastery",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "4 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "4 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Waken Beans coffee & roastery, 4 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 4 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "windmills",
+    "name": "Windmills",
+    "cat": "Ẩm thực",
+    "where": "133A Phan Đình Phùng, Đà Lạt",
+    "address": "133A Phan Đình Phùng, Đà Lạt",
+    "desc": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "intro": "Quán cà phê tại Đà Lạt và vùng ven.",
+    "mapQuery": "Windmills, 133A Phan Đình Phùng, Đà Lạt",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 133A Phan Đình Phùng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "wokka-coffee",
+    "name": "WOKKA COFFEE",
+    "cat": "Ẩm thực",
+    "area": "Lâm Viên",
+    "where": "190/13 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "190/13 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Lâm Viên.",
+    "intro": "Quán cà phê ở khu vực Lâm Viên.",
+    "mapQuery": "WOKKA COFFEE, 190/13 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 190/13 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "workspace-coffee-dalat-dala247",
+    "name": "Workspace Coffee Dalat - DALA247",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "09 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "09 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Quán cà phê ở khu vực Xuân Hương.",
+    "intro": "Quán cà phê ở khu vực Xuân Hương.",
+    "mapQuery": "Workspace Coffee Dalat - DALA247, 09 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 09 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "xam-xam-coffee",
+    "name": "Xàm Xàm coffee",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "68 Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "68 Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "Xàm Xàm coffee, 68 Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 68 Ba Tháng Hai, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "xiem-che-thai-lan-co-truyen-1926",
+    "name": "XIEM - CHÈ THÁI LAN CỔ TRUYỀN 1926",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "25 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "25 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "intro": "Điểm ăn uống ở khu vực Xuân Hương.",
+    "mapQuery": "XIEM - CHÈ THÁI LAN CỔ TRUYỀN 1926, 25 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 25 Đoàn Thị Điểm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "yaourt-71",
+    "name": "Yaourt 71",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "71 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "71 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "Yaourt 71, 71 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 71 Đường An Bình, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "yayy-gift-studio",
+    "name": "yayy gift studio",
+    "cat": "Ẩm thực",
+    "area": "Xuân Hương",
+    "where": "Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "intro": "Điểm mua đặc sản ở khu vực Xuân Hương.",
+    "mapQuery": "yayy gift studio, Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Ghé dùng món hoặc đồ uống",
+        "Xem thực đơn và giá tại quán. Với nhóm đông, hỏi tình trạng bàn trước khi tới."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Đối chiếu tên và địa chỉ vì một số quán có nhiều chi nhánh.",
+    "related": [
+      "cho-da-lat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "a-m-memory-hotel",
+    "name": "A.M Memory Hotel",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "174 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "address": "174 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "A.M Memory Hotel, 174 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 174 Bùi Thị Xuân, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "ana-mandara-villas-dalat-resort-spa",
+    "name": "Ana Mandara Villas Dalat Resort & Spa",
+    "cat": "Lưu trú",
+    "area": "Cam Ly",
+    "where": "2 Đường Lê Lai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "2 Đường Lê Lai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "intro": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "mapQuery": "Ana Mandara Villas Dalat Resort & Spa, 2 Đường Lê Lai, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đường Lê Lai, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "binh-an-village-resort-dalat",
+    "name": "Binh An Village Resort Dalat",
+    "cat": "Lưu trú",
+    "where": "Tuyen Lam Lake, Đà Lạt",
+    "address": "Tuyen Lam Lake, Đà Lạt",
+    "desc": "Điểm cắm trại tại Đà Lạt và vùng ven.",
+    "intro": "Điểm cắm trại tại Đà Lạt và vùng ven.",
+    "mapQuery": "Binh An Village Resort Dalat, Tuyen Lam Lake, Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tuyen Lam Lake, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "bliss-house-da-lat",
+    "name": "Bliss House Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "Lô A6 Trần Anh Tông, Đường Nguyên Tử Lực, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "Lô A6 Trần Anh Tông, Đường Nguyên Tử Lực, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Bliss House Đà Lạt, Lô A6 Trần Anh Tông, Đường Nguyên Tử Lực, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Lô A6 Trần Anh Tông, Đường Nguyên Tử Lực, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "cherry-da-lat-luxury-hotel",
+    "name": "Cherry Đà Lạt Luxury Hotel",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "32 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "32 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Cherry Đà Lạt Luxury Hotel, 32 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 32 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "coco-house-da-lat",
+    "name": "CoCo House Đà lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "12 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "12 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "CoCo House Đà lạt, 12 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 12 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "colline-dalat-cong-ty-tnhh-dinh-doi",
+    "name": "Colline Dalat - Công ty TNHH Đỉnh Đồi",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Colline Dalat - Công ty TNHH Đỉnh Đồi, 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 10 Phan Bội Châu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "cosy-hotel-apartment-dalat",
+    "name": "Cosy Hotel & Apartment Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "48 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "48 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Cosy Hotel & Apartment Dalat, 48 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 48 Đ. Ngô Thì Sỹ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "cong-ty-tnhh-trang-trai-langbiang",
+    "name": "Công Ty TNHH Trang Trại Langbiang",
+    "cat": "Lưu trú",
+    "area": "Lang Biang – Suối Vàng",
+    "where": "87 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "address": "87 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lang Biang – Suối Vàng.",
+    "intro": "Chỗ lưu trú ở khu vực Lang Biang – Suối Vàng.",
+    "mapQuery": "Công Ty TNHH Trang Trại Langbiang, 87 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 87 Xô Viết Nghệ Tĩnh, Lang Biang - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "langbiang",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "dalat-edensee-lake-resort-spa",
+    "name": "Dalat Edensee Lake Resort & Spa",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "Tuyen Lam Lake, Zone VII.2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Tuyen Lam Lake, Zone VII.2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Dalat Edensee Lake Resort & Spa, Tuyen Lam Lake, Zone VII.2, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tuyen Lam Lake, Zone VII.2, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "dalat-wonder-resort",
+    "name": "Dalat Wonder Resort",
+    "cat": "Lưu trú",
+    "area": "Hồ Tuyền Lâm",
+    "where": "19 Đ. Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "19 Đ. Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "Dalat Wonder Resort, 19 Đ. Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 19 Đ. Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "doc-view-home",
+    "name": "Dốc View / Home",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "89B/17, Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "89B/17, Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Dốc View / Home, 89B/17, Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 89B/17, Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "dreams-hotel",
+    "name": "Dreams Hotel",
+    "cat": "Lưu trú",
+    "where": "138A-140 Phan Đình Phùng, Đà Lạt",
+    "address": "138A-140 Phan Đình Phùng, Đà Lạt",
+    "desc": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "intro": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "mapQuery": "Dreams Hotel, 138A-140 Phan Đình Phùng, Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 138A-140 Phan Đình Phùng, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "da-lat-chill-homestay-coffee",
+    "name": "Đà Lạt Chill Homestay & Coffee",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "298 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "298 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Đà Lạt Chill Homestay & Coffee, 298 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 298 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "da-lat-hotel-container",
+    "name": "Đà Lạt Hotel Container",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "40/1 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "address": "40/1 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Đà Lạt Hotel Container, 40/1 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 40/1 Khe Sanh, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "da-lat-retreat-homestay",
+    "name": "Đà Lạt Retreat (homestay)",
+    "cat": "Lưu trú",
+    "where": "WCV4+743, Đà Lạt",
+    "address": "WCV4+743, Đà Lạt",
+    "desc": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "intro": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "mapQuery": "Đà Lạt Retreat (homestay), WCV4+743, Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ WCV4+743, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "empress-dalat-sky-view-hotel",
+    "name": "Empress Dalat - Sky View Hotel",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "50 Phan Như Thạch, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "50 Phan Như Thạch, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Empress Dalat - Sky View Hotel, 50 Phan Như Thạch, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 50 Phan Như Thạch, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "feliz-dalat-homestay",
+    "name": "Feliz Dalat Homestay",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Feliz Dalat Homestay, Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hihi-the-happy-stay",
+    "name": "Hihi - the happy stay",
+    "cat": "Lưu trú",
+    "area": "Cam Ly",
+    "where": "Hẻm 88B Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 88B Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "intro": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "mapQuery": "Hihi - the happy stay, Hẻm 88B Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 88B Đ. Hoàng Diệu, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hoa-moc-lan",
+    "name": "Hoa Mộc Lan",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "11/4 Lương Thế Vinh, Phường Xuân Hương - Đà Lạt",
+    "address": "11/4 Lương Thế Vinh, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Hoa Mộc Lan, 11/4 Lương Thế Vinh, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 11/4 Lương Thế Vinh, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hoa-ngu-sac",
+    "name": "Hoa Ngũ Sắc",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "14A Đống Đa, Phường Xuân Hương - Đà Lạt",
+    "address": "14A Đống Đa, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Hoa Ngũ Sắc, 14A Đống Đa, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14A Đống Đa, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hoang-gia-villa",
+    "name": "Hoàng Gia Villa",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "51D Đ. Hùng Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "51D Đ. Hùng Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Hoàng Gia Villa, 51D Đ. Hùng Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 51D Đ. Hùng Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "homestay-valley-view-da-lat",
+    "name": "Homestay Valley View Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Homestay Valley View Đà Lạt, Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Trần Quang Diệu, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "hong-duyen-bungalow",
+    "name": "Hồng Duyên Bungalow",
+    "cat": "Lưu trú",
+    "area": "Hồ Tuyền Lâm",
+    "where": "05 Trần Thánh Tông, Phường Xuân Hương - Đà Lạt",
+    "address": "05 Trần Thánh Tông, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "Hồng Duyên Bungalow, 05 Trần Thánh Tông, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 05 Trần Thánh Tông, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "khach-san-dalat-de-charme-village",
+    "name": "Khách Sạn Dalat De Charme Village",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "94 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "94 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khách Sạn Dalat De Charme Village, 94 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 94 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "khach-san-dalat-palace",
+    "name": "Khách Sạn Dalat Palace",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "2 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "2 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khách Sạn Dalat Palace, 2 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đ. Trần Phú, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "khach-san-my-lan",
+    "name": "Khách sạn My Lan",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "01 Hoàng Văn Thụ, Phường Xuân Hương - Đà Lạt",
+    "address": "01 Hoàng Văn Thụ, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khách sạn My Lan, 01 Hoàng Văn Thụ, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 01 Hoàng Văn Thụ, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "khach-san-nam-khang-2-dalat",
+    "name": "Khách Sạn Nam Khang 2 Đalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "59/1 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "59/1 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khách Sạn Nam Khang 2 Đalat, 59/1 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 59/1 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "khach-san-the-bao",
+    "name": "Khách sạn Thế Bảo",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "26 Đồng Tâm, Phường Xuân Hương - Đà Lạt",
+    "address": "26 Đồng Tâm, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khách sạn Thế Bảo, 26 Đồng Tâm, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 26 Đồng Tâm, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "khanh-van-hotel-da-lat",
+    "name": "Khánh Vân Hotel Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "1 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Khánh Vân Hotel Đà Lạt, 1 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Hoàng Hoa Thám, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "la-belle-s-house",
+    "name": "La Belle’s House",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "65/11 Huyền Trân Công Chúa, Phường Xuân Hương - Đà Lạt",
+    "address": "65/11 Huyền Trân Công Chúa, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "La Belle’s House, 65/11 Huyền Trân Công Chúa, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 65/11 Huyền Trân Công Chúa, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "la-maison-homestay-da-lat",
+    "name": "La Maison - Homestay Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "9 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "9 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "La Maison - Homestay Đà Lạt, 9 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "la-maison-dalat-home",
+    "name": "La Maison DaLat Home",
+    "cat": "Lưu trú",
+    "area": "Cam Ly",
+    "where": "61 Kim Đồng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "61 Kim Đồng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "intro": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "mapQuery": "La Maison DaLat Home, 61 Kim Đồng, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 61 Kim Đồng, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "la-vie-en-rose-villa-dalat",
+    "name": "La Vie En Rose Villa Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "Số 09 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Số 09 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "La Vie En Rose Villa Dalat, Số 09 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Số 09 Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "lau-dai-nho-da-lat-little-castle",
+    "name": "Lâu Đài Nhỏ Đà Lạt Little Castle",
+    "cat": "Lưu trú",
+    "where": "84 Đường Trần Quang Khải, Đà Lạt",
+    "address": "84 Đường Trần Quang Khải, Đà Lạt",
+    "desc": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "intro": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "mapQuery": "Lâu Đài Nhỏ Đà Lạt Little Castle, 84 Đường Trần Quang Khải, Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 84 Đường Trần Quang Khải, Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "lc-homestay-dalat",
+    "name": "LC HomeStay Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "Lò Gạch Street, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "Lò Gạch Street, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "LC HomeStay Dalat, Lò Gạch Street, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Lò Gạch Street, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "merperle-dalat-hotel",
+    "name": "MerPerle Dalat Hotel",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "MerPerle Dalat Hotel, 1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 1 Đ. Hùng Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "mia-house",
+    "name": "Mia house",
+    "cat": "Lưu trú",
+    "area": "Cam Ly",
+    "where": "233 Đường Hai Bà Trưng, Street, Cam Ly - Đà Lạt, Lâm Đồng",
+    "address": "233 Đường Hai Bà Trưng, Street, Cam Ly - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "intro": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "mapQuery": "Mia house, 233 Đường Hai Bà Trưng, Street, Cam Ly - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 233 Đường Hai Bà Trưng, Street, Cam Ly - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "mist-house-dalat",
+    "name": "Mist House DaLat",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "9x Trần Khánh Dư, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "9x Trần Khánh Dư, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Mist House DaLat, 9x Trần Khánh Dư, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 9x Trần Khánh Dư, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "momo-homestay-da-lat",
+    "name": "MoMo homestay Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "cuối Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "cuối Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "MoMo homestay Đà Lạt, cuối Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ cuối Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "moonrise-garden-dalat",
+    "name": "Moonrise Garden Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "47 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "47 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Moonrise Garden Dalat, 47 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 47 Đường Đặng Thái Thân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "mua-dalat-wellness-hotel",
+    "name": "Mùa Dalat Wellness Hotel",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Mùa Dalat Wellness Hotel, 2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 2 Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "nesta-valley-dalat-hotel-golf-valley-hotel",
+    "name": "Nesta Valley Dalat Hotel (Golf Valley Hotel)",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "94 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "94 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Nesta Valley Dalat Hotel (Golf Valley Hotel), 94 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 94 Đường Bùi Thị Xuân, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "new-century-dalat-hotel",
+    "name": "New Century Dalat Hotel",
+    "cat": "Lưu trú",
+    "where": "14B Đống Đa",
+    "address": "14B Đống Đa",
+    "desc": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "intro": "Chỗ lưu trú tại Đà Lạt và vùng ven.",
+    "mapQuery": "New Century Dalat Hotel, 14B Đống Đa, Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 14B Đống Đa với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "nha-cua-nang",
+    "name": "Nhà của Nắng",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "7A Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "7A Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Nhà của Nắng, 7A Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7A Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "nha-pen",
+    "name": "Nhà Pen",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "202/2/11 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "address": "202/2/11 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Nhà Pen, 202/2/11 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 202/2/11 Phan Đình Phùng, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "olive-hotel",
+    "name": "OLIVE HOTEL",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "6B Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "6B Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "OLIVE HOTEL, 6B Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 6B Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "om-secret-hill-da-lat",
+    "name": "Ôm Secret Hill Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "8 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "8 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Ôm Secret Hill Đà Lạt, 8 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 8 Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "phong-lu-homestay-da-lat",
+    "name": "Phong Lữ Homestay Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "Hẻm 4 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Hẻm 4 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Phong Lữ Homestay Đà Lạt, Hẻm 4 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Hẻm 4 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "pine-town-dalat",
+    "name": "Pine Town Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Trường – Cầu Đất",
+    "where": "4A Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "address": "4A Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Trường – Cầu Đất.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Trường – Cầu Đất.",
+    "mapQuery": "Pine Town Dalat, 4A Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 4A Đ. Nam Hồ, Xuân Trường - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "doi-che-cau-dat",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "sam-tuyen-lam-resort",
+    "name": "SAM Tuyền Lâm Resort",
+    "cat": "Lưu trú",
+    "area": "Hồ Tuyền Lâm",
+    "where": "Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "SAM Tuyền Lâm Resort, Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "seven-a-hotel",
+    "name": "Seven A Hotel",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "7A Nguyễn Lương Bằng, Phường Xuân Hương - Đà Lạt",
+    "address": "7A Nguyễn Lương Bằng, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Seven A Hotel, 7A Nguyễn Lương Bằng, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7A Nguyễn Lương Bằng, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "solar-palace",
+    "name": "Solar Palace",
+    "cat": "Lưu trú",
+    "area": "Cam Ly",
+    "where": "7 Dã Tượng, Phường Cam Ly - Đà Lạt",
+    "address": "7 Dã Tượng, Phường Cam Ly - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "intro": "Chỗ lưu trú ở khu vực Cam Ly.",
+    "mapQuery": "Solar Palace, 7 Dã Tượng, Phường Cam Ly - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 7 Dã Tượng, Phường Cam Ly - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "song-quynh-house",
+    "name": "Song Quỳnh House",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "70 Nguyễn Công Trứ, Phường Lâm Viên - Đà Lạt",
+    "address": "70 Nguyễn Công Trứ, Phường Lâm Viên - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Song Quỳnh House, 70 Nguyễn Công Trứ, Phường Lâm Viên - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 70 Nguyễn Công Trứ, Phường Lâm Viên - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "swiss-belresort-tuyen-lam",
+    "name": "Swiss-Belresort Tuyen Lam",
+    "cat": "Lưu trú",
+    "area": "Hồ Tuyền Lâm",
+    "where": "Phân khu 7 và 8, Khu du lịch Hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt",
+    "address": "Phân khu 7 và 8, Khu du lịch Hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "Swiss-Belresort Tuyen Lam, Phân khu 7 và 8, Khu du lịch Hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phân khu 7 và 8, Khu du lịch Hồ Tuyền Lâm, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "terracotta-hotel-resort-dalat",
+    "name": "Terracotta Hotel & Resort Dalat",
+    "cat": "Lưu trú",
+    "area": "Hồ Tuyền Lâm",
+    "where": "Phân khu chức năng 7.9 KDL hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "Phân khu chức năng 7.9 KDL hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "intro": "Chỗ lưu trú ở khu vực Hồ Tuyền Lâm.",
+    "mapQuery": "Terracotta Hotel & Resort Dalat, Phân khu chức năng 7.9 KDL hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ Phân khu chức năng 7.9 KDL hồ Tuyền Lâm, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "tuyen-lam",
+      "quang-truong-lam-vien"
+    ]
+  },
+  {
+    "id": "thien-trang-hotel",
+    "name": "Thiên Trang Hotel",
+    "cat": "Lưu trú",
+    "area": "Lâm Viên",
+    "where": "87 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "address": "87 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "intro": "Chỗ lưu trú ở khu vực Lâm Viên.",
+    "mapQuery": "Thiên Trang Hotel, 87 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 87 Nguyễn Trãi, Lâm Viên - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "timber-52-0hz-house-dalat",
+    "name": "Timber 52.0Hz House Dalat",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "52 Hẻm 31, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "52 Hẻm 31, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Timber 52.0Hz House Dalat, 52 Hẻm 31, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 52 Hẻm 31, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "timi-boutique-stay",
+    "name": "Timi Boutique Stay",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "BL04 KQH, Thái Lâm Đường Nguyễn Trung Trực, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "BL04 KQH, Thái Lâm Đường Nguyễn Trung Trực, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Timi Boutique Stay, BL04 KQH, Thái Lâm Đường Nguyễn Trung Trực, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ BL04 KQH, Thái Lâm Đường Nguyễn Trung Trực, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "ttc-hotel-ngoc-lan",
+    "name": "TTC Hotel - Ngọc Lan",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "42 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "42 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "TTC Hotel - Ngọc Lan, 42 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 42 Đ. Nguyễn Chí Thanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "tulip-1",
+    "name": "Tulip 1",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "26–28 Ba Tháng Hai, Phường Xuân Hương - Đà Lạt",
+    "address": "26–28 Ba Tháng Hai, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Tulip 1, 26–28 Ba Tháng Hai, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 26–28 Ba Tháng Hai, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "zen-valley-dalat-resort",
+    "name": "Zen Valley Dalat Resort",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "38 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "address": "38 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Zen Valley Dalat Resort, 38 Khe Sanh, Phường Xuân Hương - Đà Lạt",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 38 Khe Sanh, Phường Xuân Hương - Đà Lạt với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
+  },
+  {
+    "id": "zen-valley-da-lat",
+    "name": "Zen Valley Đà Lạt",
+    "cat": "Lưu trú",
+    "area": "Xuân Hương",
+    "where": "38 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "address": "38 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "desc": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "intro": "Chỗ lưu trú ở khu vực Xuân Hương.",
+    "mapQuery": "Zen Valley Đà Lạt, 38 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng",
+    "highlights": [
+      [
+        "Chuẩn bị nhận phòng",
+        "Hỏi về giờ nhận phòng, loại phòng, chỗ đỗ xe và đường vào."
+      ]
+    ],
+    "plan": "Bấm Chỉ đường, rồi đối chiếu địa chỉ 38 Khe Sanh, Xuân Hương - Đà Lạt, Lâm Đồng với điểm hẹn hoặc biển tại chỗ.",
+    "tip": "Xác nhận giá và điều kiện hủy qua kênh chính thức của chỗ ở trước khi đặt cọc.",
+    "related": [
+      "quang-truong-lam-vien",
+      "xuan-huong"
+    ]
   }
 ];

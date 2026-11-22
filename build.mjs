@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { places } from './src/places.mjs';
-import { detailPage, homePage } from './src/templates.mjs';
+import { detailPage, homePage, indexPage } from './src/templates.mjs';
 
 const out = new URL('./dist/', import.meta.url);
 await mkdir(out, { recursive: true });
@@ -21,6 +21,18 @@ await writeFile(new URL(entryScript, out), app
   .replace('./templates.mjs', './' + templateScript)
   .replace('./places.js', './' + dataScript));
 await writeFile(new URL('index.html', out), homePage(places, entryScript));
+await mkdir(new URL('dia-diem/', out), { recursive: true });
+await writeFile(new URL('dia-diem/index.html', out), indexPage(places, entryScript));
+const mapPlaces = places.filter(place => place.mapRecord);
+if (mapPlaces.length) {
+  const snapshot = {
+    attribution: '© OpenStreetMap contributors',
+    licence: 'ODbL 1.0',
+    licenceUrl: 'https://www.openstreetmap.org/copyright',
+    places: mapPlaces
+  };
+  await writeFile(new URL('map-catalog.json', out), JSON.stringify(snapshot, null, 2));
+}
 
 for (const place of places) {
   const directory = new URL('dia-diem/' + place.id + '/', out);

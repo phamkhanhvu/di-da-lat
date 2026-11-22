@@ -1,5 +1,6 @@
-export const categories = ['Thiên nhiên', 'Văn hóa', 'Trải nghiệm', 'Ẩm thực'];
-const motifs = { 'Thiên nhiên': '✿', 'Văn hóa': '❀', 'Trải nghiệm': '✦', 'Ẩm thực': '❁' };
+export const categories = ['Thiên nhiên', 'Văn hóa', 'Trải nghiệm', 'Ẩm thực', 'Lưu trú'];
+export const pageSize = 24;
+const motifs = { 'Thiên nhiên': '✿', 'Văn hóa': '❀', 'Trải nghiệm': '✦', 'Ẩm thực': '❁', 'Lưu trú': '✤' };
 
 export function escapeHtml(value) {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
@@ -37,7 +38,7 @@ export function card(place) {
   </article>`;
 }
 
-function shell({ title, description, root, body, entryScript = 'app.js' }) {
+function shell({ title, description, root, body, entryScript = 'app.js', mapCredit = false }) {
   return `<!doctype html>
 <html lang="vi">
 <head>
@@ -55,6 +56,7 @@ function shell({ title, description, root, body, entryScript = 'app.js' }) {
     <a class="button" id="saved-link" href="${root}?da-luu=1#places">♡ Đã lưu</a></div>
   </nav></header>
   ${body}
+  ${mapCredit ? `<footer class="map-credit">Dữ liệu bản đồ © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · <a href="${root}map-catalog.json">Tải dữ liệu ODbL</a></footer>` : ''}
 </body>
 </html>\n`;
 }
@@ -62,7 +64,8 @@ function shell({ title, description, root, body, entryScript = 'app.js' }) {
 export function homePage(places, entryScript) {
   return shell({
     title: 'Đà Lạt Đi Đâu',
-    description: 'Cẩm nang du lịch Đà Lạt với 50 địa điểm và hướng dẫn tham quan.',
+    description: 'Cẩm nang du lịch Đà Lạt với ' + places.length + ' địa điểm và hướng dẫn tham quan.',
+    mapCredit: places.some(place => place.mapRecord),
     root: './',
     entryScript,
     body: `<section class="hero">
@@ -77,7 +80,11 @@ export function homePage(places, entryScript) {
     <main id="places">
       <div class="heading"><h2 id="list-title">Khám phá địa điểm</h2><span id="count" role="status">${places.length} địa điểm</span></div>
       <div id="filters" class="filters" aria-label="Loại địa điểm" hidden></div>
-      <div id="grid" class="grid">${places.map(card).join('\n')}</div>
+      <div id="grid" class="grid">${places.slice(0, pageSize).map(card).join('\n')}</div>
+      <div class="catalog-actions">
+        <button id="more-places" type="button" class="button primary" hidden>Xem thêm địa điểm</button>
+        <a class="button" href="./dia-diem/">Danh sách đầy đủ</a>
+      </div>
     </main>`
   });
 }
@@ -92,6 +99,7 @@ export function detailPage(place, byId, entryScript) {
   return shell({
     title: name + ' | Đà Lạt Đi Đâu',
     description: place.desc,
+    mapCredit: Boolean(place.mapRecord),
     root: '../../',
     entryScript,
     body: `<main class="detail" data-theme="${escapeHtml(cat)}">
@@ -128,5 +136,17 @@ export function detailPage(place, byId, entryScript) {
         }).join('')}
       </div></section>
     </main>`
+  });
+}
+
+export function indexPage(places, entryScript) {
+  return shell({
+    title: 'Danh sách địa điểm | Đà Lạt Đi Đâu',
+    description: 'Danh sách toàn bộ ' + places.length + ' địa điểm trong cẩm nang.',
+    root: '../',
+    entryScript,
+    mapCredit: places.some(place => place.mapRecord),
+    body: `<main><div class="heading"><h1>Danh sách địa điểm</h1><span>${places.length} địa điểm</span></div>
+      <ul class="full-catalog">${places.map(p => `<li><a href="./${p.id}/">${escapeHtml(p.name)}</a><span>${escapeHtml(p.cat)} · ${escapeHtml(p.where)}</span></li>`).join('')}</ul></main>`
   });
 }
