@@ -47,6 +47,20 @@ jobs:
         env:
           ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
         run: |
-          npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$ZALO_DEVELOPER_ACCESS_TOKEN"
-          unset ZALO_DEVELOPER_ACCESS_TOKEN
+          zalo_token="$(node -e 'process.stdout.write(process.env.ZALO_DEVELOPER_ACCESS_TOKEN.trim())')"
+          if [ -z "$zalo_token" ]; then
+            echo "::error::The Developer Access Token is empty after trimming whitespace."
+            exit 1
+          fi
+          printf '::add-mask::%s\n' "$zalo_token"
+          zalo_login_log="$(mktemp)"
+          if ! npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$zalo_token" >"$zalo_login_log" 2>&1; then
+            echo "::error::Zalo CLI could not authenticate the developer for this Mini App."
+            exit 1
+          fi
+          if grep -Eq 'Login failed|Invalid data' "$zalo_login_log"; then
+            echo "::error::Zalo rejected developer authentication for the configured Mini App."
+            exit 1
+          fi
+          unset ZALO_DEVELOPER_ACCESS_TOKEN zalo_token
           npx --yes zmp-cli@4.0.7 deploy --passive --existing --testing --outputDir www --desc "Đà Lạt Đi Đâu - bản kiểm thử"
