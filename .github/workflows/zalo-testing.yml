@@ -47,20 +47,34 @@ jobs:
         env:
           ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
         run: |
-          zalo_token="$(node -e 'process.stdout.write(process.env.ZALO_DEVELOPER_ACCESS_TOKEN.trim())')"
-          if [ -z "$zalo_token" ]; then
-            echo "::error::The Developer Access Token is empty after trimming whitespace."
-            exit 1
-          fi
+          zalo_token="$(node --input-type=module <<'JS'
+          const raw = process.env.ZALO_DEVELOPER_ACCESS_TOKEN.trim();
+          let token = raw;
+          if (raw.startsWith('{') || raw.startsWith('"')) {
+            try {
+              const parsed = JSON.parse(raw);
+              token = typeof parsed === 'string' ? parsed : parsed.access_token ?? parsed.data?.access_token;
+            } catch {
+              token = undefined;
+            }
+          }
+          token = typeof token === 'string' ? token.trim().replace(/^Bearer[ \t]+/i, '') : '';
+          if (!token || /\s/.test(token)) {
+            console.error('The secret must contain a single Zalo Access Token.');
+            process.exit(1);
+          }
+          process.stdout.write(token);
+          JS
+          )"
           printf '::add-mask::%s\n' "$zalo_token"
+          unset ZALO_DEVELOPER_ACCESS_TOKEN
           zalo_login_log="$(mktemp)"
-          if ! npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$zalo_token" >"$zalo_login_log" 2>&1; then
-            echo "::error::Zalo CLI could not authenticate the developer for this Mini App."
-            exit 1
+          if APP_ID="$ZALO_MINI_APP_ID" npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$zalo_token" >"$zalo_login_log" 2>&1 &&
+            ! grep -Eq 'Login failed|Invalid data' "$zalo_login_log"; then
+            unset zalo_token
+          else
+            echo "::notice::Zalo CLI login did not complete. Checking the existing-project deploy with the configured access token."
+            export ZMP_TOKEN="$zalo_token"
+            unset zalo_token
           fi
-          if grep -Eq 'Login failed|Invalid data' "$zalo_login_log"; then
-            echo "::error::Zalo rejected developer authentication for the configured Mini App."
-            exit 1
-          fi
-          unset ZALO_DEVELOPER_ACCESS_TOKEN zalo_token
-          npx --yes zmp-cli@4.0.7 deploy --passive --existing --testing --outputDir www --desc "Đà Lạt Đi Đâu - bản kiểm thử"
+          APP_ID="$ZALO_MINI_APP_ID" npx --yes zmp-cli@4.0.7 deploy --passive --existing --testing --outputDir www --desc "Đà Lạt Đi Đâu - bản kiểm thử"
