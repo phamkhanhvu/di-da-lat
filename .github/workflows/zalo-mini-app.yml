@@ -24,6 +24,39 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
+      - name: Check the Zalo developer-token upload contract
+        run: |
+          cli_source_dir="$(mktemp -d)"
+          npm pack --silent zmp-developer-token --pack-destination "$cli_source_dir"
+          tar -xzf "$cli_source_dir"/zmp-developer-token-*.tgz -C "$cli_source_dir"
+          CLI_SOURCE_DIR="$cli_source_dir/package" node --input-type=module <<'JS'
+          import { readdir, readFile } from 'node:fs/promises';
+          import { join } from 'node:path';
+          async function list(dir) {
+            const entries = await readdir(dir, { withFileTypes: true });
+            return (await Promise.all(entries.map(entry => entry.isDirectory()
+              ? list(join(dir, entry.name)) : join(dir, entry.name)))).flat();
+          }
+          const root = process.env.CLI_SOURCE_DIR;
+          const info = JSON.parse(await readFile(join(root, 'package.json'), 'utf8'));
+          console.log('HELPER_VERSION', info.version);
+          const keys = ['NEW_ACCESS_TOKEN', 'ZMP_TOKEN', 'APP_ID=', 'zmp deploy', 'testing', 'login --'];
+          const hits = new Map(keys.map(key => [key, 0]));
+          for (const file of await list(root)) {
+            if (!/\.(?:[cm]?js|ts|md)$/.test(file)) continue;
+            const source = await readFile(file, 'utf8');
+            for (const key of keys) {
+              let start = 0;
+              while (hits.get(key) < 6) {
+                const at = source.indexOf(key, start);
+                if (at < 0) break;
+                console.log('HELPER_CONTRACT', key, file.slice(root.length + 1), source.slice(Math.max(at - 110, 0), at + 190).replace(/\s+/g, ' '));
+                hits.set(key, hits.get(key) + 1);
+                start = at + key.length;
+              }
+            }
+          }
+          JS
       - run: npm test
       - run: npm run build
       - name: Check Zalo package
