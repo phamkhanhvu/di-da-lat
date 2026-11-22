@@ -1,0 +1,58 @@
+name: Build Zalo Mini App
+
+on:
+  push:
+    branches: [zalo-mini-app]
+  pull_request:
+    paths:
+      - 'zalo-mini-app/**'
+      - 'src/**'
+      - '.github/workflows/zalo-mini-app.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: zalo-mini-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: npm test
+      - run: npm run build
+      - name: Check Zalo package
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { readdir, readFile, stat } from 'node:fs/promises';
+          import { join } from 'node:path';
+          async function files(dir) {
+            const entries = await readdir(dir, { withFileTypes: true });
+            return (await Promise.all(entries.map(entry => entry.isDirectory()
+              ? files(join(dir, entry.name)) : join(dir, entry.name)))).flat();
+          }
+          const config = JSON.parse(await readFile('www/app-config.json', 'utf8'));
+          assert.equal(config.app.title, 'Đà Lạt Đi Đâu');
+          const paths = [...config.listSyncJS, ...config.listAsyncJS, ...config.listCSS];
+          assert(paths.some(path => path.endsWith('.js')));
+          assert(paths.some(path => path.endsWith('.css')));
+          for (const path of paths) assert((await stat(join('www', path))).isFile());
+          let total = 0;
+          for (const path of await files('www')) {
+            const size = (await stat(path)).size;
+            assert(size < 3_000_000, path);
+            total += size;
+          }
+          assert(total < 10_000_000);
+          JS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zalo-mini-app-testing
+          path: zalo-mini-app/www/
+          if-no-files-found: error

@@ -1,0 +1,80 @@
+name: Upload Zalo Testing
+
+on:
+  pull_request:
+    types: [synchronize]
+    branches: [main]
+    paths:
+      - '.github/workflows/zalo-testing.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zalo-testing-3562112578721673014
+  cancel-in-progress: false
+
+jobs:
+  upload-testing:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'zalo-mini-app'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      ZALO_MINI_APP_ID: '3562112578721673014'
+    defaults:
+      run:
+        working-directory: zalo-mini-app
+    steps:
+      - name: Verify developer authorization is configured
+        working-directory: .
+        env:
+          ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$ZALO_DEVELOPER_ACCESS_TOKEN" ]; then
+            echo "::error::Set ZALO_DEVELOPER_ACCESS_TOKEN under Repository secrets for this repository."
+            exit 1
+          fi
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: npm test
+      - run: npm run build
+      - name: Upload the Testing version
+        env:
+          ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
+        run: |
+          zalo_token="$(node --input-type=module <<'JS'
+          const raw = process.env.ZALO_DEVELOPER_ACCESS_TOKEN.trim();
+          let token = raw;
+          if (raw.startsWith('{') || raw.startsWith('"')) {
+            try {
+              const parsed = JSON.parse(raw);
+              token = typeof parsed === 'string' ? parsed : parsed.access_token ?? parsed.data?.access_token;
+            } catch {
+              token = undefined;
+            }
+          }
+          token = typeof token === 'string' ? token.trim().replace(/^Bearer[ \t]+/i, '') : '';
+          if (!token || /\s/.test(token)) {
+            console.error('The secret must contain a single Zalo Access Token.');
+            process.exit(1);
+          }
+          process.stdout.write(token);
+          JS
+          )"
+          printf '::add-mask::%s\n' "$zalo_token"
+          unset ZALO_DEVELOPER_ACCESS_TOKEN
+          zalo_login_log="$(mktemp)"
+          if APP_ID="$ZALO_MINI_APP_ID" npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$zalo_token" >"$zalo_login_log" 2>&1 &&
+            ! grep -Eq 'Login failed|Invalid data' "$zalo_login_log"; then
+            unset zalo_token
+          else
+            echo "::notice::Zalo CLI login did not complete. Checking the existing-project deploy with the configured access token."
+            export ZMP_TOKEN="$zalo_token"
+            unset zalo_token
+          fi
+          APP_ID="$ZALO_MINI_APP_ID" npx --yes zmp-cli@4.0.7 deploy --passive --existing --testing --outputDir www --desc "Đà Lạt Đi Đâu - bản kiểm thử"

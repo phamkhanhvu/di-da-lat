@@ -1,0 +1,5 @@
+.env
+node_modules/
+www/
+.env.local
+.env.*.local
