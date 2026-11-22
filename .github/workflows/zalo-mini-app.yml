@@ -24,6 +24,12 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
+      - name: Inspect official Zalo CLI deployment options
+        run: |
+          npm view zmp-cli version
+          npx --yes zmp-cli --version
+          npx --yes zmp-cli deploy --help
+          npx --yes zmp-cli login --help
       - run: npm test
       - run: npm run build
       - name: Check Zalo package
