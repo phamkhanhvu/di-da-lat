@@ -1,0 +1,553 @@
+{
+  "attribution": "© OpenStreetMap contributors",
+  "licence": "ODbL 1.0",
+  "licenceUrl": "https://www.openstreetmap.org/copyright",
+  "places": [
+    {
+      "id": "1thev-coffee-da-lat",
+      "name": "1thev Coffee Đà Lạt",
+      "cat": "Ẩm thực",
+      "where": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+      "address": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "1thev Coffee Đà Lạt, 103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "103 Hoàng Hoa Thám, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "banh-mi-ga-quy",
+      "name": "Bánh mì gà Quý",
+      "cat": "Ẩm thực",
+      "where": "33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+      "address": "33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Bánh mì gà Quý, 33 Bis Pasteur, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "33 Bis Pasteur, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "banh-mi-heo-quay",
+      "name": "Bánh Mì Heo Quay",
+      "cat": "Ẩm thực",
+      "where": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+      "address": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Bánh Mì Heo Quay, 191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "191 Bùi Thị Xuân, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "brew-and-breakfast",
+      "name": "Brew and Breakfast",
+      "cat": "Ẩm thực",
+      "where": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+      "address": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Brew and Breakfast, 2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "2 Trần Hưng Đạo, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "ca-phe-doc-ga",
+      "name": "Cà phê Dọc Ga",
+      "cat": "Ẩm thực",
+      "where": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+      "address": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Cà phê Dọc Ga, 17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "17/1 Nguyễn Trãi, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "ca-phe-nguyen-chat-trang",
+      "name": "Cà phê nguyên chất Trang",
+      "cat": "Ẩm thực",
+      "where": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "address": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Cà phê nguyên chất Trang, 34 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "34 Hai Bà Trưng, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "cafe-84-da-lat",
+      "name": "Cafe 84 Da Lat",
+      "cat": "Ẩm thực",
+      "where": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+      "address": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Cafe 84 Da Lat, 84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "84 Nguyễn Chí Thanh, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "carrot-restaurant",
+      "name": "Carrot Restaurant",
+      "cat": "Ẩm thực",
+      "where": "36 Bà Triệu, Đà Lạt, Lâm Đồng",
+      "address": "36 Bà Triệu, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Carrot Restaurant, 36 Bà Triệu, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "36 Bà Triệu, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "chef-s-dalat",
+      "name": "Chef's Dalat",
+      "cat": "Ẩm thực",
+      "where": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+      "address": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Chef's Dalat, 156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "156 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "cochin-garden",
+      "name": "Cochin Garden",
+      "cat": "Ẩm thực",
+      "where": "Cao Bá Quát, Đà Lạt, Lâm Đồng",
+      "address": "Cao Bá Quát, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Cochin Garden, Cao Bá Quát, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "Cao Bá Quát, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "com-chay-thanh-dam",
+      "name": "Cơm Chay Thanh Đạm",
+      "cat": "Ẩm thực",
+      "where": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+      "address": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Cơm Chay Thanh Đạm, 97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "97C Nguyễn Văn Trỗi, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "datana",
+      "name": "Datana",
+      "cat": "Ẩm thực",
+      "where": "5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+      "address": "5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Datana, 5 Bạch Đằng, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "5 Bạch Đằng, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "emai-italian-restaurant",
+      "name": "Émai Italian Restaurant",
+      "cat": "Ẩm thực",
+      "where": "1 Thi Sách, Đà Lạt, Lâm Đồng",
+      "address": "1 Thi Sách, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Émai Italian Restaurant, 1 Thi Sách, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "1 Thi Sách, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "furin",
+      "name": "Furin",
+      "cat": "Ẩm thực",
+      "where": "25 Thi Sách, Đà Lạt, Lâm Đồng",
+      "address": "25 Thi Sách, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Furin, 25 Thi Sách, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "25 Thi Sách, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "highlands-coffee",
+      "name": "Highlands Coffee",
+      "cat": "Ẩm thực",
+      "where": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "address": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Highlands Coffee, 01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "01–03 Hai Bà Trưng, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "kyoudai-coffee",
+      "name": "Kyoudai Coffee",
+      "cat": "Ẩm thực",
+      "where": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+      "address": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Kyoudai Coffee, 427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "427/7 Phan Đình Phùng, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "lam-an-quang-vi",
+      "name": "Lam An Quảng Vị",
+      "cat": "Ẩm thực",
+      "where": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+      "address": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Lam An Quảng Vị, 44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "44 Nguyễn Lương Bằng, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "moto-laurie",
+      "name": "Moto Laurie",
+      "cat": "Ẩm thực",
+      "where": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+      "address": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Moto Laurie, 8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "8 Ngô Thì Sĩ, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "ngo-hoi-hep-coffee-tea",
+      "name": "Ngõ hơi hẹp – Coffee & Tea",
+      "cat": "Ẩm thực",
+      "where": "Khe Sanh, Đà Lạt, Lâm Đồng",
+      "address": "Khe Sanh, Đà Lạt, Lâm Đồng",
+      "desc": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Quán cà phê ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Ngõ hơi hẹp – Coffee & Tea, Khe Sanh, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Quán cà phê",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "Khe Sanh, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "quan-an-ngon-da-lat",
+      "name": "Quán Ăn Ngon Đà Lạt",
+      "cat": "Ẩm thực",
+      "where": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+      "address": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Quán Ăn Ngon Đà Lạt, Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "Lô G6E Mạc Đĩnh Chi, Đà Lạt, Lâm Đồng"
+      }
+    },
+    {
+      "id": "quan-nuong-so-1-da-lat",
+      "name": "Quán nướng số 1 – Đà Lạt",
+      "cat": "Ẩm thực",
+      "where": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+      "address": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+      "desc": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "intro": "Điểm ăn uống ở Đà Lạt có vị trí được ghi nhận trên bản đồ.",
+      "mapQuery": "Quán nướng số 1 – Đà Lạt, Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng",
+      "highlights": [
+        [
+          "Điểm ăn uống",
+          "Xem thực đơn và mức giá tại quán trước khi gọi món."
+        ]
+      ],
+      "plan": "Dùng Chỉ đường để mở tìm kiếm theo tên và địa chỉ.",
+      "tip": "Đối chiếu tên chi nhánh, thời gian và chỗ ngồi trước khi ghé.",
+      "related": [
+        "cho-da-lat",
+        "xuan-huong"
+      ],
+      "mapRecord": {
+        "source": "OpenStreetMap qua EatZap",
+        "address": "Hẻm 1 Lê Hồng Phong, Đà Lạt, Lâm Đồng"
+      }
+    }
+  ]
+}
