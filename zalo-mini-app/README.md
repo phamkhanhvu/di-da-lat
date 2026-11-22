@@ -32,6 +32,20 @@ Gói nằm ở `zalo-mini-app/www`. Vite và plugin Zalo tạo danh sách tài n
 
 Địa chỉ trong app có thể chọn và sao chép để tra đường. Danh sách đã lưu chỉ chứa ID địa điểm. Các bản ghi bản đồ dùng dữ liệu © OpenStreetMap contributors theo ODbL, dữ liệu nguồn có trong `map-catalog.json` của nhánh `deploy-static`.
 
+### Tải bản Testing bằng đăng nhập QR
+
+Chạy từ thư mục `zalo-mini-app` sau khi cài các gói npm.
+
+```sh
+npx --yes zmp-cli@4.0.7 login
+npm run build
+npx --yes zmp-cli@4.0.7 deploy --existing --testing --outputDir www --desc "Da Lat Di Dau - ban kiem thu"
+```
+
+Ở bước đăng nhập, nhập Mini App ID `3562112578721673014` và chọn xác thực bằng QR. Dùng Zalo của tài khoản có vai trò Admin hoặc Developer trong Mini App này để quét mã. Sau khi CLI báo tải lên thành công, dùng mã QR của bản Testing để mở app trên điện thoại.
+
+[Đăng nhập Zalo CLI](https://docs.zaloplatforms.com/docs/MA/devtools/cli/login) · [Tải phiên bản Testing](https://docs.zaloplatforms.com/docs/MA/devtools/cli/deploy)
+
 ### Tải bản Testing bằng GitHub Actions
 
 Job **Upload Zalo Testing** dành cho Mini App ID `3562112578721673014`. Job dùng Access Token của tài khoản Developer có quyền với Mini App này.
