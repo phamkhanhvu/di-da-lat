@@ -11736,5 +11736,38 @@ export const places = [
       "quang-truong-lam-vien",
       "xuan-huong"
     ]
+  },
+  {
+    "id": "sense-acoustic-cafe",
+    "name": "Sense Acoustic Cafe",
+    "cat": "Ẩm thực",
+    "address": "304 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "where": "304 Hai Bà Trưng, Đà Lạt",
+    "alias": "Sense Coffee Acoustic Đà Lạt",
+    "featured": true,
+    "desc": "Quán cà phê nhạc sống trên đường Hai Bà Trưng, có đêm nhạc acoustic và phần giao lưu cùng ban nhạc.",
+    "intro": "Sense Acoustic Cafe là không gian cà phê nghe nhạc trực tiếp tại 304 Hai Bà Trưng. Có thể ghé vào buổi tối sau một ngày dạo phố Đà Lạt.",
+    "plan": "Tìm Sense Acoustic Cafe tại số 304 Hai Bà Trưng. Khi gọi xe hoặc hẹn nhóm, dùng cả tên quán và số nhà để chọn đúng ghim.",
+    "tip": "Nếu muốn ngồi gần sân khấu hoặc đi nhóm đông, gọi đặt bàn và hỏi giờ bắt đầu trong ngày.",
+    "highlights": [
+      [
+        "Nghe nhạc acoustic trực tiếp",
+        "Chương trình thường có phần ban nhạc biểu diễn và phần giao lưu. Hỏi quán về cách gửi yêu cầu bài hát hoặc đăng ký hát cùng ban nhạc."
+      ]
+    ],
+    "timing": "Đêm nhạc thường từ 20:00 đến 22:00",
+    "ticketNote": "Hỏi quán về phiếu nhạc, đồ uống đi kèm và giá theo buổi.",
+    "mapQuery": "Sense Acoustic Cafe, 304 Hai Bà Trưng, Đà Lạt, Lâm Đồng",
+    "phone": "0912 097 502",
+    "bookingTel": "+84912097502",
+    "related": [
+      "linh-quang",
+      "domaine-de-marie",
+      "cho-da-lat"
+    ],
+    "img": "https://thanhphodalat.com/wp-content/uploads/2025/10/image-1068x601.png",
+    "imgFallback": "https://thanhphodalat.com/wp-content/uploads/2025/10/image-1024x576.png",
+    "alt": "Sense Acoustic Cafe tại Đà Lạt",
+    "timingLabel": "Lịch nhạc tham khảo"
   }
 ];

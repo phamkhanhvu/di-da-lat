@@ -71,6 +71,11 @@ function refresh() {
 }
 
 if (grid) {
+  const featured = document.querySelector('.featured-spot');
+  if (featured) {
+    featured.hidden = savedOnly;
+    if (!savedOnly) setUpPhotos(featured);
+  }
   for (const name of ['', ...categories]) {
     const button = document.createElement('button');
     button.className = 'button';

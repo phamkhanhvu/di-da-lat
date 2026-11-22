@@ -82,7 +82,7 @@ function shell({ title, description, path, root, body, entryScript = 'app.js', m
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:url" content="${canonical}">${image ? `\n  <meta property="og:image" content="${escapeHtml(image)}">` : ''}
   ${structured ? `<script type="application/ld+json">${JSON.stringify(structured).replaceAll('<', '\\u003c')}</script>` : ''}
-  <link rel="stylesheet" href="${root}styles.css">
+  <link rel="stylesheet" href="${root}styles.css?v=${escapeHtml(entryScript)}">
   <script type="module" src="${root}${escapeHtml(entryScript)}"></script>
 </head>
 <body>
@@ -97,7 +97,37 @@ function shell({ title, description, path, root, body, entryScript = 'app.js', m
 </html>\n`;
 }
 
+function featuredSpot(place) {
+  return `<section class="featured-spot" aria-labelledby="featured-name" data-theme="${escapeHtml(place.cat)}">
+    ${photo(place, 'featured-photo')}
+    <div class="featured-copy">
+      <p class="label"><span aria-hidden="true">✿</span> Gợi ý nổi bật</p>
+      <h2 id="featured-name">${escapeHtml(place.name)}</h2>
+      <p>Một buổi tối nghe nhạc acoustic ở Đà Lạt, tại ${escapeHtml(place.where)}.</p>
+      <div class="actions"><a class="button primary" href="./${placePath(place)}">Xem lịch nhạc và cách đi</a>
+      <a class="button" href="${escapeHtml(mapUrl(place.mapQuery))}" target="_blank" rel="noopener">Chỉ đường</a></div>
+    </div>
+  </section>`;
+}
+
+const eventVenues = new Set(['colline-dalat-cong-ty-tnhh-dinh-doi', 'dalat-wonder-resort', 'khach-san-dalat-palace']);
+
+function senseGroupNote(place) {
+  if (place && !place.featured && !eventVenues.has(place.id)) return '';
+  const title = !place ? 'Sense Group tại Đà Lạt' : place.featured ? 'Từ sân khấu Sense Acoustic' : 'Chuẩn bị sự kiện tại Đà Lạt?';
+  const copy = !place
+    ? 'Sense Group làm thương hiệu, nội dung, sự kiện, website và thiết kế không gian tại Đà Lạt.'
+    : place.featured
+      ? 'Sense Acoustic thuộc Sense Group. Đội ngũ cũng làm sản xuất hình ảnh, âm thanh sân khấu và tổ chức sự kiện tại Đà Lạt.'
+      : 'Sense Media & Events, một đơn vị của Sense Group, hỗ trợ sản xuất, hình ảnh và vận hành sự kiện.';
+  return `<aside class="sense-note" aria-label="Gợi ý từ Sense Group">
+    <div><h2>${title}</h2><p>${copy}</p></div>
+    <a class="sense-link" href="https://sensegroup.vn/">${place && !place.featured ? 'Xem dịch vụ sự kiện' : 'Tìm hiểu Sense Group'} <span aria-hidden="true">↗</span></a>
+  </aside>`;
+}
+
 export function homePage(places, entryScript) {
+  const featured = places.find(place => place.featured);
   return shell({
     title: 'Đà Lạt Đi Đâu | Cẩm nang du lịch Đà Lạt',
     path: '',
@@ -114,7 +144,9 @@ export function homePage(places, entryScript) {
       </div>
       <div class="hero-art" aria-hidden="true"></div>
     </section>
-    <main id="places">
+    <main>
+      ${featured ? featuredSpot(featured) : ''}
+      <section id="places" aria-labelledby="list-title">
       <div class="heading"><h2 id="list-title">Khám phá địa điểm</h2><span id="count" role="status">${places.length} địa điểm</span></div>
       <div id="filters" class="filters" aria-label="Loại địa điểm" hidden></div>
       <div id="grid" class="grid">${places.slice(0, pageSize).map(card).join('\n')}</div>
@@ -122,6 +154,8 @@ export function homePage(places, entryScript) {
         <button id="more-places" type="button" class="button primary" hidden>Xem thêm địa điểm</button>
         <a class="button" href="./dia-diem/">Danh sách đầy đủ</a>
       </div>
+      </section>
+      ${senseGroupNote()}
     </main>`
   });
 }
@@ -154,6 +188,7 @@ export function detailPage(place, byId, entryScript) {
           ${alias ? `<p class="alias">${escapeHtml(alias)}</p>` : ''}
           <p>${escapeHtml(editorial?.summary ?? place.listingLead ?? intro)}</p>
           <div class="actions"><a class="button primary" href="${escapeHtml(mapUrl(mapQuery))}" target="_blank" rel="noopener">Chỉ đường</a>
+          ${place.bookingTel ? `<a class="button" href="tel:${escapeHtml(place.bookingTel)}">Gọi đặt bàn</a>` : ''}
           <button class="button" type="button" data-save="${id}" aria-pressed="false" hidden>♡ Lưu địa điểm</button></div>
         </div>
         ${photo(place, 'detail-photo', true)}
@@ -173,13 +208,14 @@ export function detailPage(place, byId, entryScript) {
         </div>
         <aside class="facts">
           <h2 id="visit-info">Giờ mở cửa và chi phí</h2>
-          <dl>${fact('Thời gian nên dành', duration)}${fact('Giờ mở cửa', timing || 'Chưa có thông tin đã đối chiếu.')}${fact('Chi phí', tickets || 'Xác nhận trước khi ghé.', ticketNote)}${fact('Điện thoại', editorial?.phone)}${fact('Tiện ích', editorial?.facilities)}</dl>
+          <dl>${fact('Thời gian nên dành', duration)}${fact(place.timingLabel ?? 'Giờ mở cửa', timing || 'Chưa có thông tin đã đối chiếu.')}${fact('Chi phí', tickets || 'Xác nhận trước khi ghé.', ticketNote)}${fact('Điện thoại', editorial?.phone)}${fact('Tiện ích', editorial?.facilities)}</dl>
           ${verifiedOn ? `<small>Đối chiếu ngày ${escapeHtml(verifiedOn)}. Giờ và giá có thể thay đổi.</small>` : ''}
         </aside>
       </div>
       <section class="nearby" aria-labelledby="related-places"><h2 id="related-places">${place.sameStreet ? 'Điểm trên cùng đường' : nearby ? 'Điểm cùng khu vực' : 'Gợi ý ghé thêm'}</h2><div class="nearby-links">
         ${relatedPlaces.map(next => `<a href="../${next.id}/"><strong>${escapeHtml(next.name)}</strong><span>${escapeHtml(next.cat)} · ${escapeHtml(next.where)}</span></a>`).join('')}
       </div></section>
+      ${senseGroupNote(place)}
     </main>`
   });
 }
