@@ -1,5 +1,33 @@
 export const categories = ['Thiên nhiên', 'Văn hóa', 'Trải nghiệm', 'Ẩm thực', 'Lưu trú'];
 export const pageSize = 24;
+const publicBase = 'https://sensegroup.vn/di-da-lat/';
+
+function placePath(place) {
+  return 'dia-diem/' + place.id + '/';
+}
+
+export function sitemap(places) {
+  const paths = ['', 'dia-diem/', ...places.filter(place => !place.canonicalId).map(placePath)];
+  return '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    paths.map(path => '  <url><loc>' + escapeHtml(publicBase + path) + '</loc></url>').join('\n') +
+    '\n</urlset>\n';
+}
+
+function descriptionFor(place) {
+  return place.editorial?.summary ?? place.listingLead ?? place.desc;
+}
+
+function breadcrumbs(name, url) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Địa điểm Đà Lạt', item: publicBase + 'dia-diem/' },
+      { '@type': 'ListItem', position: 2, name, item: url }
+    ]
+  };
+}
 const motifs = { 'Thiên nhiên': '✿', 'Văn hóa': '❀', 'Trải nghiệm': '✦', 'Ẩm thực': '❁', 'Lưu trú': '✤' };
 
 export function escapeHtml(value) {
@@ -38,7 +66,8 @@ export function card(place) {
   </article>`;
 }
 
-function shell({ title, description, root, body, entryScript = 'app.js', mapCredit = false }) {
+function shell({ title, description, path, root, body, entryScript = 'app.js', mapCredit = false, image, structured }) {
+  const canonical = escapeHtml(publicBase + path);
   return `<!doctype html>
 <html lang="vi">
 <head>
@@ -46,6 +75,13 @@ function shell({ title, description, root, body, entryScript = 'app.js', mapCred
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(title)}</title>
+  <link rel="canonical" href="${canonical}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="${escapeHtml(title)}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:url" content="${canonical}">${image ? `\n  <meta property="og:image" content="${escapeHtml(image)}">` : ''}
+  ${structured ? `<script type="application/ld+json">${JSON.stringify(structured).replaceAll('<', '\\u003c')}</script>` : ''}
   <link rel="stylesheet" href="${root}styles.css">
   <script type="module" src="${root}${escapeHtml(entryScript)}"></script>
 </head>
@@ -63,7 +99,8 @@ function shell({ title, description, root, body, entryScript = 'app.js', mapCred
 
 export function homePage(places, entryScript) {
   return shell({
-    title: 'Đà Lạt Đi Đâu',
+    title: 'Đà Lạt Đi Đâu | Cẩm nang du lịch Đà Lạt',
+    path: '',
     description: 'Cẩm nang du lịch Đà Lạt với ' + places.length + ' địa điểm và hướng dẫn tham quan.',
     mapCredit: places.some(place => place.mapRecord),
     root: './',
@@ -95,21 +132,27 @@ function fact(term, value, note) {
 }
 
 export function detailPage(place, byId, entryScript) {
-  const { id, name, cat, alias, intro, address, duration, timing, tickets, ticketNote, verifiedOn, highlights, plan, tip, related, mapQuery } = place;
+  const { id, name, cat, alias, intro, address, duration, timing, tickets, ticketNote, verifiedOn, highlights, plan, tip, related, mapQuery, editorial } = place;
+  const path = placePath(place.canonicalId ? byId.get(place.canonicalId) : place);
+  const relatedPlaces = related.map(relatedId => byId.get(relatedId)).filter(Boolean);
+  const nearby = Boolean(place.area && relatedPlaces.length && relatedPlaces.every(next => next.area === place.area));
   return shell({
     title: name + ' | Đà Lạt Đi Đâu',
-    description: place.desc,
+    description: descriptionFor(place),
+    path,
+    image: place.img?.startsWith('https://') ? place.img : undefined,
+    structured: breadcrumbs(place.canonicalId ? byId.get(place.canonicalId).name : name, publicBase + path),
     mapCredit: Boolean(place.mapRecord),
     root: '../../',
     entryScript,
     body: `<main class="detail" data-theme="${escapeHtml(cat)}">
-      <nav class="breadcrumb" aria-label="Vị trí trong app"><a href="../../#places">Địa điểm</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHtml(name)}</span></nav>
+      <nav class="breadcrumb" aria-label="Vị trí trong app"><a href="../">Địa điểm</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHtml(name)}</span></nav>
       <section class="detail-hero">
         <div class="detail-copy">
           <div class="label"><span aria-hidden="true">✿</span> ${escapeHtml(cat)}</div>
           <h1>${escapeHtml(name)}</h1>
           ${alias ? `<p class="alias">${escapeHtml(alias)}</p>` : ''}
-          <p>${escapeHtml(intro)}</p>
+          <p>${escapeHtml(editorial?.summary ?? place.listingLead ?? intro)}</p>
           <div class="actions"><a class="button primary" href="${escapeHtml(mapUrl(mapQuery))}" target="_blank" rel="noopener">Chỉ đường</a>
           <button class="button" type="button" data-save="${id}" aria-pressed="false" hidden>♡ Lưu địa điểm</button></div>
         </div>
@@ -117,23 +160,25 @@ export function detailPage(place, byId, entryScript) {
       </section>
       <div class="detail-layout">
         <div class="guide">
-          <section><h2>Có gì để khám phá?</h2>
-            ${highlights.map(([label, value]) => `<h3>${escapeHtml(label)}</h3><p>${escapeHtml(value)}</p>`).join('')}
+          <section aria-labelledby="overview"><h2 id="overview">Tổng quan</h2>
+            <p>${escapeHtml(editorial?.overview ?? place.listingOverview ?? intro)}</p>
           </section>
-          <section><h2>Cách đi</h2><p>${escapeHtml(plan)}</p></section>
-          <section class="tip"><h2>Mẹo khi ghé</h2><p>${escapeHtml(tip)}</p></section>
+          <section aria-labelledby="highlights"><h2 id="highlights">${editorial || !place.listingLead ? 'Điểm nổi bật' : 'Trải nghiệm và lưu ý'}</h2>
+            ${(editorial?.highlights ?? highlights).map(([label, value]) => `<h3>${escapeHtml(label)}</h3><p>${escapeHtml(value)}</p>`).join('')}
+          </section>
+          <section aria-labelledby="getting-there"><h2 id="getting-there">Địa chỉ và cách đi</h2>
+            <p><strong>${escapeHtml(address)}</strong></p><p>${escapeHtml(editorial?.directions ?? plan)}</p>
+          </section>
+          <section class="tip" aria-labelledby="visit-tip"><h2 id="visit-tip">Mẹo khi ghé</h2><p>${escapeHtml(editorial?.tip ?? tip)}</p></section>
         </div>
         <aside class="facts">
-          <h2>Thông tin tham quan</h2>
-          <dl>${fact('Địa chỉ', address)}${fact('Thời gian nên dành', duration)}${fact('Giờ mở cửa tham khảo', timing)}${fact('Chi phí tham khảo', tickets, ticketNote)}</dl>
+          <h2 id="visit-info">Giờ mở cửa và chi phí</h2>
+          <dl>${fact('Thời gian nên dành', duration)}${fact('Giờ mở cửa', timing || 'Chưa có thông tin đã đối chiếu.')}${fact('Chi phí', tickets || 'Xác nhận trước khi ghé.', ticketNote)}${fact('Điện thoại', editorial?.phone)}${fact('Tiện ích', editorial?.facilities)}</dl>
           ${verifiedOn ? `<small>Đối chiếu ngày ${escapeHtml(verifiedOn)}. Giờ và giá có thể thay đổi.</small>` : ''}
         </aside>
       </div>
-      <section class="nearby"><h2>Gợi ý ghé thêm</h2><div class="nearby-links">
-        ${related.map(relatedId => {
-          const next = byId.get(relatedId);
-          return `<a href="../${next.id}/"><strong>${escapeHtml(next.name)}</strong><span>${escapeHtml(next.cat)} · ${escapeHtml(next.where)}</span></a>`;
-        }).join('')}
+      <section class="nearby" aria-labelledby="related-places"><h2 id="related-places">${place.sameStreet ? 'Điểm trên cùng đường' : nearby ? 'Điểm cùng khu vực' : 'Gợi ý ghé thêm'}</h2><div class="nearby-links">
+        ${relatedPlaces.map(next => `<a href="../${next.id}/"><strong>${escapeHtml(next.name)}</strong><span>${escapeHtml(next.cat)} · ${escapeHtml(next.where)}</span></a>`).join('')}
       </div></section>
     </main>`
   });
@@ -141,7 +186,8 @@ export function detailPage(place, byId, entryScript) {
 
 export function indexPage(places, entryScript) {
   return shell({
-    title: 'Danh sách địa điểm | Đà Lạt Đi Đâu',
+    title: 'Danh sách địa điểm du lịch Đà Lạt | Đà Lạt Đi Đâu',
+    path: 'dia-diem/',
     description: 'Danh sách toàn bộ ' + places.length + ' địa điểm trong cẩm nang.',
     root: '../',
     entryScript,

@@ -1,14 +1,16 @@
 import { createHash } from 'node:crypto';
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
-import { places } from './src/places.mjs';
-import { detailPage, homePage, indexPage } from './src/templates.mjs';
+import { places as catalog } from './src/places.mjs';
+import { applyPlaceGuides } from './src/apply-place-guides.mjs';
+import { detailPage, homePage, indexPage, sitemap } from './src/templates.mjs';
 
 const out = new URL('./dist/', import.meta.url);
 await mkdir(out, { recursive: true });
+const places = applyPlaceGuides(catalog);
 const byId = new Map(places.map(place => [place.id, place]));
 const templates = await readFile(new URL('./src/templates.mjs', import.meta.url), 'utf8');
 const app = await readFile(new URL('./src/app.js', import.meta.url), 'utf8');
-const data = 'export const places = ' + JSON.stringify(places) + ';\n';
+const data = 'export const places = ' + JSON.stringify(places.map(({ canonicalId, editorial, listingLead, listingOverview, sameStreet, ...place }) => place)) + ';\n';
 const version = createHash('sha256').update(templates).update('\0').update(app).update('\0').update(data).digest('hex').slice(0, 12);
 const entryScript = 'app-' + version + '.js';
 const templateScript = 'templates-' + version + '.js';
@@ -23,7 +25,8 @@ await writeFile(new URL(entryScript, out), app
 await writeFile(new URL('index.html', out), homePage(places, entryScript));
 await mkdir(new URL('dia-diem/', out), { recursive: true });
 await writeFile(new URL('dia-diem/index.html', out), indexPage(places, entryScript));
-const mapPlaces = places.filter(place => place.mapRecord);
+await writeFile(new URL('sitemap.xml', out), sitemap(places));
+const mapPlaces = catalog.filter(place => place.mapRecord);
 if (mapPlaces.length) {
   const snapshot = {
     attribution: '© OpenStreetMap contributors',
