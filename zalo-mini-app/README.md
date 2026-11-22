@@ -31,3 +31,13 @@ Gói nằm ở `zalo-mini-app/www`. Vite và plugin Zalo tạo danh sách tài n
 [Hướng dẫn triển khai dự án có sẵn](https://docs.zaloplatforms.com/docs/MA/intro/getting-started/convert-web-app-to-mini-app) · [Hướng dẫn phát hành](https://docs.zaloplatforms.com/docs/MA/intro/public-mini-program)
 
 Địa chỉ trong app có thể chọn và sao chép để tra đường. Danh sách đã lưu chỉ chứa ID địa điểm. Các bản ghi bản đồ dùng dữ liệu © OpenStreetMap contributors theo ODbL, dữ liệu nguồn có trong `map-catalog.json` của nhánh `deploy-static`.
+
+### Tải bản Testing bằng GitHub Actions
+
+Job **Upload Zalo Testing** dành cho Mini App ID `910950117743035041`. Job dùng Access Token của tài khoản Developer có quyền với Mini App này.
+
+1. Tạo Access Token trong [Zalo API Explorer](https://developers.zalo.me/tools/explorer/) từ Zalo App cha đã liên kết với Mini App.
+2. Lưu Access Token vào [GitHub Actions Secrets](https://github.com/phamkhanhvu/di-da-lat/settings/secrets/actions) với tên `ZALO_DEVELOPER_ACCESS_TOKEN`.
+3. Chạy lại job **Upload Zalo Testing** trên pull request Mini App. Sau khi tải lên thành công, kiểm tra phiên bản Testing và mã QR trong Zalo Mini App Center.
+
+Job đặt loại phiên bản là Testing. Khóa xác thực chỉ được nhập qua Actions Secrets.

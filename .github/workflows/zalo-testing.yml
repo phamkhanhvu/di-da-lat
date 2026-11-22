@@ -1,0 +1,46 @@
+name: Upload Zalo Testing
+
+on:
+  pull_request:
+    types: [synchronize]
+    branches: [main]
+    paths:
+      - '.github/workflows/zalo-testing.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  upload-testing:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'zalo-mini-app'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      ZALO_MINI_APP_ID: '910950117743035041'
+    defaults:
+      run:
+        working-directory: zalo-mini-app
+    steps:
+      - name: Verify developer authorization is configured
+        working-directory: .
+        env:
+          ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$ZALO_DEVELOPER_ACCESS_TOKEN" ]; then
+            echo "::error::Add the repository secret ZALO_DEVELOPER_ACCESS_TOKEN before retrying this job."
+            exit 1
+          fi
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: npm test
+      - run: npm run build
+      - name: Upload the Testing version
+        env:
+          ZALO_DEVELOPER_ACCESS_TOKEN: ${{ secrets.ZALO_DEVELOPER_ACCESS_TOKEN }}
+        run: |
+          npx --yes zmp-cli@4.0.7 login --app-id "$ZALO_MINI_APP_ID" --token "$ZALO_DEVELOPER_ACCESS_TOKEN"
+          unset ZALO_DEVELOPER_ACCESS_TOKEN
+          npx --yes zmp-cli@4.0.7 deploy --passive --existing --testing --outputDir www --desc "Đà Lạt Đi Đâu - bản kiểm thử"
