@@ -34,7 +34,7 @@ Gói nằm ở `zalo-mini-app/www`. Vite và plugin Zalo tạo danh sách tài n
 
 ### Tải bản Testing bằng GitHub Actions
 
-Job **Upload Zalo Testing** dành cho Mini App ID `910950117743035041`. Job dùng Access Token của tài khoản Developer có quyền với Mini App này.
+Job **Upload Zalo Testing** dành cho Mini App ID `3562112578721673014`. Job dùng Access Token của tài khoản Developer có quyền với Mini App này.
 
 1. Tạo Access Token trong [Zalo API Explorer](https://developers.zalo.me/tools/explorer/) từ Zalo App cha đã liên kết với Mini App.
 2. Lưu Access Token vào [GitHub Actions Secrets](https://github.com/phamkhanhvu/di-da-lat/settings/secrets/actions) với tên `ZALO_DEVELOPER_ACCESS_TOKEN`.
